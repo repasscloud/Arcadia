@@ -1,0 +1,32 @@
+# Use the official .NET SDK image for building
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y \
+    zlib1g \
+    zlib1g-dev \
+    clang \
+    libunwind-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Copy and restore the dependencies
+COPY Arcadia.API/*.csproj Arcadia.API/
+COPY Arcadia.Shared/*.csproj Arcadia.Shared/
+RUN dotnet restore Arcadia.API/Arcadia.API.csproj
+
+# Copy the entire project and build the app
+COPY . .
+WORKDIR /src/Arcadia.API
+RUN dotnet publish -c Release -o /app/publish --runtime linux-musl-arm64 --self-contained true
+
+# Use the runtime image for deployment
+FROM alpine:3.20.3 AS runtime
+#FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+#RUN apk add clang build-base zlib-dev
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Expose the port and set the entry point
+EXPOSE 5000
+#ENTRYPOINT ["Arcadia.API"]
