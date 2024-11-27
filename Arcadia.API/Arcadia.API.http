@@ -1,11 +1,6 @@
-@Arcadia.API_HostAddress = http://localhost:5057
+@Arcadia.API_HostAddress = http://localhost:5037
 
-GET {{Arcadia.API_HostAddress}}/todos/
-Accept: application/json
-
-###
-
-GET {{Arcadia.API_HostAddress}}/todos/1
+GET {{Arcadia.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

@@ -33,7 +33,7 @@ services:
     depends_on:
       - postgresql
     ports:
-      - "5050:5000" # For debugging API locally if needed
+      - "5050:8080" # For debugging API locally if needed
 
   arcadia.webapp:
     build:

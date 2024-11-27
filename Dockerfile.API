@@ -1,32 +1,34 @@
-# Use the official .NET SDK image for building
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
+# syntax=docker/dockerfile:1
 
-# Install necessary dependencies
-RUN apt-get update && apt-get install -y \
-    zlib1g \
-    zlib1g-dev \
-    clang \
-    libunwind-dev \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+# Create a stage for building the application.
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
 
-# Copy and restore the dependencies
-COPY Arcadia.API/*.csproj Arcadia.API/
-COPY Arcadia.Shared/*.csproj Arcadia.Shared/
-RUN dotnet restore Arcadia.API/Arcadia.API.csproj
+COPY . /source
 
-# Copy the entire project and build the app
-COPY . .
-WORKDIR /src/Arcadia.API
-RUN dotnet publish -c Release -o /app/publish --runtime linux-musl-arm64 --self-contained true
+WORKDIR /source/Arcadia.API
 
-# Use the runtime image for deployment
-FROM alpine:3.20.3 AS runtime
-#FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
-#RUN apk add clang build-base zlib-dev
+# This is the architecture you’re building for, which is passed in by the builder.
+ARG TARGETARCH
+
+# Build the application.
+RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
+    dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+
+# Create a new stage for running the application that contains the minimal
+# runtime dependencies for the application. This often uses a different base
+# image from the build stage where the necessary files are copied from the build
+# stage.
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
 WORKDIR /app
-COPY --from=build /app/publish .
 
-# Expose the port and set the entry point
-EXPOSE 5000
-#ENTRYPOINT ["Arcadia.API"]
+# Copy everything needed to run the app from the "build" stage.
+COPY --from=build /app .
+
+# Set ASP.NET Core environment variable to enable Swagger
+ENV ASPNETCORE_ENVIRONMENT=Development
+
+# Switch to a non-privileged user (defined in the base image) that the app will run under.
+USER $APP_UID
+
+EXPOSE 8080
+ENTRYPOINT ["dotnet", "Arcadia.API.dll"]

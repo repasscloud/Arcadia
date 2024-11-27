@@ -27,7 +27,8 @@ dotnet sln add ./$PROJECT_NAME.Shared/$PROJECT_NAME.Shared.csproj
 dotnet add ./$PROJECT_NAME.WebApp/$PROJECT_NAME.WebApp.csproj reference ./$PROJECT_NAME.Shared/$PROJECT_NAME.Shared.csproj
 
 # Create webapiaot project and add to sln
-dotnet new webapiaot -f net8.0 --name $PROJECT_NAME.API --use-program-main
+# dotnet new webapiaot -f net8.0 --name $PROJECT_NAME.API --use-program-main
+dotnet new webapi -f net8.0 --name $PROJECT_NAME.API --use-program-main --no-https --auth None --use-controllers 
 dotnet sln add ./$PROJECT_NAME.API/$PROJECT_NAME.API.csproj
 
 # Add shared project reference to API
