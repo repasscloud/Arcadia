@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker API image
-      run: docker build . --file Dockerfile.API --tag Arcadia.API:$(date +%s)
+      run: docker build . --file Dockerfile.API --tag arcadia.api:$(date +%s)
     - name: Build the Docker WebApp image
-      run: docker build . --file Dockerfile.WebApp --tag Arcadia.WebApp:$(date +%s)
+      run: docker build . --file Dockerfile.WebApp --tag arcadia.webapp:$(date +%s)
