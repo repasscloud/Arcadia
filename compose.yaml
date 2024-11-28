@@ -3,7 +3,7 @@ services:
     image: postgres:17.2-alpine3.20
     container_name: arcadia_postgresql
     networks:
-      - internal_network
+      - internal
     environment:
       POSTGRES_USER: arcadia
       POSTGRES_PASSWORD: arcadia_password
@@ -22,13 +22,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.API
-      target: runtime
+      target: final
     container_name: arcadia_api
     networks:
-      - internal_network
-      - api_webapp_network
+      - internal
+      - public
     environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_ENVIRONMENT=Development
       - CONNECTION_STRING=Host=arcadia_postgresql;Database=arcadia_db;Username=arcadia;Password=arcadia_password
       - JWTSETTINGS__SECRET=your-secret-key
       - JWTSETTINGS__ISSUER=your-issuer
@@ -36,37 +36,48 @@ services:
     depends_on:
       - postgresql
     ports:
-      - "5050:8080" # For debugging API locally if needed
+      - "5050:8080" # Expose API for debugging or public access
 
   arcadia.webapp:
     build:
       context: .
       dockerfile: Dockerfile.WebApp
+      target: final
     container_name: arcadia_webapp
     networks:
-      - api_webapp_network
-      - public_network
+      - public
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
     ports:
       - "8080:8080" # Expose WebApp to localhost (public)
+  
+  pgadmin:
+    image: dpage/pgadmin4:8.13.0
+    container_name: arcadia_pgadmin4
+    networks:
+      - internal
+      - public
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=arcadia@localhost.com
+      - PGADMIN_DEFAULT_PASSWORD=Arcadia123!
+    depends_on:
+      - postgresql
+    ports:
+      - "8090:80" # Expose pgAdmin for public access
 
 networks:
-  internal_network:
+  internal:
     name: arcadia_internal_network
     driver: bridge
 
-  api_webapp_network:
-    name: arcadia_api_webapp_network
-    driver: bridge
-
-  public_network:
+  public:
     name: arcadia_public_network
     driver: bridge
 
 volumes:
   pg_data:
     name: arcadia_pg_data
+
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
 # start the database before your application. The `db-data` volume persists the
