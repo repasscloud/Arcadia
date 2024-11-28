@@ -8,6 +8,9 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Add Blazor.Bootstrap
+        builder.Services.AddBlazorBootstrap();
+        
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
