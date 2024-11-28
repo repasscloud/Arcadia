@@ -1,6 +1,6 @@
 services:
   postgresql:
-    image: postgres:15
+    image: postgres:17.2-alpine3.20
     container_name: arcadia_postgresql
     networks:
       - internal_network
@@ -30,6 +30,9 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - CONNECTION_STRING=Host=arcadia_postgresql;Database=arcadia_db;Username=arcadia;Password=arcadia_password
+      - JWTSETTINGS__SECRET=your-secret-key
+      - JWTSETTINGS__ISSUER=your-issuer
+      - JWTSETTINGS__AUDIENCE=your-audience
     depends_on:
       - postgresql
     ports:
