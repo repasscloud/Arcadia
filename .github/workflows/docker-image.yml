@@ -35,11 +35,13 @@ jobs:
 
     - name: Run API container tests
       run: |
+        docker build . --file Dockerfile.API --tag arcadia.api:${{ env.tag_date }}
         docker run -d --name arcadia_api arcadia.api:${{ env.tag_date }}
         # Add your test commands here, e.g., curl or integration tests
 
     - name: Run WebApp container tests
       run: |
+        docker build . --file Dockerfile.WebApp --tag arcadia.webapp:${{ env.tag_date }}
         docker run -d --name arcadia_webapp arcadia.webapp:${{ env.tag_date }}
         # Add your test commands here, e.g., curl or integration tests
 
