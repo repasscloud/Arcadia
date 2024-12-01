@@ -12,6 +12,12 @@ COPY . /source
 # Set the working directory
 WORKDIR /source/Arcadia.API
 
+# Copy the script into the image
+COPY db-init.sh /app/db-init.sh
+
+# Make the script executable
+RUN chmod +x /app/db-init.sh
+
 # Define the architecture for building
 ARG TARGETARCH
 
@@ -19,22 +25,5 @@ ARG TARGETARCH
 RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
     dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
 
-# Wait for the database to be ready and apply migrations
-CMD bash -c "
-    echo 'Waiting for the database to be ready...';
-    until pg_isready -h db -p 5432 -U admin; do
-        sleep 2;
-    done;
-    if [ \"$RESET_DB\" = \"true\" ]; then
-        echo 'Resetting the database...';
-        dotnet ef database drop --force --context Arcadia.API.Data.ApplicationDbContext &&
-        dotnet ef migrations remove --force --context Arcadia.API.Data.ApplicationDbContext &&
-        dotnet ef migrations add InitDb --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations &&
-        dotnet ef database update --context Arcadia.API.Data.ApplicationDbContext;
-    else
-        echo 'Running migrations...';
-        dotnet ef migrations add InitDb --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations &&
-        dotnet ef database update --context Arcadia.API.Data.ApplicationDbContext;
-    fi
-    echo 'Done.';
-"
+# Use the script as the entry point
+CMD ["/app/db-init.sh"]
