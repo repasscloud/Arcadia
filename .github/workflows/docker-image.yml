@@ -30,6 +30,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Set up date variable
+      run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
+
     - name: Run API container tests
       run: |
         docker run -d --name arcadia_api arcadia.api:${{ env.tag_date }}
