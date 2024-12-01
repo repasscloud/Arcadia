@@ -1,0 +1,32 @@
+# syntax=docker/dockerfile:1
+
+# Create a stage for building the application.
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine3.20 AS db-init
+
+# Install PostgreSQL client for pg_isready
+RUN apk add --no-cache postgresql-client bash
+
+# Copy application source code to the container
+COPY . /source
+
+# Set the working directory
+WORKDIR /source/Arcadia.API
+
+# Define the architecture for building
+ARG TARGETARCH
+
+# Build the application
+RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
+    dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+
+# Wait for the database to be ready and apply migrations
+CMD bash -c "
+    echo 'Waiting for the database to be ready...';
+    until pg_isready -h db -p 5432 -U admin; do
+        sleep 2;
+    done;
+    echo 'Database is ready. Running migrations...';
+    dotnet ef migrations add InitDb --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations &&
+    dotnet ef database update --context Arcadia.API.Data.ApplicationDbContext;
+    echo 'Migrations applied successfully.';
+"
