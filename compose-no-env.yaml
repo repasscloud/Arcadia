@@ -5,15 +5,15 @@ services:
     networks:
       - internal
     environment:
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: arcadia
+      POSTGRES_PASSWORD: arcadia_password
+      POSTGRES_DB: arcadia_db
     volumes:
       - pg_data:/var/lib/postgresql/data
     expose:
       - 5432
     healthcheck:
-      test: [ "CMD", "pg_isready", "-U", "${POSTGRES_USER}" ]
+      test: [ "CMD", "pg_isready", "-U", "arcadia" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -26,12 +26,12 @@ services:
     networks:
       - internal
     environment:
-      CONNECTION_STRING: ${CONNECTION_STRING}
-      RESET_DB: ${RESET_DB}
+      - CONNECTION_STRING=Host=arcadia_postgresql;Database=arcadia_db;Username=arcadia;Password=arcadia_password
+      - RESET_DB=false # Change to true to reset the database
     depends_on:
       postgresql:
         condition: service_healthy
-    restart: "no"
+    restart: "no" # Ensures the container stops after running the migrations
 
   arcadia.api:
     build:
@@ -43,18 +43,16 @@ services:
       - internal
       - public
     environment:
-      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT_API}
-      CONNECTION_STRING: ${CONNECTION_STRING}
-      JWTSETTINGS__SECRET: ${JWTSETTINGS__SECRET}
-      JWTSETTINGS__ISSUER: ${JWTSETTINGS__ISSUER}
-      JWTSETTINGS__AUDIENCE: ${JWTSETTINGS__AUDIENCE}
-      ASPNETCORE_URLS: ${WEBAPI_URLS}
-    user: ${APP_UID}
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CONNECTION_STRING=Host=arcadia_postgresql;Database=arcadia_db;Username=arcadia;Password=arcadia_password
+      - JWTSETTINGS__SECRET=your-secret-key
+      - JWTSETTINGS__ISSUER=your-issuer
+      - JWTSETTINGS__AUDIENCE=your-audience
     depends_on:
       - postgresql
       - db-init
     ports:
-      - "5050:5000"
+      - "5050:8080" # Expose API for debugging or public access
 
   arcadia.webapp:
     build:
@@ -65,12 +63,10 @@ services:
     networks:
       - public
     environment:
-      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT_WEBAPP}
-      ASPNETCORE_URLS: ${WEBAPI_URLS}
-    user: ${APP_UID}
+      - ASPNETCORE_ENVIRONMENT=Production
     ports:
-      - "8080:8080"
-
+      - "8080:8080" # Expose WebApp to localhost (public)
+  
   pgadmin:
     image: dpage/pgadmin4:8.13.0
     container_name: arcadia_pgadmin4
@@ -78,12 +74,12 @@ services:
       - internal
       - public
     environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+      - PGADMIN_DEFAULT_EMAIL=arcadia@localhost.com
+      - PGADMIN_DEFAULT_PASSWORD=Arcadia123!
     depends_on:
       - postgresql
     ports:
-      - "8090:80"
+      - "8090:80" # Expose pgAdmin for public access
 
 networks:
   internal:
