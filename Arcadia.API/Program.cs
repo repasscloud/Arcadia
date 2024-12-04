@@ -2,12 +2,14 @@ using Arcadia.API.Data;
 using Arcadia.API.Interfaces;
 using Arcadia.API.Services;
 using Arcadia.Shared.Models.SysLib;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 namespace Arcadia.API
 {
@@ -23,7 +25,21 @@ namespace Arcadia.API
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddEnvironmentVariables(); // Add environment variables to the configuration
 
-            // 2. Load and validate JwtSettings from environment or fallback to appsettings.json
+            // 2. Add persistent data protection with encryption using a certificate
+            var certificatePath = "/app/dataprotection-keys/arcadia_cert.pfx"; // Path to your PFX file
+            var certificatePassword = "your-password"; // Password for the PFX file
+            if (!File.Exists(certificatePath))
+                throw new InvalidOperationException($"Certificate missing: {certificatePath}");
+            if (string.IsNullOrEmpty(certificatePassword))
+                throw new InvalidOperationException("Password for certificate is not provided.");
+
+            var certificate = new X509Certificate2(certificatePath, certificatePassword);
+
+            builder.Services.AddDataProtection()
+                .PersistKeysToFileSystem(new DirectoryInfo(@"/app/dataprotection-keys")) // Example for Docker
+                .ProtectKeysWithCertificate(certificate);
+
+            // 3. Load and validate JwtSettings from environment or fallback to appsettings.json
             var jwtSettings = new JwtSettings
             {
                 Secret = builder.Configuration["JwtSettings:Secret"]
@@ -49,7 +65,7 @@ namespace Arcadia.API
 
             builder.Services.AddSingleton(jwtSettings); // Register JwtSettings as a singleton
 
-            // 3. Load and validate the connection string from environment or fallback to appsettings.json
+            // 4. Load and validate the connection string from environment or fallback to appsettings.json
             var connectionString = builder.Configuration["CONNECTION_STRING"] 
                                    ?? builder.Configuration.GetConnectionString("DefaultConnection")
                                    ?? string.Empty;
@@ -59,12 +75,12 @@ namespace Arcadia.API
                 throw new InvalidOperationException("Database connection string is not configured in environment variables or appsettings.json.");
             }
 
-            // 4. Register the DbContext with PostgreSQL provider
+            // 5. Register the DbContext with PostgreSQL provider
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(connectionString)
             );
 
-            // 5. Add Identity services
+            // 6. Add Identity services
             builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = true;
@@ -76,13 +92,13 @@ namespace Arcadia.API
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
-            // 6. Add Email Sender Service
+            // 7. Add Email Sender Service
             builder.Services.AddTransient<IEmailSender, EmailSender>();
 
-            // 7. Register and validate JwtSettings
+            // 8. Register and validate JwtSettings
             builder.Services.AddSingleton<IValidateOptions<JwtSettings>, JwtSettingsValidation>();
 
-            // 8. Configure JWT authentication
+            // 9. Configure JWT authentication
             var key = Encoding.UTF8.GetBytes(jwtSettings.Secret);
 
             builder.Services.AddAuthentication(options =>
@@ -104,17 +120,17 @@ namespace Arcadia.API
                 };
             });
 
-            // 9. Add controllers
+            // 10. Add controllers
             builder.Services.AddControllers();
 
-            // 10. Register Swagger services
+            // 11. Register Swagger services
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // 11. Build the app (only once)
+            // 12. Build the app (only once)
             var app = builder.Build();
 
-            // 12. Configure the HTTP request pipeline.
+            // 13. Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
