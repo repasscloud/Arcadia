@@ -10,11 +10,11 @@ if [ "$RESET_DB" = "true" ]; then
     dotnet ef database drop --force --context Arcadia.API.Data.ApplicationDbContext --project /source/Arcadia.API &&
     dotnet ef migrations remove --force --context Arcadia.API.Data.ApplicationDbContext --project /source/Arcadia.API &&
     rm -rf /source/Arcadia.API/Migrations &&
-    dotnet ef migrations add InitDb --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations --project /source/Arcadia.API &&
+    dotnet ef migrations add InitialIdentitySchema --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations --project /source/Arcadia.API &&
     dotnet ef database update --context Arcadia.API.Data.ApplicationDbContext --project /source/Arcadia.API
 else
     echo "Running migrations..."
-    dotnet ef migrations add InitDb --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations --project /source/Arcadia.API &&
+    dotnet ef migrations add InitialIdentitySchema --context Arcadia.API.Data.ApplicationDbContext --output-dir Migrations --project /source/Arcadia.API &&
     dotnet ef database update --context Arcadia.API.Data.ApplicationDbContext --project /source/Arcadia.API
 fi
 
