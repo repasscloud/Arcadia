@@ -20,12 +20,21 @@ RUN chmod +x /source/db-init.sh
 # Set the working directory
 WORKDIR /source/Arcadia.API
 
+# Ensure the keys directory exists and has appropriate permissions
+RUN mkdir -p /etc/arcadia
+
+# Copy the PFX certificate into the container
+COPY ./certificates/arcadia_api_cert.pfx /etc/arcadia/certs/arcadia_api_cert.pfx
+
 # Define the architecture for building
 ARG TARGETARCH
 
 # Build the application
 RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
     dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+
+# Ensure the data protection keys directory has appropriate permissions
+RUN mkdir -p /app/dataprotection-keys
 
 # Ensure dotnet-ef is available in the current PATH for subsequent commands
 ENV PATH="/root/.dotnet/tools:$PATH"
