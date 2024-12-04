@@ -26,7 +26,7 @@ namespace Arcadia.API
                 .AddEnvironmentVariables(); // Add environment variables to the configuration
 
             // 2. Add persistent data protection with encryption using a certificate
-            var certificatePath = "/app/dataprotection-keys/arcadia_cert.pfx"; // Path to your PFX file
+            var certificatePath = @"/etc/arcadia/certs/arcadia_api_cert.pfx"; // Path to your PFX file
             var certificatePassword = "your-password"; // Password for the PFX file
             if (!File.Exists(certificatePath))
                 throw new InvalidOperationException($"Certificate missing: {certificatePath}");
@@ -36,7 +36,7 @@ namespace Arcadia.API
             var certificate = new X509Certificate2(certificatePath, certificatePassword);
 
             builder.Services.AddDataProtection()
-                .PersistKeysToFileSystem(new DirectoryInfo(@"/app/dataprotection-keys")) // Example for Docker
+                .PersistKeysToFileSystem(new DirectoryInfo(@"/etc/arcadia/dataprotection-keys")) // Example for Docker
                 .ProtectKeysWithCertificate(certificate);
 
             // 3. Load and validate JwtSettings from environment or fallback to appsettings.json

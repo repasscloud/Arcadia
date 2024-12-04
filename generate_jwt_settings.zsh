@@ -11,7 +11,8 @@ echo "Select security level for JWT Secret:"
 echo "1) Normal (32 characters)"
 echo "2) High (64 characters)"
 echo "3) Extra High (128 characters)"
-read -p "Enter your choice (1-3): " security_level
+echo -n "Enter your choice (1-3): "
+read security_level
 
 case $security_level in
   1)
@@ -30,8 +31,10 @@ case $security_level in
 esac
 
 # Generate ISSUER and AUDIENCE
-read -p "Enter your application's domain or name (for ISSUER): " app_domain
-read -p "Enter your API's endpoint or name (for AUDIENCE): " api_endpoint
+echo -n "Enter your application's domain or name (for ISSUER) (eg: \"https://default-issuer.example.com\"): "
+read app_domain
+echo -n "Enter your API's endpoint or name (for AUDIENCE): (eg: \"https://default-audience.example.com\"): "
+read api_endpoint
 
 JWT_ISSUER=${app_domain:-"https://default-issuer.example.com"}
 JWT_AUDIENCE=${api_endpoint:-"https://default-audience.example.com"}

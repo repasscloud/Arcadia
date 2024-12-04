@@ -4,6 +4,7 @@
 CERT_PASSWORD="your-password"
 DAYS_VALID=365
 CERT_DIR="./certificates"
+APP_UID=1000
 
 # Create the certificates directory if it doesn't exist
 rm -rf $CERT_DIR > /dev/null 2>&1
@@ -37,11 +38,19 @@ create_volume_and_add_file() {
 
   echo "Copying file $FILE_TO_COPY into volume $VOLUME_NAME..."
   docker run --rm \
-    -v $VOLUME_NAME:/data \
+    -v $VOLUME_NAME:/etc/arcadia/certs \
     -v $(pwd)/$CERT_DIR:/certificates \
-    alpine:3.20.3 sh -c "cp /certificates/$FILE_TO_COPY /data"
+    mcr.microsoft.com/dotnet/aspnet:8.0-alpine3.20 sh -c "cp /certificates/$FILE_TO_COPY /etc/arcadia/certs"
 
   echo "File $FILE_TO_COPY has been added to volume $VOLUME_NAME."
+}
+
+# Function to create a Docker volume (empty)
+create_emtpy_volume() {
+  local VOLUME_NAME=$1
+
+  echo "Creating Docker volume: $VOLUME_NAME..."
+  docker volume create --name $VOLUME_NAME
 }
 
 # Generate certificates for API and WebApp
@@ -49,7 +58,11 @@ generate_certificate "arcadia_api_cert"
 generate_certificate "arcadia_webapp_cert"
 
 # Create volumes and add respective files
-create_volume_and_add_file "arcadia_api_dataprotection_keys" "arcadia_api_cert.pfx"
-create_volume_and_add_file "arcadia_webapp_dataprotection_keys" "arcadia_webapp_cert.pfx"
+create_volume_and_add_file "arcadia_api_certs" "arcadia_api_cert.pfx"
+create_volume_and_add_file "arcadia_webapp_certs" "arcadia_webapp_cert.pfx"
+
+# Create empty volumes
+create_emtpy_volume "arcadia_api_dataprotection_keys"
+create_emtpy_volume "arcadia_webapp_dataprotection_keys"
 
 echo "All certificates and volumes are set up successfully."

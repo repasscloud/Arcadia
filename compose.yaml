@@ -55,8 +55,8 @@ services:
       JWTSETTINGS__AUDIENCE: ${JWTSETTINGS__AUDIENCE}
       ASPNETCORE_URLS: ${WEBAPI_URLS}
     volumes:
-      - api_dataprotection_keys:/app/dataprotection-keys
-    user: ${APP_UID}
+      - api_certs:/etc/arcadia/api_certs
+      - api_dataprotection_keys:/etc/arcadia/dataprotection-keys
     depends_on:
       - postgresql
       - db-init
@@ -73,10 +73,13 @@ services:
       - public
     environment:
       ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT_WEBAPP}
-      ASPNETCORE_URLS: ${WEBAPI_URLS}
+      ASPNETCORE_URLS: ${BLAZOR_URLS}
     volumes:
-      - webapp_dataprotection_keys:/app/dataprotection-keys
-    user: ${APP_UID}
+      - webapp_certs:/etc/arcadia/webapp_certs
+      - webapp_dataprotection_keys:/etc/arcadia/dataprotection-keys
+    depends_on:
+      - arcadia.api
+      - db-init
     ports:
       - "8080:8080"
 
@@ -108,9 +111,17 @@ networks:
 volumes:
   pg_data:
     name: arcadia_pg_data
-  api_dataprotection_keys:
-    name: arcadia_api_dataprotection_keys
-  webapp_dataprotection_keys:
-    name: arcadia_webapp_dataprotection_keys
   pgadmin_data:
     name: arcadia_pgadmin_data
+  api_certs:
+    name: arcadia_api_certs
+    external: true
+  api_dataprotection_keys:
+    name: arcadia_api_dataprotection_keys
+    external: true
+  webapp_certs:
+    name: arcadia_webapp_certs
+    external: true
+  webapp_dataprotection_keys:
+    name: arcadia_webapp_dataprotection_keys
+    external: true
