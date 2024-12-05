@@ -17,6 +17,9 @@ jobs:
     - name: Set up date variable
       run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
 
+    - name: Create volumes
+      run: ./Scripts/setup_certificates_and_volumes.zsh
+
     - name: Build the Docker API image
       run: docker build . --file Dockerfile.API --tag arcadia.api:${{ env.tag_date }}
 
@@ -32,6 +35,9 @@ jobs:
 
     - name: Set up date variable
       run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
+
+    - name: Create volumes
+      run: ./Scripts/setup_certificates_and_volumes.zsh
 
     - name: Run API container tests
       run: |
