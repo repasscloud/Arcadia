@@ -10,7 +10,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // 2. Add persistent data protection with encryption using a certificate
+        // 1. Add persistent data protection with encryption using a certificate
         var certificatePath = @"/etc/arcadia/certs/arcadia_webapp_cert.pfx"; // Path to your PFX file
         var certificatePassword = "your-password"; // Password for the PFX file
         if (!File.Exists(certificatePath))
@@ -24,16 +24,19 @@ public class Program
             .PersistKeysToFileSystem(new DirectoryInfo(@"/etc/arcadia/dataprotection-keys")) // Example for Docker
             .ProtectKeysWithCertificate(certificate);
 
-        // Add Blazor.Bootstrap
+        // 2. Add Blazor.Bootstrap
         builder.Services.AddBlazorBootstrap();
         
-        // Add services to the container.
+        // 3. Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
 
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
+        // 4. Add Health Check Endpoint
+        app.MapGet("/health", () => Results.Ok("OK"));
+
+        // 5. Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Error");
@@ -42,9 +45,11 @@ public class Program
         app.UseStaticFiles();
         app.UseAntiforgery();
 
+        // 6. Map Razor Components
         app.MapRazorComponents<App>()
             .AddInteractiveServerRenderMode();
 
+        // 7. Run the application
         app.Run();
     }
 }
