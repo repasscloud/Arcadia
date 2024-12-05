@@ -7,7 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Arcaida.API.Controllers
+namespace Arcadia.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -64,7 +64,7 @@ namespace Arcaida.API.Controllers
             if (!await _userManager.CheckPasswordAsync(user, model.Password))
                 return Unauthorized(new { Status = "Error", Message = "Invalid authentication credentials." });
 
-            var token = GenerateJwtToken(user);
+            var token = GenerateJwtTokenAsync(user);
 
             return Ok(new { Token = token });
         }
@@ -82,6 +82,7 @@ namespace Arcaida.API.Controllers
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
             var resetLink = Url.Action(nameof(ResetPasswordConfirm), "Auth", new { token, email = user.Email }, Request.Scheme);
+            //var resetLink = Url.Action(nameof(ResetPasswordConfirm), "Auth", new { token, email = user.Email }, "https", Request.Host.Value);
 
             // Send email with reset link
             if (user.Email == null)
@@ -113,13 +114,20 @@ namespace Arcaida.API.Controllers
 
             var result = await _userManager.ResetPasswordAsync(user, model.Token, model.NewPassword);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new { Status = "Error", Message = "Error resetting password." });
+                return Error("Error resetting password.", StatusCodes.Status500InternalServerError);
+                //return StatusCode(StatusCodes.Status500InternalServerError, new { Status = "Error", Message = "Error resetting password." });
 
             return Ok(new { Status = "Success", Message = "Password has been reset successfully." });
         }
 
+        // Helper method for formatting errors
+        private IActionResult Error(string message, int statusCode = StatusCodes.Status500InternalServerError)
+        {
+            return StatusCode(statusCode, new { Status = "Error", Message = message });
+        }
+
         // Helper method to generate JWT
-        private string GenerateJwtToken(IdentityUser user)
+        private async Task<string> GenerateJwtTokenAsync(IdentityUser user)
         {
             // Validate the user
             if (user == null) throw new ArgumentNullException(nameof(user));
@@ -152,11 +160,12 @@ namespace Arcaida.API.Controllers
                 new Claim(ClaimTypes.NameIdentifier, user.Id)
             };
 
-            var roles = _userManager.GetRolesAsync(user).Result;
+            var roles = await _userManager.GetRolesAsync(user);
             foreach (var role in roles)
             {
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
+
 
             // Generate the JWT token
             var token = new JwtSecurityToken(

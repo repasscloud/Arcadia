@@ -1,14 +1,16 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Arcadia.API.Data;
-
-public class ApplicationDbContext : DbContext
+namespace Arcadia.API.Data
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
+    public class ApplicationDbContext : IdentityDbContext
     {
-    }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
 
-    // Define your DbSets here
-    // public DbSet<YourEntity> YourEntities { get; set; }
+        // Add your additional DbSets here if needed
+        // public DbSet<YourEntity> YourEntities { get; set; }
+    }
 }

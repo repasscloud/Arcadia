@@ -41,3 +41,15 @@ Arcadia aims to simplify IT operations with a modular design, offering tools for
 - **Contribute:** Arcadia is an actively developed project. Contributions are welcome! Fork the repository and submit a pull request.
 - **Support:** If you encounter issues, visit the Support Page or open a ticket on the GitHub repository.
 - **Documentation:** Full documentation is available here.
+
+### Normal Start
+
+```sh
+docker compose up --build"
+```
+
+### RESET DB START
+
+```sh
+docker compose up --build -e RESET_DB=true"
+```

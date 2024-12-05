@@ -3,21 +3,28 @@
 # Create a stage for building the application.
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine3.20 AS db-init
 
-# Install PostgreSQL client for pg_isready
+# Install PostgreSQL client for pg_isready and bash
 RUN apk add --no-cache postgresql-client bash
+
+# Install dotnet-ef globally
+RUN dotnet tool install --global dotnet-ef \
+    && export PATH="$PATH:/root/.dotnet/tools" \
+    && echo 'export PATH="$PATH:/root/.dotnet/tools"' >> /etc/profile
 
 # Copy application source code to the container
 COPY . /source
 
-# Copy the script into the image
-#COPY db-init.sh /app/db-init.sh
-
 # Make the script executable
-#RUN chmod +x /app/db-init.sh
-RUN chmod +x /source/db-init.sh
+RUN chmod +x /source/Scripts/db-init.sh
 
 # Set the working directory
 WORKDIR /source/Arcadia.API
+
+# Ensure the keys directory exists and has appropriate permissions
+RUN mkdir -p /etc/arcadia
+
+# Copy the PFX certificate into the container
+COPY ./certificates/arcadia_api_cert.pfx /etc/arcadia/certs/arcadia_api_cert.pfx
 
 # Define the architecture for building
 ARG TARGETARCH
@@ -26,6 +33,11 @@ ARG TARGETARCH
 RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
     dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
 
+# Ensure the data protection keys directory has appropriate permissions
+RUN mkdir -p /app/dataprotection-keys
+
+# Ensure dotnet-ef is available in the current PATH for subsequent commands
+ENV PATH="/root/.dotnet/tools:$PATH"
+
 # Use the script as the entry point
-#CMD ["/app/db-init.sh"]
-CMD ["sh", "/source/db-init.sh"]
+CMD ["/source/Scripts/db-init.sh"]
