@@ -15,7 +15,7 @@ RUN dotnet tool install --global dotnet-ef \
 COPY . /source
 
 # Make the script executable
-RUN chmod +x /source/db-init.sh
+RUN chmod +x /source/Scripts/db-init.sh
 
 # Set the working directory
 WORKDIR /source/Arcadia.API
@@ -40,4 +40,4 @@ RUN mkdir -p /app/dataprotection-keys
 ENV PATH="/root/.dotnet/tools:$PATH"
 
 # Use the script as the entry point
-CMD ["/source/db-init.sh"]
+CMD ["/source/Scripts/db-init.sh"]
