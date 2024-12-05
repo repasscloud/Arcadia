@@ -21,7 +21,7 @@ jobs:
       run: sudo apt-get update; sudo apt-get install zsh -y
 
     - name: Create volumes
-      run: ./Scripts/setup_certificates_and_volumes.zsh
+      run: ./Scripts/setup_certificates_and_volumes.sh
       shell: zsh
 
     - name: Build the Docker API image
@@ -40,11 +40,11 @@ jobs:
     - name: Set up date variable
       run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
 
-    - name: Install Zsh
-      run: sudo apt-get update; sudo apt-get install zsh -y
+    # - name: Install Zsh
+    #   run: sudo apt-get update; sudo apt-get install zsh -y
 
     - name: Create volumes
-      run: ./Scripts/setup_certificates_and_volumes.zsh
+      run: ./Scripts/setup_certificates_and_volumes.sh
 
     - name: Run API container tests
       run: |
@@ -74,7 +74,7 @@ jobs:
         run: sudo apt-get update; sudo apt-get install zsh -y
 
       - name: Create volumes
-        run: ./Scripts/setup_certificates_and_volumes.zsh
+        run: ./Scripts/setup_certificates_and_volumes.sh
         shell: zsh
 
       - name: Compose build
