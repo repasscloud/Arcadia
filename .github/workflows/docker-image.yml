@@ -45,7 +45,6 @@ jobs:
 
     - name: Create volumes
       run: ./Scripts/setup_certificates_and_volumes.zsh
-      shell: zsh {0}
 
     - name: Run API container tests
       run: |
