@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # Define common variables
 CERT_PASSWORD="your-password"
