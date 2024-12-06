@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Define common variables
 CERT_PASSWORD="your-password"
@@ -8,7 +8,7 @@ APP_UID=1000
 
 # Create the certificates directory if it doesn't exist
 rm -rf $CERT_DIR > /dev/null 2>&1
-mkdir -p $CERT_DIR
+mkdir -p $CERT_DIR 
 
 # Function to generate a certificate
 generate_certificate() {

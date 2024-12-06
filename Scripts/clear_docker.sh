@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # Stop and remove all running containers
 docker compose down 2>/dev/null

@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 # Function to generate a random string
 generate_random_string() {

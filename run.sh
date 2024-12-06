@@ -82,7 +82,7 @@ case $input in
     echo "Init Arcadia setup (fresh install) and start"
     # Performs a full reset of the environment, initializing a fresh database (wiped and rebuilt from scratch) and starting all services.
     docker compose down 2>/dev/null
-    ./Scripts/setup_certificates_and_volumes.zsh
+    ./Scripts/setup_certificates_and_volumes.sh
     update_db_action "./.env" "INIT"
     docker compose up -d --build
     ;;
@@ -113,14 +113,14 @@ case $input in
     echo "Reset certificates and stop Arcadia (no restart)"
     # Stops the system and allows the user to replace PFX certificates in the attached volumes. Does not restart the system.
     docker compose down 2>/dev/null
-    ./Scripts/setup_certificates_and_volumes.zsh
+    ./Scripts/setup_certificates_and_volumes.sh
     ;;
   
   8 | "Reset Arcadia to fresh")
     echo "Init Arcadia setup (fresh install) and start"
     # P Performs a combination of resetting the database and resetting the certificates, then starts the system.
     docker compose down 2>/dev/null
-    ./Scripts/setup_certificates_and_volumes.zsh
+    ./Scripts/setup_certificates_and_volumes.sh
     update_db_action "./.env" "INIT"
     docker compose up -d
     ;;

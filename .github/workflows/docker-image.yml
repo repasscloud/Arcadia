@@ -17,12 +17,11 @@ jobs:
     - name: Set up date variable
       run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
 
-    - name: Install Zsh
-      run: sudo apt-get update; sudo apt-get install zsh -y
+    # - name: Install Zsh
+    #   run: sudo apt-get update; sudo apt-get install zsh -y
 
     - name: Create volumes
       run: ./Scripts/setup_certificates_and_volumes.sh
-      shell: zsh
 
     - name: Build the Docker API image
       run: docker build . --file Dockerfile.API --tag arcadia.api:${{ env.tag_date }}
@@ -70,12 +69,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Zsh
-        run: sudo apt-get update; sudo apt-get install zsh -y
-
       - name: Create volumes
         run: ./Scripts/setup_certificates_and_volumes.sh
-        shell: zsh
 
       - name: Compose build
         run: docker compose build
