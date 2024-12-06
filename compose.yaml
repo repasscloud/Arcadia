@@ -1,99 +1,133 @@
 services:
   postgresql:
-    image: postgres:15
+    build:
+      context: .
+      dockerfile: Dockerfile.pgsql
     container_name: arcadia_postgresql
     networks:
-      - internal_network
+      - internal
     environment:
-      POSTGRES_USER: arcadia
-      POSTGRES_PASSWORD: arcadia_password
-      POSTGRES_DB: arcadia_db
+      LANG: en_US.UTF-8
+      LANGUAGE: en_US.UTF-8
+      LC_ALL: en_US.UTF-8
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - pg_data:/var/lib/postgresql/data
     expose:
       - 5432
     healthcheck:
-      test: [ "CMD", "pg_isready" ]
+      test: [ "CMD", "pg_isready", "-U", "${POSTGRES_USER}" ]
       interval: 10s
       timeout: 5s
       retries: 5
+
+  db-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.db-init
+    container_name: arcadia_db_init
+    networks:
+      - internal
+    environment:
+      CONNECTION_STRING: ${CONNECTION_STRING}
+      DB_ACTION: ${DB_ACTION}
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    restart: "no"
 
   arcadia.api:
     build:
       context: .
       dockerfile: Dockerfile.API
-      target: runtime
+      target: final
     container_name: arcadia_api
     networks:
-      - internal_network
-      - api_webapp_network
+      - internal
+      - public
     environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-      - CONNECTION_STRING=Host=arcadia_postgresql;Database=arcadia_db;Username=arcadia;Password=arcadia_password
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT_API}
+      CONNECTION_STRING: ${CONNECTION_STRING}
+      JWTSETTINGS__SECRET: ${JWTSETTINGS__SECRET}
+      JWTSETTINGS__ISSUER: ${JWTSETTINGS__ISSUER}
+      JWTSETTINGS__AUDIENCE: ${JWTSETTINGS__AUDIENCE}
+      ASPNETCORE_URLS: ${WEBAPI_URLS}
+    volumes:
+      - api_certs:/etc/arcadia/api_certs
+      - api_dataprotection_keys:/etc/arcadia/dataprotection-keys
     depends_on:
       - postgresql
+      - db-init
     ports:
-      - "5050:8080" # For debugging API locally if needed
+      - "5050:5000"
 
   arcadia.webapp:
     build:
       context: .
       dockerfile: Dockerfile.WebApp
+      target: final
     container_name: arcadia_webapp
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "--no-verbose", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
     networks:
-      - api_webapp_network
-      - public_network
+      - public
     environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT_WEBAPP}
+      ASPNETCORE_URLS: ${BLAZOR_URLS}
+    volumes:
+      - webapp_certs:/etc/arcadia/webapp_certs
+      - webapp_dataprotection_keys:/etc/arcadia/dataprotection-keys
+    depends_on:
+      - arcadia.api
+      - db-init
     ports:
-      - "8080:8080" # Expose WebApp to localhost (public)
+      - "8080:8080"
+
+  pgadmin:
+    image: dpage/pgadmin4:8.13.0
+    container_name: arcadia_pgadmin4
+    networks:
+      - internal
+      - public
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgresql
+    ports:
+      - "8090:80"
 
 networks:
-  internal_network:
+  internal:
     name: arcadia_internal_network
     driver: bridge
 
-  api_webapp_network:
-    name: arcadia_api_webapp_network
-    driver: bridge
-
-  public_network:
+  public:
     name: arcadia_public_network
     driver: bridge
 
 volumes:
   pg_data:
     name: arcadia_pg_data
-# The commented out section below is an example of how to define a PostgreSQL
-# database that your application can use. `depends_on` tells Docker Compose to
-# start the database before your application. The `db-data` volume persists the
-# database data between container restarts. The `db-password` secret is used
-# to set the database password. You must create `db/password.txt` and add
-# a password of your choosing to it before running `docker compose up`.
-#     depends_on:
-#       db:
-#         condition: service_healthy
-#   db:
-#     image: postgres
-#     restart: always
-#     user: postgres
-#     secrets:
-#       - db-password
-#     volumes:
-#       - db-data:/var/lib/postgresql/data
-#     environment:
-#       - POSTGRES_DB=example
-#       - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
-#     expose:
-#       - 5432
-#     healthcheck:
-#       test: [ "CMD", "pg_isready" ]
-#       interval: 10s
-#       timeout: 5s
-#       retries: 5
-# volumes:
-#   db-data:
-# secrets:
-#   db-password:
-#     file: db/password.txt
-
+  pgadmin_data:
+    name: arcadia_pgadmin_data
+  api_certs:
+    name: arcadia_api_certs
+    external: true
+  api_dataprotection_keys:
+    name: arcadia_api_dataprotection_keys
+    external: true
+  webapp_certs:
+    name: arcadia_webapp_certs
+    external: true
+  webapp_dataprotection_keys:
+    name: arcadia_webapp_dataprotection_keys
+    external: true

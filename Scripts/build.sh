@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 # Define an associative array of services and their Dockerfiles
 declare -A services=(

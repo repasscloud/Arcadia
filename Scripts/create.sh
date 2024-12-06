@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 # Get the project name from the first argument, or default to "Arcadia"
 PROJECT_NAME=${1:-Arcadia}

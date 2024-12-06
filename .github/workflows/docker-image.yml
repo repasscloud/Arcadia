@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker CI
 
 on:
   push:
@@ -9,12 +9,68 @@ on:
 jobs:
 
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
+
+    - name: Set up date variable
+      run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
+
+    # - name: Install Zsh
+    #   run: sudo apt-get update; sudo apt-get install zsh -y
+
+    - name: Create volumes
+      run: ./Scripts/setup_certificates_and_volumes.sh
+
     - name: Build the Docker API image
-      run: docker build . --file Dockerfile.API --tag Arcadia.API:$(date +%s)
+      run: docker build . --file Dockerfile.API --tag arcadia.api:${{ env.tag_date }}
+
     - name: Build the Docker WebApp image
-      run: docker build . --file Dockerfile.WebApp --tag Arcadia.WebApp:$(date +%s)
+      run: docker build . --file Dockerfile.WebApp --tag arcadia.webapp:${{ env.tag_date }}
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up date variable
+      run: echo "tag_date=$(date +'%y%m%d')" >> $GITHUB_ENV
+
+    # - name: Install Zsh
+    #   run: sudo apt-get update; sudo apt-get install zsh -y
+
+    - name: Create volumes
+      run: ./Scripts/setup_certificates_and_volumes.sh
+
+    - name: Run API container tests
+      run: |
+        docker build . --file Dockerfile.API --tag arcadia.api:${{ env.tag_date }}
+        docker run -d --name arcadia_api arcadia.api:${{ env.tag_date }}
+        # Add your test commands here, e.g., curl or integration tests
+
+    - name: Run WebApp container tests
+      run: |
+        docker build . --file Dockerfile.WebApp --tag arcadia.webapp:${{ env.tag_date }}
+        docker run -d --name arcadia_webapp arcadia.webapp:${{ env.tag_date }}
+        # Add your test commands here, e.g., curl or integration tests
+
+    - name: Clean up containers
+      run: |
+        docker stop arcadia_api arcadia_webapp
+        docker rm arcadia_api arcadia_webapp
+
+  compose:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create volumes
+        run: ./Scripts/setup_certificates_and_volumes.sh
+
+      - name: Compose build
+        run: docker compose build
