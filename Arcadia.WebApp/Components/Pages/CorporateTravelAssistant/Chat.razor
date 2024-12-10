@@ -7,7 +7,18 @@
     <div class="chat-body" @ref="chatBody">
         @foreach (var message in Messages)
         {
-            <div class="message @(message.IsSystem ? "system" : "user")">@message.Content</div>
+            @if (message.IsLoading)
+            {
+                <div class="message system loading-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            }
+            else
+            {
+                <div class="message @(message.IsSystem ? "system" : "user")">@((MarkupString)message.Content)</div>
+            }
         }
     </div>
     <div class="chat-footer">
@@ -20,18 +31,17 @@
                 }
             </div>
         }
-        <div class="input-group custom-input-group">
-            <input type="text"
-                   @bind="UserInput"
-                   placeholder="Type your message here..."
-                   class="form-control custom-input"
-                   @onkeydown="HandleKeyPress"
-                   @ref="inputElement"
-                   aria-label="Chat message input" />
-            <button class="btn btn-primary custom-send-button"
-                    @onclick="SendMessage"
-                    aria-label="Send message">Send</button>
-        </div>
+        <form @onsubmit="HandleSubmit">
+            <div class="input-group custom-input-group">
+                <input type="text"
+                       @bind="UserInput"
+                       placeholder="Type your message here..."
+                       class="form-control custom-input"
+                       @ref="inputElement"
+                       aria-label="Chat message input" />
+                <button type="submit" class="btn btn-primary custom-send-button" aria-label="Send message">Send</button>
+            </div>
+        </form>
     </div>
 </div>
 
@@ -75,38 +85,17 @@
         Messages.Add(new Message { Content = action, IsSystem = false });
         AvailableButtons.Clear();
         IsLoading = true;
-        await RespondToChoice(action);
-        IsLoading = false;
-        await ScrollToBottom();
-    }
 
-    private async Task SendMessage()
-    {
-        if (!string.IsNullOrWhiteSpace(UserInput))
-        {
-            Messages.Add(new Message { Content = UserInput, IsSystem = false });
-            AvailableButtons.Clear();
-            IsLoading = true;
+        // Add "..." system message to indicate thinking
+        var loadingMessage = new Message { Content = "", IsSystem = true, IsLoading = true };
+        Messages.Add(loadingMessage);
+        StateHasChanged(); // Ensure UI updates
 
-            // Simulate API response with the user's input echoed back
-            string jsonPayload = @"
-            {
-                ""response"": ""You said: '" + System.Text.Json.JsonSerializer.Serialize(UserInput) + @"'"",
-                ""buttons"": []
-            }";
-            await SimulateApiResponse(jsonPayload);
-
-            UserInput = string.Empty;
-            IsLoading = false;
-            await ScrollToBottom();
-        }
-    }
-
-    private async Task RespondToChoice(string choice)
-    {
+        // Simulate API response
         string jsonPayload = "";
 
-        if (choice == "Create a new booking")
+        // Define responses based on the action
+        if (action == "Create a new booking")
         {
             jsonPayload = @"
             {
@@ -118,7 +107,7 @@
                 ]
             }";
         }
-        else if (choice == "Manage an existing booking")
+        else if (action == "Manage an existing booking")
         {
             jsonPayload = @"
             {
@@ -128,7 +117,7 @@
                 ]
             }";
         }
-        else if (choice == "Speak to a human")
+        else if (action == "Speak to a human")
         {
             jsonPayload = @"
             {
@@ -136,10 +125,10 @@
                 ""buttons"": []
             }";
         }
-        else if (choice.StartsWith("Book "))
+        else if (action.StartsWith("Book "))
         {
             // Example: "Book Flights", "Book Accommodation", "Book Car Hire"
-            string bookingType = choice.Replace("Book ", "");
+            string bookingType = action.Replace("Book ", "");
             jsonPayload = $@"
             {{
                 ""response"": ""You selected to book {bookingType}. Please provide the necessary details."",
@@ -148,7 +137,7 @@
                 ]
             }}";
         }
-        else if (choice == "Back to Main Menu")
+        else if (action == "Back to Main Menu")
         {
             jsonPayload = @"
             {
@@ -172,11 +161,51 @@
             }";
         }
 
-        await SimulateApiResponse(jsonPayload);
+        await SimulateApiResponse(jsonPayload, loadingMessage);
+
+        IsLoading = false;
+        await ScrollToBottom();
     }
 
-    private async Task SimulateApiResponse(string jsonPayload)
+    private async Task HandleSubmit()
     {
+        await SendMessage();
+    }
+
+    private async Task SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(UserInput))
+        {
+            // Add user message
+            Messages.Add(new Message { Content = UserInput, IsSystem = false });
+            AvailableButtons.Clear();
+            IsLoading = true;
+
+            // Add "..." system message to indicate thinking
+            var loadingMessage = new Message { Content = "", IsSystem = true, IsLoading = true };
+            Messages.Add(loadingMessage);
+            StateHasChanged(); // Ensure UI updates
+
+            // Simulate API response with the user's input echoed back
+            string jsonPayload = @"
+            {
+                ""response"": ""You said: '" + System.Text.Json.JsonSerializer.Serialize(UserInput) + @"'"",
+                ""buttons"": []
+            }";
+
+            await SimulateApiResponse(jsonPayload, loadingMessage);
+
+            UserInput = string.Empty;
+            IsLoading = false;
+            await ScrollToBottom();
+        }
+    }
+
+    private async Task SimulateApiResponse(string jsonPayload, Message loadingMessage)
+    {
+        // Simulate API processing time
+        await Task.Delay(2000); // 2-second delay
+
         try
         {
             var apiResponse = System.Text.Json.JsonSerializer.Deserialize<ApiResponse>(jsonPayload, new System.Text.Json.JsonSerializerOptions
@@ -186,7 +215,9 @@
 
             if (apiResponse != null)
             {
-                Messages.Add(new Message { Content = apiResponse.Response, IsSystem = true });
+                // Replace "..." with the actual response
+                loadingMessage.Content = apiResponse.Response;
+                loadingMessage.IsLoading = false;
 
                 if (apiResponse.Buttons != null && apiResponse.Buttons.Any())
                 {
@@ -204,11 +235,14 @@
         }
         catch (System.Text.Json.JsonException)
         {
-            Messages.Add(new Message { Content = "Oops! There was an error processing your request.", IsSystem = true });
+            // Replace "..." with an error message
+            loadingMessage.Content = "Oops! There was an error processing your request.";
+            loadingMessage.IsLoading = false;
             AvailableButtons.Clear();
         }
 
-        await ScrollToBottom();
+        // Trigger UI update
+        StateHasChanged();
     }
 
     private async Task ScrollToBottom()
@@ -216,18 +250,11 @@
         await JS.InvokeVoidAsync("scrollToBottom", chatBody);
     }
 
-    private async Task HandleKeyPress(KeyboardEventArgs e)
-    {
-        if (e.Key.Equals("Enter", StringComparison.OrdinalIgnoreCase))
-        {
-            await SendMessage();
-        }
-    }
-
     private class Message
     {
         public string Content { get; set; } = string.Empty;
         public bool IsSystem { get; set; }
+        public bool IsLoading { get; set; } = false;
     }
 
     private class ChatButton
