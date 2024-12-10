@@ -1,0 +1,250 @@
+@page "/chat"
+
+<PageTitle>Corporate Travel Assistant</PageTitle>
+
+<div class="chat-container">
+    <div class="chat-header">Corporate Travel Assistant</div>
+    <div class="chat-body" @ref="chatBody">
+        @foreach (var message in Messages)
+        {
+            <div class="message @(message.IsSystem ? "system" : "user")">@message.Content</div>
+        }
+    </div>
+    <div class="chat-footer">
+        @if (AvailableButtons.Any())
+        {
+            <div class="button-group">
+                @foreach (var button in AvailableButtons)
+                {
+                    <button class="btn btn-primary" @onclick="() => HandleButtonClick(button.Action)">@button.Text</button>
+                }
+            </div>
+        }
+        <div class="input-group custom-input-group">
+            <input type="text"
+                   @bind="UserInput"
+                   placeholder="Type your message here..."
+                   class="form-control custom-input"
+                   @onkeydown="HandleKeyPress"
+                   @ref="inputElement"
+                   aria-label="Chat message input" />
+            <button class="btn btn-primary custom-send-button"
+                    @onclick="SendMessage"
+                    aria-label="Send message">Send</button>
+        </div>
+    </div>
+</div>
+
+@inject IJSRuntime JS
+
+@code {
+    private List<Message> Messages { get; set; } = new List<Message>
+    {
+        new Message { Content = "Welcome! How can I assist you today?", IsSystem = true }
+    };
+
+    private string UserInput { get; set; } = string.Empty;
+    private List<ChatButton> AvailableButtons { get; set; } = new List<ChatButton>();
+    private ElementReference chatBody;
+    private ElementReference inputElement;
+    private bool IsLoading { get; set; } = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initialize with default buttons
+        AvailableButtons = new List<ChatButton>
+        {
+            new ChatButton { Text = "Create a new booking", Action = "Create a new booking" },
+            new ChatButton { Text = "Manage an existing booking", Action = "Manage an existing booking" },
+            new ChatButton { Text = "Speak to a human", Action = "Speak to a human" }
+        };
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await inputElement.FocusAsync();
+            await ScrollToBottom();
+        }
+    }
+
+    private async Task HandleButtonClick(string action)
+    {
+        // Add the user's selection as a message
+        Messages.Add(new Message { Content = action, IsSystem = false });
+        AvailableButtons.Clear();
+        IsLoading = true;
+        await RespondToChoice(action);
+        IsLoading = false;
+        await ScrollToBottom();
+    }
+
+    private async Task SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(UserInput))
+        {
+            Messages.Add(new Message { Content = UserInput, IsSystem = false });
+            AvailableButtons.Clear();
+            IsLoading = true;
+
+            // Simulate API response with the user's input echoed back
+            string jsonPayload = @"
+            {
+                ""response"": ""You said: '" + System.Text.Json.JsonSerializer.Serialize(UserInput) + @"'"",
+                ""buttons"": []
+            }";
+            await SimulateApiResponse(jsonPayload);
+
+            UserInput = string.Empty;
+            IsLoading = false;
+            await ScrollToBottom();
+        }
+    }
+
+    private async Task RespondToChoice(string choice)
+    {
+        string jsonPayload = "";
+
+        if (choice == "Create a new booking")
+        {
+            jsonPayload = @"
+            {
+                ""response"": ""What would you like to book? Flights, Accommodation, or Car Hire?"",
+                ""buttons"": [
+                    { ""text"": ""Flights"", ""action"": ""Book Flights"" },
+                    { ""text"": ""Accommodation"", ""action"": ""Book Accommodation"" },
+                    { ""text"": ""Car Hire"", ""action"": ""Book Car Hire"" }
+                ]
+            }";
+        }
+        else if (choice == "Manage an existing booking")
+        {
+            jsonPayload = @"
+            {
+                ""response"": ""Please provide your booking ID."",
+                ""buttons"": [
+                    { ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }
+                ]
+            }";
+        }
+        else if (choice == "Speak to a human")
+        {
+            jsonPayload = @"
+            {
+                ""response"": ""Connecting you to a human agent..."",
+                ""buttons"": []
+            }";
+        }
+        else if (choice.StartsWith("Book "))
+        {
+            // Example: "Book Flights", "Book Accommodation", "Book Car Hire"
+            string bookingType = choice.Replace("Book ", "");
+            jsonPayload = $@"
+            {{
+                ""response"": ""You selected to book {bookingType}. Please provide the necessary details."",
+                ""buttons"": [
+                    {{ ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }}
+                ]
+            }}";
+        }
+        else if (choice == "Back to Main Menu")
+        {
+            jsonPayload = @"
+            {
+                ""response"": ""Welcome back! How can I assist you today?"",
+                ""buttons"": [
+                    { ""text"": ""Create a new booking"", ""action"": ""Create a new booking"" },
+                    { ""text"": ""Manage an existing booking"", ""action"": ""Manage an existing booking"" },
+                    { ""text"": ""Speak to a human"", ""action"": ""Speak to a human"" }
+                ]
+            }";
+        }
+        else
+        {
+            // Default response for unhandled actions
+            jsonPayload = @"
+            {
+                ""response"": ""I'm not sure how to help with that. Please choose an option below."",
+                ""buttons"": [
+                    { ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }
+                ]
+            }";
+        }
+
+        await SimulateApiResponse(jsonPayload);
+    }
+
+    private async Task SimulateApiResponse(string jsonPayload)
+    {
+        try
+        {
+            var apiResponse = System.Text.Json.JsonSerializer.Deserialize<ApiResponse>(jsonPayload, new System.Text.Json.JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+
+            if (apiResponse != null)
+            {
+                Messages.Add(new Message { Content = apiResponse.Response, IsSystem = true });
+
+                if (apiResponse.Buttons != null && apiResponse.Buttons.Any())
+                {
+                    AvailableButtons = apiResponse.Buttons.Select(b => new ChatButton
+                    {
+                        Text = b.Text,
+                        Action = b.Action
+                    }).ToList();
+                }
+                else
+                {
+                    AvailableButtons.Clear();
+                }
+            }
+        }
+        catch (System.Text.Json.JsonException)
+        {
+            Messages.Add(new Message { Content = "Oops! There was an error processing your request.", IsSystem = true });
+            AvailableButtons.Clear();
+        }
+
+        await ScrollToBottom();
+    }
+
+    private async Task ScrollToBottom()
+    {
+        await JS.InvokeVoidAsync("scrollToBottom", chatBody);
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key.Equals("Enter", StringComparison.OrdinalIgnoreCase))
+        {
+            await SendMessage();
+        }
+    }
+
+    private class Message
+    {
+        public string Content { get; set; } = string.Empty;
+        public bool IsSystem { get; set; }
+    }
+
+    private class ChatButton
+    {
+        public string Text { get; set; } = string.Empty;
+        public string Action { get; set; } = string.Empty;
+    }
+
+    private class ApiResponse
+    {
+        public string Response { get; set; } = string.Empty;
+        public List<ApiButton> Buttons { get; set; } = new List<ApiButton>();
+    }
+
+    private class ApiButton
+    {
+        public string Text { get; set; } = string.Empty;
+        public string Action { get; set; } = string.Empty;
+    }
+}

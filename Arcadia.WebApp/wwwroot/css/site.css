@@ -1,0 +1,227 @@
+/* ========================= */
+/* 1. Global Resets and Base */
+/* ========================= */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure html and body take full height */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================= */
+/* 2. Main Layout Styling */
+/* ========================= */
+
+/* Flex layout for bb-page (MainLayout) */
+.bb-page {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent child elements from causing overflow */
+}
+
+/* Sidebar styling */
+.bb-page Sidebar {
+    flex: 0 0 250px; /* Fixed width for sidebar */
+    /* Add additional styling as needed */
+}
+
+/* Main content area */
+.bb-page main {
+    flex: 1; /* Allow main to grow and fill available space */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent main from overflowing */
+}
+
+/* Top row styling */
+.bb-top-row {
+    flex-shrink: 0; /* Prevent shrinking */
+    padding: 10px 15px;
+    background-color: #f8f9fa; /* Light gray background */
+    border-bottom: 1px solid #dee2e6; /* Bottom border for separation */
+    display: flex;
+    justify-content: flex-end; /* Align content to the end */
+}
+
+/* Content area */
+.content {
+    flex: 1; /* Allow content to grow and fill space */
+    overflow: auto; /* Enable scrolling within content */
+    padding: 15px;
+}
+
+/* ========================= */
+/* 3. Chat Interface Styling */
+/* ========================= */
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Fixed height for desktop */
+    width: 100%;
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Center horizontally with top and bottom margin */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Chat Header */
+.chat-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Chat Body */
+.chat-body {
+    flex: 1 1 auto; /* Grow and shrink as needed */
+    padding: 15px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chat Footer */
+.chat-footer {
+    flex-shrink: 0; /* Prevent shrinking */
+    padding: 10px 15px;
+    background-color: #e9ecef; /* Slightly darker gray */
+    border-top: 1px solid #dee2e6;
+}
+
+/* Messages */
+.message {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.system {
+    background-color: #d1ecf1; /* Light blue */
+    align-self: flex-start; /* Align to the left */
+}
+
+.message.user {
+    background-color: #c3e6cb; /* Light green */
+    align-self: flex-end; /* Align to the right */
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-bottom: 10px; /* Space below button group */
+}
+
+.button-group .btn {
+    flex: 1 1 calc(25% - 10px); /* Up to 4 buttons per row with gaps */
+    min-width: 120px; /* Minimum width for buttons */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Custom Input Group */
+.custom-input-group {
+    display: flex;
+    align-items: center;
+    gap: 0; /* Remove gap to ensure seamless connection */
+}
+
+/* Input Box Styling */
+.custom-input {
+    flex: 1;
+    border-top-left-radius: 20px; /* Rounded on top-left */
+    border-bottom-left-radius: 20px; /* Rounded on bottom-left */
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-right: none; /* Remove right border to prevent double border */
+    outline: none; /* Remove default outline */
+}
+
+/* Send Button Styling */
+.custom-send-button {
+    border-top-right-radius: 20px; /* Rounded on top-right */
+    border-bottom-right-radius: 20px; /* Rounded on bottom-right */
+    border: 1px solid #007bff; /* Match the input border color */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-send-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Loading Indicator */
+.loading-indicator {
+    text-align: center;
+    padding: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+/* ========================= */
+/* 4. Responsive Adjustments */
+/* ========================= */
+
+@media (max-width: 600px) {
+    /* Adjust Chat Container for Mobile */
+    .chat-container {
+        height: 90vh; /* Increase height for better fit */
+        max-width: 100%;
+        border-radius: 0;
+        margin: 0; /* Remove margins for full-screen on mobile */
+    }
+
+    /* Adjust Chat Header for Mobile */
+    .chat-header {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    /* Adjust Button Group for Mobile */
+    .button-group .btn {
+        flex: 1 1 calc(50% - 10px); /* Two buttons per row on small screens */
+    }
+
+    /* Maintain Side-by-Side Layout for Input and Send Button */
+    .custom-input-group {
+        flex-direction: row; /* Keep side by side */
+    }
+
+    /* Adjust Input Box for Mobile */
+    .custom-input {
+        flex: 1 1 auto; /* Allow input to take available space */
+        padding: 8px 12px; /* Reduce padding for smaller screens */
+        font-size: 1rem;
+    }
+
+    /* Adjust Send Button for Mobile */
+    .custom-send-button {
+        flex: 0 0 auto; /* Prevent button from stretching */
+        padding: 8px 16px; /* Reduce padding for smaller screens */
+        font-size: 1rem;
+    }
+}
