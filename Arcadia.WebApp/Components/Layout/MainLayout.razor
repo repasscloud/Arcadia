@@ -8,7 +8,7 @@
              DataProvider="SidebarDataProvider" />
 
     <main>
-        <div class="bb-top-row px-4 d-flex justify-content-end">
+        <div class="bb-top-row px-4 d-flex justify-content-end d-none d-md-flex">
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
         </div>
 
@@ -20,8 +20,8 @@
 </div>
 
 @code {
-    Sidebar sidebar;
-    IEnumerable<NavItem> navItems;
+    Sidebar? sidebar;
+    IEnumerable<NavItem>? navItems;
 
     private async Task<SidebarDataProviderResult> SidebarDataProvider(SidebarDataProviderRequest request)
     {
@@ -43,7 +43,6 @@
         return navItems;
     }
 }
-
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.
