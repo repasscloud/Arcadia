@@ -1,8 +1,11 @@
 using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant;
+using System.Threading.Tasks;
 
-namespace Arcadia.WebApp.Interfaces;
-
-public interface ICorporateTravelAssistantService
+namespace Arcadia.WebApp.Interfaces
 {
-    Task<ApiResponse> SendMessageAsync(string message);
+    public interface ICorporateTravelAssistantService
+    {
+        Task<ApiResponse> SendMessageAsync(string message);
+        // Add other method signatures as needed
+    }
 }

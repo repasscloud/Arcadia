@@ -1,94 +1,96 @@
 using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant;
+using Arcadia.Shared.Models.WebApp.SysLib;
 using Arcadia.WebApp.Interfaces;
 
-namespace Arcadia.WebApp.Services;
-
-public class CorporateTravelAssistantService : ICorporateTravelAssistantService
+namespace Arcadia.WebApp.Services
 {
-    private readonly HttpClient _httpClient;
-    private readonly ILogger<CorporateTravelAssistantService> _logger;
-
-    public CorporateTravelAssistantService(HttpClient httpClient, ILogger<CorporateTravelAssistantService> logger)
+    public class CorporateTravelAssistantService : ICorporateTravelAssistantService
     {
-        _httpClient = httpClient;
-        _logger = logger;
-    }
+        private readonly HttpClient _httpClient;
+        private readonly ILogger<CorporateTravelAssistantService> _logger;
 
-    public async Task<ApiResponse> SendMessageAsync(string message)
-    {
-        var payload = new { input = message };
-
-        try
+        public CorporateTravelAssistantService(HttpClient httpClient, ILogger<CorporateTravelAssistantService> logger)
         {
-            _logger.LogInformation("Sending message to Corporate Travel Assistant API: {Message}", message);
+            _httpClient = httpClient;
+            _logger = logger;
+        }
 
-            // Send POST request to the API
-            var response = await _httpClient.PostAsJsonAsync("", payload);
+        public async Task<ApiResponse> SendMessageAsync(string message)
+        {
+            var payload = new { input = message };
 
-            // Check if the response indicates success
-            if (response.IsSuccessStatusCode)
+            try
             {
-                // Attempt to deserialize the response content
-                var apiResponse = await response.Content.ReadFromJsonAsync<ApiResponse>();
+                _logger.LogInformation("Sending message to Corporate Travel Assistant API: {Message}", message);
 
-                if (apiResponse != null)
+                // Send POST request to the specific API endpoint
+                var response = await _httpClient.PostAsJsonAsync(ApiEndpoints.SendMessage, payload); // Specified endpoint is /chat/sendMessage
+
+                // Check if the response indicates success
+                if (response.IsSuccessStatusCode)
                 {
-                    _logger.LogInformation("Received successful response from API.");
-                    return apiResponse;
+                    // Attempt to deserialize the response content
+                    var apiResponse = await response.Content.ReadFromJsonAsync<ApiResponse>();
+
+                    if (apiResponse != null)
+                    {
+                        _logger.LogInformation("Received successful response from API.");
+                        return apiResponse;
+                    }
+                    else
+                    {
+                        _logger.LogWarning("API response deserialized to null.");
+                        return new ApiResponse
+                        {
+                            Response = "Received an empty response from the server.",
+                            Buttons = new List<ApiButton>()
+                        };
+                    }
                 }
                 else
                 {
-                    _logger.LogWarning("API response deserialized to null.");
+                    // Log the unsuccessful status code and reason
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    _logger.LogError("API request failed with status code {StatusCode}: {ReasonPhrase}. Content: {Content}",
+                        response.StatusCode, response.ReasonPhrase, errorContent);
+
                     return new ApiResponse
                     {
-                        Response = "Received an empty response from the server.",
+                        Response = $"Error: {response.ReasonPhrase}",
                         Buttons = new List<ApiButton>()
                     };
                 }
             }
-            else
+            catch (HttpRequestException httpEx)
             {
-                // Log the unsuccessful status code and reason
-                var errorContent = await response.Content.ReadAsStringAsync();
-                _logger.LogError("API request failed with status code {StatusCode}: {ReasonPhrase}. Content: {Content}",
-                    response.StatusCode, response.ReasonPhrase, errorContent);
-
+                // Handle HTTP request specific exceptions
+                _logger.LogError(httpEx, "HTTP request to Corporate Travel Assistant API failed.");
                 return new ApiResponse
                 {
-                    Response = $"Error: {response.ReasonPhrase}",
+                    Response = "Unable to reach the server. Please try again later.",
                     Buttons = new List<ApiButton>()
                 };
             }
-        }
-        catch (HttpRequestException httpEx)
-        {
-            // Handle HTTP request specific exceptions
-            _logger.LogError(httpEx, "HTTP request to Corporate Travel Assistant API failed.");
-            return new ApiResponse
+            catch (NotSupportedException notSupEx)
             {
-                Response = "Unable to reach the server. Please try again later.",
-                Buttons = new List<ApiButton>()
-            };
-        }
-        catch (NotSupportedException notSupEx)
-        {
-            // Handle content type not supported exceptions
-            _logger.LogError(notSupEx, "The content type is not supported.");
-            return new ApiResponse
+                // Handle content type not supported exceptions
+                _logger.LogError(notSupEx, "The content type is not supported.");
+                return new ApiResponse
+                {
+                    Response = "Unsupported response format received.",
+                    Buttons = new List<ApiButton>()
+                };
+            }
+            catch (Exception ex)
             {
-                Response = "Unsupported response format received.",
-                Buttons = new List<ApiButton>()
-            };
-        }
-        catch (Exception ex)
-        {
-            // Handle all other exceptions
-            _logger.LogError(ex, "An unexpected error occurred while sending the message.");
-            return new ApiResponse
-            {
-                Response = "An unexpected error occurred. Please try again later.",
-                Buttons = new List<ApiButton>()
-            };
+                // Handle all other exceptions
+                _logger.LogError(ex, "An unexpected error occurred while sending the message.");
+                return new ApiResponse
+                {
+                    Response = "An unexpected error occurred. Please try again later.",
+                    Buttons = new List<ApiButton>()
+                };
+            }
         }
     }
 }

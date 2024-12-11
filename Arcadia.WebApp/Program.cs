@@ -3,7 +3,6 @@ using Arcadia.WebApp.Components;
 using Arcadia.WebApp.Interfaces;
 using Arcadia.WebApp.Services;
 using Microsoft.Extensions.Options;
-using Microsoft.Extensions.Logging;
 using Polly;
 using Polly.Extensions.Http;
 
@@ -26,8 +25,15 @@ namespace Arcadia.WebApp
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-            // Configure ApiSettings
+            // Configure ApiSettings and validate
             builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("ApiSettings"));
+
+            var apiSettings = builder.Configuration.GetSection("ApiSettings").Get<ApiSettings>();
+
+            if (string.IsNullOrEmpty(apiSettings?.CorporateTravelAssistant.BaseUrl))
+            {
+                throw new InvalidOperationException("CorporateTravelAssistant API BaseUrl is not configured.");
+            }
 
             // Register HttpClient with CorporateTravelAssistantService and Polly
             builder.Services.AddHttpClient<ICorporateTravelAssistantService, CorporateTravelAssistantService>((serviceProvider, client) =>

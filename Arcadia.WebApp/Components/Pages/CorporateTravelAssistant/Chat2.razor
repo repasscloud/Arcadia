@@ -1,4 +1,4 @@
-@page "/chat"
+@page "/chat2"
 
 @using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant
 @using Arcadia.WebApp.Interfaces
@@ -50,8 +50,6 @@
     </div>
 </div>
 
-@inject IJSRuntime JS
-
 @code {
     private List<Message> Messages { get; set; } = new List<Message>
     {
@@ -78,7 +76,6 @@
         };
     }
 
-
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -100,77 +97,32 @@
         Messages.Add(loadingMessage);
         StateHasChanged(); // Ensure UI updates
 
-        // Simulate API response
-        string jsonPayload = "";
+        try
+        {
+            var apiResponse = await TravelAssistantService.SendMessageAsync(action);
+            // Replace loading message with actual response
+            loadingMessage.Content = apiResponse.Response;
+            loadingMessage.IsLoading = false;
 
-        // Define responses based on the action
-        if (action == "Create a new booking")
-        {
-            jsonPayload = @"
+            if (apiResponse.Buttons != null && apiResponse.Buttons.Any())
             {
-                ""response"": ""What would you like to book? Flights, Accommodation, or Car Hire?"",
-                ""buttons"": [
-                    { ""text"": ""Flights"", ""action"": ""Book Flights"" },
-                    { ""text"": ""Accommodation"", ""action"": ""Book Accommodation"" },
-                    { ""text"": ""Car Hire"", ""action"": ""Book Car Hire"" }
-                ]
-            }";
-        }
-        else if (action == "Manage an existing booking")
-        {
-            jsonPayload = @"
+                AvailableButtons = apiResponse.Buttons.Select(b => new ChatButton
+                {
+                    Text = b.Text,
+                    Action = b.Action
+                }).ToList();
+            }
+            else
             {
-                ""response"": ""Please provide your booking ID."",
-                ""buttons"": [
-                    { ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }
-                ]
-            }";
+                AvailableButtons.Clear();
+            }
         }
-        else if (action == "Speak to a human")
+        catch (Exception ex)
         {
-            jsonPayload = @"
-            {
-                ""response"": ""Connecting you to a human agent..."",
-                ""buttons"": []
-            }";
+            loadingMessage.Content = $"Oops! There was an error processing your request: {ex.Message}";
+            loadingMessage.IsLoading = false;
+            AvailableButtons.Clear();
         }
-        else if (action.StartsWith("Book "))
-        {
-            // Example: "Book Flights", "Book Accommodation", "Book Car Hire"
-            string bookingType = action.Replace("Book ", "");
-            jsonPayload = $@"
-            {{
-                ""response"": ""You selected to book {bookingType}. Please provide the necessary details."",
-                ""buttons"": [
-                    {{ ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }}
-                ]
-            }}";
-        }
-        else if (action == "Back to Main Menu")
-        {
-            jsonPayload = @"
-            {
-                ""response"": ""Welcome back! How can I assist you today?"",
-                ""buttons"": [
-                    { ""text"": ""Create a new booking"", ""action"": ""Create a new booking"" },
-                    { ""text"": ""Manage an existing booking"", ""action"": ""Manage an existing booking"" },
-                    { ""text"": ""Speak to a human"", ""action"": ""Speak to a human"" }
-                ]
-            }";
-        }
-        else
-        {
-            // Default response for unhandled actions
-            jsonPayload = @"
-            {
-                ""response"": ""I'm not sure how to help with that. Please choose an option below."",
-                ""buttons"": [
-                    { ""text"": ""Back to Main Menu"", ""action"": ""Back to Main Menu"" }
-                ]
-            }";
-        }
-
-        await SimulateApiResponse(jsonPayload, loadingMessage);
 
         IsLoading = false;
         await ScrollToBottom();
@@ -188,6 +140,8 @@
             // Add user message
             Messages.Add(new Message { Content = UserInput, IsSystem = false });
             AvailableButtons.Clear();
+            var input = UserInput;
+            UserInput = string.Empty;
             IsLoading = true;
 
             // Add "..." system message to indicate thinking
@@ -195,36 +149,10 @@
             Messages.Add(loadingMessage);
             StateHasChanged(); // Ensure UI updates
 
-            // Simulate API response with the user's input echoed back
-            string jsonPayload = @"
+            try
             {
-                ""response"": ""You said: '" + System.Text.Json.JsonSerializer.Serialize(UserInput) + @"'"",
-                ""buttons"": []
-            }";
-
-            await SimulateApiResponse(jsonPayload, loadingMessage);
-
-            UserInput = string.Empty;
-            IsLoading = false;
-            await ScrollToBottom();
-        }
-    }
-
-    private async Task SimulateApiResponse(string jsonPayload, Message loadingMessage)
-    {
-        // Simulate API processing time
-        await Task.Delay(2000); // 2-second delay
-
-        try
-        {
-            var apiResponse = System.Text.Json.JsonSerializer.Deserialize<ApiResponse>(jsonPayload, new System.Text.Json.JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-
-            if (apiResponse != null)
-            {
-                // Replace "..." with the actual response
+                var apiResponse = await TravelAssistantService.SendMessageAsync(input);
+                // Replace loading message with actual response
                 loadingMessage.Content = apiResponse.Response;
                 loadingMessage.IsLoading = false;
 
@@ -241,17 +169,16 @@
                     AvailableButtons.Clear();
                 }
             }
-        }
-        catch (System.Text.Json.JsonException)
-        {
-            // Replace "..." with an error message
-            loadingMessage.Content = "Oops! There was an error processing your request.";
-            loadingMessage.IsLoading = false;
-            AvailableButtons.Clear();
-        }
+            catch (Exception ex)
+            {
+                loadingMessage.Content = $"Oops! There was an error processing your request: {ex.Message}";
+                loadingMessage.IsLoading = false;
+                AvailableButtons.Clear();
+            }
 
-        // Trigger UI update
-        StateHasChanged();
+            IsLoading = false;
+            await ScrollToBottom();
+        }
     }
 
     private async Task ScrollToBottom()
