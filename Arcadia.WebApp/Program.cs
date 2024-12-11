@@ -3,47 +3,65 @@ using Arcadia.WebApp.Components;
 using Arcadia.WebApp.Interfaces;
 using Arcadia.WebApp.Services;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Logging;
+using Polly;
+using Polly.Extensions.Http;
 
-namespace Arcadia.WebApp;
-
-public class Program
+namespace Arcadia.WebApp
 {
-    public static void Main(string[] args)
+    public class Program
     {
-        var builder = WebApplication.CreateBuilder(args);
-
-        // Add Blazor.Bootstrap
-        builder.Services.AddBlazorBootstrap();
-        
-        // Add services to the container.
-        builder.Services.AddRazorComponents()
-            .AddInteractiveServerComponents();
-
-        // Configure HttpClientFactory with named clients
-        builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("ApiSettings"));
-
-        builder.Services.AddHttpClient<ICorporateTravelAssistantService, CorporateTravelAssistantService>((serviceProvider, client) =>
+        public static void Main(string[] args)
         {
-            var apiSettings = serviceProvider.GetRequiredService<IOptions<ApiSettings>>().Value.CorporateTravelAssistant;
-            client.BaseAddress = new Uri(apiSettings.BaseUrl);
-            client.DefaultRequestHeaders.Add("Accept", "application/json");
-            // Add other default headers or configurations if needed
-        });
+            var builder = WebApplication.CreateBuilder(args);
 
-        var app = builder.Build();
+            // Configure Logging
+            builder.Logging.ClearProviders();
+            builder.Logging.AddConsole();
 
-        // Configure the HTTP request pipeline.
-        if (!app.Environment.IsDevelopment())
-        {
-            app.UseExceptionHandler("/Error");
+            // Add Blazor.Bootstrap
+            builder.Services.AddBlazorBootstrap();
+            
+            // Add services to the container.
+            builder.Services.AddRazorComponents()
+                .AddInteractiveServerComponents();
+
+            // Configure ApiSettings
+            builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("ApiSettings"));
+
+            // Register HttpClient with CorporateTravelAssistantService and Polly
+            builder.Services.AddHttpClient<ICorporateTravelAssistantService, CorporateTravelAssistantService>((serviceProvider, client) =>
+            {
+                var apiSettings = serviceProvider.GetRequiredService<IOptions<ApiSettings>>().Value.CorporateTravelAssistant;
+                client.BaseAddress = new Uri(apiSettings.BaseUrl);
+                client.DefaultRequestHeaders.Add("Accept", "application/json");
+                // Add other default headers or configurations if needed
+            })
+            .AddPolicyHandler(GetRetryPolicy()); // Adding Polly for resilience
+
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseExceptionHandler("/Error");
+            }
+
+            app.UseStaticFiles();
+            app.UseAntiforgery();
+
+            app.MapRazorComponents<App>()
+                .AddInteractiveServerRenderMode();
+
+            app.Run();
         }
 
-        app.UseStaticFiles();
-        app.UseAntiforgery();
-
-        app.MapRazorComponents<App>()
-            .AddInteractiveServerRenderMode();
-
-        app.Run();
+        // Define Polly Retry Policy
+        static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+        {
+            return HttpPolicyExtensions
+                .HandleTransientHttpError()
+                .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+        }
     }
 }
