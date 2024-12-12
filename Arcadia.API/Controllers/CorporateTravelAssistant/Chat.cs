@@ -1,13 +1,14 @@
+using Arcadia.Shared.Config.API;
 using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Arcadia.API.CorporateTravelAssistant.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route($"api/{CorporateTravelAssistantApiEndpoints.SendMessage}")]
 public class ChatController : ControllerBase
 {
-    [HttpPost]
+    [HttpPost("")]
     public IActionResult GetResponse([FromBody] ChatRequest request)
     {
         var input = request.Input;
