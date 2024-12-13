@@ -1,5 +1,5 @@
 using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant;
-using Arcadia.Shared.Models.WebApp.SysLib;
+using Arcadia.Shared.Config.API;
 using Arcadia.WebApp.Interfaces;
 
 namespace Arcadia.WebApp.Services
@@ -24,7 +24,7 @@ namespace Arcadia.WebApp.Services
                 _logger.LogInformation("Sending message to Corporate Travel Assistant API: {Message}", message);
 
                 // Send POST request to the specific API endpoint
-                var response = await _httpClient.PostAsJsonAsync(ApiEndpoints.SendMessage, payload); // Specified endpoint is /chat/sendMessage
+                var response = await _httpClient.PostAsJsonAsync(CorporateTravelAssistantApiEndpoints.SendMessage, payload); // Specified endpoint is /chat/sendMessage
 
                 // Check if the response indicates success
                 if (response.IsSuccessStatusCode)

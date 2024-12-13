@@ -1,4 +1,5 @@
 using Arcadia.Shared.Config.API;
+using Arcadia.Shared.Interfaces;
 using Arcadia.Shared.Models.WebApp.CorporateTravelAssistant;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,11 +9,39 @@ namespace Arcadia.API.CorporateTravelAssistant.Controllers;
 [Route($"api/{CorporateTravelAssistantApiEndpoints.SendMessage}")]
 public class ChatController : ControllerBase
 {
+    private readonly IStringSearcher _stringSearcher;
+    private readonly IStringSearcher2 _stringSearcher2;
+
+    public ChatController(IStringSearcher stringSearcher, IStringSearcher2 stringSearcher2)
+    {
+        _stringSearcher = stringSearcher;
+        _stringSearcher2 = stringSearcher2;
+    }
+
     [HttpPost("")]
     public IActionResult GetResponse([FromBody] ChatRequest request)
     {
         var input = request.Input;
         ApiResponse response;
+
+        string[] newBookingWords = new string[] { "new", "flight" };
+        bool newBooking = _stringSearcher.Search(input, newBookingWords, true);
+
+        if (newBooking)
+        {
+            response = new ApiResponse
+            {
+                Response = "xxxxx? Flights, Accommodation, or Car Hire?",
+                Buttons = new List<ApiButton>
+                {
+                    new ApiButton { Text = "Flights", Action = "Book Flights" },
+                    new ApiButton { Text = "Accommodation", Action = "Book Accommodation" },
+                    new ApiButton { Text = "Car Hire", Action = "Book Car Hire" }
+                }
+            };
+
+            return Ok(response);
+        }
 
         if (input == "Create a new booking")
         {

@@ -1,7 +1,9 @@
 using Arcadia.API.Data;
 using Arcadia.API.Interfaces;
 using Arcadia.API.Services;
+using Arcadia.Shared.Interfaces;
 using Arcadia.Shared.Models.SysLib;
+using Arcadia.Shared.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -79,8 +81,17 @@ namespace Arcadia.API
             // 6. Add Email Sender Service
             builder.Services.AddTransient<IEmailSender, EmailSender>();
 
-            // 7. Register and validate JwtSettings
+            // 7. Register services
+            // Register the Validate JwtSettings service as a singleton
             builder.Services.AddSingleton<IValidateOptions<JwtSettings>, JwtSettingsValidation>();
+
+            // Register StringSearcher and StringSearcher2 as singletons
+            builder.Services.AddSingleton<IStringSearcher, StringSearcher>();
+            builder.Services.AddSingleton<IStringSearcher2, StringSearcher2>();
+
+            // Register CTADetectIntent and CTADetectIntent2 as singletons
+            builder.Services.AddSingleton<ICTADetectIntent, CTADetectIntent>();
+            builder.Services.AddSingleton<ICTADetectIntent2, CTADetectIntent2>();
 
             // 8. Configure JWT authentication
             var key = Encoding.UTF8.GetBytes(jwtSettings.Secret);
