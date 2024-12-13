@@ -1,0 +1,82 @@
+[
+    {
+        "Intent": "BookFlight",
+        "MustHaveWords": ["book", "flight"],
+        "SearchWords": ["reserve", "schedule", "ticket", "departure", "arrival"]
+    },
+    {
+        "Intent": "BookCarHire",
+        "MustHaveWords": ["book", "car", "hire"],
+        "SearchWords": ["rent", "vehicle", "automobile", "pickup", "dropoff"]
+    },
+    {
+        "Intent": "BookAccommodation",
+        "MustHaveWords": ["book", "hotel"],
+        "SearchWords": ["reserve", "room", "stay", "lodging", "check-in", "check-out"]
+    },
+    {
+        "Intent": "ModifyBooking",
+        "MustHaveWords": ["modify", "booking"],
+        "SearchWords": ["change", "update", "date", "time", "details", "information"]
+    },
+    {
+        "Intent": "CancelBooking",
+        "MustHaveWords": ["cancel", "booking"],
+        "SearchWords": ["reservation", "flight", "car", "hotel"]
+    },
+    {
+        "Intent": "CheckFlightStatus",
+        "MustHaveWords": ["flight", "status"],
+        "SearchWords": ["current", "time", "delay", "arrival", "departure"]
+    },
+    {
+        "Intent": "CheckBookingStatus",
+        "MustHaveWords": ["booking", "status"],
+        "SearchWords": ["details", "information", "current"]
+    },
+    {
+        "Intent": "GetAvailableOptions",
+        "MustHaveWords": ["available", "options"],
+        "SearchWords": ["flights", "cars", "hotels", "services"]
+    },
+    {
+        "Intent": "GetPricingInformation",
+        "MustHaveWords": ["pricing", "information"],
+        "SearchWords": ["cost", "price", "fee", "flights", "cars", "hotels", "services"]
+    },
+    {
+        "Intent": "GetTravelPolicies",
+        "MustHaveWords": ["travel", "policies"],
+        "SearchWords": ["rules", "guidelines", "company", "policy", "requirements"]
+    },
+    {
+        "Intent": "TechnicalSupport",
+        "MustHaveWords": ["technical", "support"],
+        "SearchWords": ["help", "issue", "problem", "error", "bug", "assistance"]
+    },
+    {
+        "Intent": "PaymentIssues",
+        "MustHaveWords": ["payment", "issues"],
+        "SearchWords": ["billing", "invoice", "charge", "refund", "credit", "debit", "transaction"]
+    },
+    {
+        "Intent": "Feedback",
+        "MustHaveWords": ["feedback"],
+        "SearchWords": ["suggestion", "comment", "review", "improvement", "experience", "service"]
+    },
+    {
+        "Intent": "AuthenticateUser",
+        "MustHaveWords": ["authenticate", "user"],
+        "SearchWords": ["login", "verify", "identity", "credentials", "password"]
+    },
+    {
+        "Intent": "UpdateUserProfile",
+        "MustHaveWords": ["update", "profile"],
+        "SearchWords": ["change", "modify", "information", "details", "contact"]
+    },
+    {
+        "Intent": "ViewBookingHistory",
+        "MustHaveWords": ["view", "booking", "history"],
+        "SearchWords": ["reservations", "past", "flights", "cars", "hotels"]
+    }
+]

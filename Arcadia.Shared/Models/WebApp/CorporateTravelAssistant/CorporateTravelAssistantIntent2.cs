@@ -1,4 +1,3 @@
-// CorporateTravelAssistantIntent2.cs
 namespace Arcadia.Shared.Models.WebApp.CorporateTravelAssistant
 {
     public enum CorporateTravelAssistantIntent2
@@ -6,6 +5,19 @@ namespace Arcadia.Shared.Models.WebApp.CorporateTravelAssistant
         BookFlight,
         BookCarHire,
         BookAccommodation,
+        ModifyBooking,
+        CancelBooking,
+        CheckFlightStatus,
+        CheckBookingStatus,
+        GetAvailableOptions,
+        GetPricingInformation,
+        GetTravelPolicies,
+        TechnicalSupport,
+        PaymentIssues,
+        Feedback,
+        AuthenticateUser,
+        UpdateUserProfile,
+        ViewBookingHistory,
         Unknown
     }
 }
