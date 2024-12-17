@@ -1,0 +1,391 @@
+Text,Label
+I want to book a flight to New York.,NewBooking_SelectFlight
+Can you help me book a flight to London?,NewBooking_SelectFlight
+I'd like to purchase a plane ticket to Tokyo.,NewBooking_SelectFlight
+Book me a flight to Paris.,NewBooking_SelectFlight
+I need to reserve a flight for my trip to Sydney.,NewBooking_SelectFlight
+Help me find a flight to Berlin.,NewBooking_SelectFlight
+I want to get a flight ticket to Dubai.,NewBooking_SelectFlight
+Looking to book a flight to Rome.,NewBooking_SelectFlight
+Can I book a flight to Madrid?,NewBooking_SelectFlight
+I'd like to arrange a flight to Amsterdam.,NewBooking_SelectFlight
+I need to rent a car for my trip.,NewBooking_SelectCarHire
+Can you help me hire a car?,NewBooking_SelectCarHire
+I'd like to book a rental car.,NewBooking_SelectCarHire
+Rent me a car for my vacation.,NewBooking_SelectCarHire
+I want to hire a vehicle for my stay.,NewBooking_SelectCarHire
+Looking to book a car hire service.,NewBooking_SelectCarHire
+Can I rent a car for my business trip?,NewBooking_SelectCarHire
+I'd like to arrange a car rental.,NewBooking_SelectCarHire
+Help me find a car to rent.,NewBooking_SelectCarHire
+"Book a rental car for me, please.",NewBooking_SelectCarHire
+I need to book a hotel in New York.,NewBooking_SelectHotel
+Can you help me reserve a hotel room?,NewBooking_SelectHotel
+I'd like to find a hotel for my stay.,NewBooking_SelectHotel
+Book me a hotel in London.,NewBooking_SelectHotel
+I want to reserve a hotel in Tokyo.,NewBooking_SelectHotel
+Looking to book a hotel room.,NewBooking_SelectHotel
+Can I book a hotel for my vacation?,NewBooking_SelectHotel
+I'd like to arrange a hotel booking.,NewBooking_SelectHotel
+Help me find a hotel to stay at.,NewBooking_SelectHotel
+"Book a hotel room for me, please.",NewBooking_SelectHotel
+I want to book a flight and hotel package.,NewBooking_SelectPackageDeal
+Can you help me with a flight and car hire bundle?,NewBooking_SelectPackageDeal
+I'd like to purchase a travel package deal.,NewBooking_SelectPackageDeal
+Book me a package that includes flight and hotel.,NewBooking_SelectPackageDeal
+I need to reserve a package deal for my trip.,NewBooking_SelectPackageDeal
+Looking to book a package with flight and car.,NewBooking_SelectPackageDeal
+Can I book a travel package with hotel included?,NewBooking_SelectPackageDeal
+I'd like to arrange a package deal for my vacation.,NewBooking_SelectPackageDeal
+Help me find a flight and hotel package.,NewBooking_SelectPackageDeal
+"Book a flight and hotel bundle for me, please.",NewBooking_SelectPackageDeal
+I want a one-way flight to New York.,NewBooking_FlightTypeSelection
+Can you find me a round-trip flight to London?,NewBooking_FlightTypeSelection
+I'd like to book a multi-city flight itinerary.,NewBooking_FlightTypeSelection
+Book a one-way flight for me.,NewBooking_FlightTypeSelection
+I need a round-trip ticket to Tokyo.,NewBooking_FlightTypeSelection
+Looking to arrange a multi-city flight.,NewBooking_FlightTypeSelection
+Can I get a one-way ticket to Berlin?,NewBooking_FlightTypeSelection
+I'd like a round-trip flight to Dubai.,NewBooking_FlightTypeSelection
+Help me book a multi-city flight.,NewBooking_FlightTypeSelection
+Book a round-trip flight for my trip.,NewBooking_FlightTypeSelection
+"I want to book flights to New York, Paris, and Rome.",NewBooking_SelectMultiCityFlight
+Can you help me arrange a multi-city itinerary?,NewBooking_SelectMultiCityFlight
+I'd like to purchase a multi-city flight package.,NewBooking_SelectMultiCityFlight
+Book me a multi-city trip with stops in London and Berlin.,NewBooking_SelectMultiCityFlight
+"I need to reserve flights to Tokyo, Sydney, and Melbourne.",NewBooking_SelectMultiCityFlight
+Looking to book a multi-city flight route.,NewBooking_SelectMultiCityFlight
+Can I arrange a multi-city flight from Dubai to Rome to Madrid?,NewBooking_SelectMultiCityFlight
+I'd like to set up a multi-city itinerary for my vacation.,NewBooking_SelectMultiCityFlight
+Help me book a multi-city flight plan.,NewBooking_SelectMultiCityFlight
+Book a multi-city flight with multiple destinations.,NewBooking_SelectMultiCityFlight
+I want to add travel insurance to my booking.,NewBooking_AddInsurance
+Can you include insurance with my flight?,NewBooking_AddInsurance
+I'd like to purchase travel insurance.,NewBooking_AddInsurance
+Add insurance to my hotel reservation.,NewBooking_AddInsurance
+Include insurance in my car hire booking.,NewBooking_AddInsurance
+Looking to add travel insurance to my package deal.,NewBooking_AddInsurance
+Can I get insurance for my trip?,NewBooking_AddInsurance
+I'd like to include insurance in my booking.,NewBooking_AddInsurance
+Help me add travel insurance to my reservation.,NewBooking_AddInsurance
+Add insurance coverage to my travel plans.,NewBooking_AddInsurance
+I have a special request for my flight.,NewBooking_SpecialRequests
+Can I request a window seat?,NewBooking_SpecialRequests
+I need a vegetarian meal on my flight.,NewBooking_SpecialRequests
+Please arrange for wheelchair assistance.,NewBooking_SpecialRequests
+I'd like to request extra legroom.,NewBooking_SpecialRequests
+Can you help with a special request for my hotel?,NewBooking_SpecialRequests
+I need a late check-out for my hotel booking.,NewBooking_SpecialRequests
+Please arrange a car seat for my rental car.,NewBooking_SpecialRequests
+I have a special request for my package deal.,NewBooking_SpecialRequests
+Can I request a specific room type?,NewBooking_SpecialRequests
+I want to add my loyalty program details.,NewBooking_LoyaltyProgram
+Can you include my frequent flyer number?,NewBooking_LoyaltyProgram
+I'd like to use my loyalty points for this booking.,NewBooking_LoyaltyProgram
+Add my loyalty program to my reservation.,NewBooking_LoyaltyProgram
+Include my membership ID in my booking.,NewBooking_LoyaltyProgram
+Looking to apply my loyalty points to my flight.,NewBooking_LoyaltyProgram
+Can I use my loyalty benefits for this hotel?,NewBooking_LoyaltyProgram
+I'd like to enter my loyalty program number.,NewBooking_LoyaltyProgram
+Help me add my loyalty details to my booking.,NewBooking_LoyaltyProgram
+Use my frequent traveler number for this reservation.,NewBooking_LoyaltyProgram
+I want to modify my existing booking.,ExistingBooking_ModifyBooking
+Can you help me change my reservation?,ExistingBooking_ModifyBooking
+I'd like to update my current booking details.,ExistingBooking_ModifyBooking
+"Modify my existing booking, please.",ExistingBooking_ModifyBooking
+I need to make changes to my reservation.,ExistingBooking_ModifyBooking
+Looking to adjust my current booking.,ExistingBooking_ModifyBooking
+Can I alter my existing reservation?,ExistingBooking_ModifyBooking
+I'd like to modify my booking details.,ExistingBooking_ModifyBooking
+Help me change my current booking.,ExistingBooking_ModifyBooking
+"Update my existing reservation, please.",ExistingBooking_ModifyBooking
+I want to cancel my booking.,ExistingBooking_CancelBooking
+Can you help me cancel my reservation?,ExistingBooking_CancelBooking
+I'd like to cancel my current booking.,ExistingBooking_CancelBooking
+"Cancel my existing reservation, please.",ExistingBooking_CancelBooking
+I need to terminate my booking.,ExistingBooking_CancelBooking
+Looking to cancel my reservation.,ExistingBooking_CancelBooking
+Can I cancel my current booking?,ExistingBooking_CancelBooking
+I'd like to annul my booking details.,ExistingBooking_CancelBooking
+Help me cancel my existing reservation.,ExistingBooking_CancelBooking
+"Terminate my booking, please.",ExistingBooking_CancelBooking
+I want to view my booking details.,ExistingBooking_ViewBookingDetails
+Can you show me my reservation information?,ExistingBooking_ViewBookingDetails
+I'd like to see the details of my current booking.,ExistingBooking_ViewBookingDetails
+"View my existing reservation, please.",ExistingBooking_ViewBookingDetails
+I need to check my booking details.,ExistingBooking_ViewBookingDetails
+Looking to view my reservation information.,ExistingBooking_ViewBookingDetails
+Can I see the details of my booking?,ExistingBooking_ViewBookingDetails
+I'd like to display my current booking information.,ExistingBooking_ViewBookingDetails
+Help me view my reservation details.,ExistingBooking_ViewBookingDetails
+Show me the details of my existing booking.,ExistingBooking_ViewBookingDetails
+I want to change my flight date.,ModifyBooking_ChangeFlightDate
+Can you help me reschedule my flight?,ModifyBooking_ChangeFlightDate
+I'd like to move my flight to a different date.,ModifyBooking_ChangeFlightDate
+Change my flight to next Friday.,ModifyBooking_ChangeFlightDate
+I need to update the date of my flight.,ModifyBooking_ChangeFlightDate
+Looking to reschedule my flight booking.,ModifyBooking_ChangeFlightDate
+Can I change the date of my current flight?,ModifyBooking_ChangeFlightDate
+I'd like to adjust my flight to an earlier date.,ModifyBooking_ChangeFlightDate
+Help me change my flight date.,ModifyBooking_ChangeFlightDate
+"Move my flight to a new date, please.",ModifyBooking_ChangeFlightDate
+I want to change my hotel check-in date.,ModifyBooking_ChangeHotelDates
+Can you help me update my hotel reservation dates?,ModifyBooking_ChangeHotelDates
+I'd like to adjust the dates of my hotel booking.,ModifyBooking_ChangeHotelDates
+Change my hotel booking to arrive on Monday.,ModifyBooking_ChangeHotelDates
+I need to update my hotel check-out date.,ModifyBooking_ChangeHotelDates
+Looking to modify the dates of my hotel reservation.,ModifyBooking_ChangeHotelDates
+Can I change the check-in date of my hotel booking?,ModifyBooking_ChangeHotelDates
+I'd like to reschedule my hotel stay to different dates.,ModifyBooking_ChangeHotelDates
+Help me update my hotel reservation dates.,ModifyBooking_ChangeHotelDates
+"Adjust my hotel booking dates, please.",ModifyBooking_ChangeHotelDates
+I want to extend my car hire period.,ModifyBooking_ChangeCarHireDetails
+Can you help me change my car rental dates?,ModifyBooking_ChangeCarHireDetails
+I'd like to update the details of my car hire.,ModifyBooking_ChangeCarHireDetails
+Extend my car rental until Sunday.,ModifyBooking_ChangeCarHireDetails
+I need to modify my car hire booking dates.,ModifyBooking_ChangeCarHireDetails
+Looking to change the duration of my car rental.,ModifyBooking_ChangeCarHireDetails
+Can I extend the dates of my car hire?,ModifyBooking_ChangeCarHireDetails
+I'd like to adjust my car rental period.,ModifyBooking_ChangeCarHireDetails
+Help me change the dates of my car hire.,ModifyBooking_ChangeCarHireDetails
+"Extend my car hire booking, please.",ModifyBooking_ChangeCarHireDetails
+How do I reset my password?,Help_Faq
+Can you provide me with FAQs?,Help_Faq
+I need help with my account.,Help_Faq
+Where can I find the frequently asked questions?,Help_Faq
+Help me understand how to use this service.,Help_Faq
+I have a question about your services.,Help_Faq
+Can you assist me with common issues?,Help_Faq
+I need information on how to navigate the site.,Help_Faq
+Where are the help resources?,Help_Faq
+Provide me with the FAQ section.,Help_Faq
+I want to speak to a live agent.,Help_LiveAgent
+Can I talk to a human representative?,Help_LiveAgent
+I need assistance from a live person.,Help_LiveAgent
+Connect me with a customer service agent.,Help_LiveAgent
+Please transfer me to a live agent.,Help_LiveAgent
+I'd like to chat with a human.,Help_LiveAgent
+Can you put me through to a live representative?,Help_LiveAgent
+I need to speak with customer support.,Help_LiveAgent
+Help me get in touch with a live agent.,Help_LiveAgent
+"Talk to a real person, please.",Help_LiveAgent
+I want to restart the booking process.,Help_Restart
+Can you start over?,Help_Restart
+"Restart my session, please.",Help_Restart
+I'd like to begin again.,Help_Restart
+Start the process from the beginning.,Help_Restart
+Reset the booking flow.,Help_Restart
+I need to restart my booking.,Help_Restart
+Begin the process anew.,Help_Restart
+Can you restart the conversation?,Help_Restart
+Start over with a new booking.,Help_Restart
+I want to restart the process.,Restart
+Can you start over for me?,Restart
+"Restart everything, please.",Restart
+I'd like to begin from the start.,Restart
+Start the conversation again.,Restart
+Reset the current process.,Restart
+Begin the session anew.,Restart
+Can you reset the booking flow?,Restart
+I need to start over.,Restart
+Let's restart the process.,Restart
+I need to talk to customer support.,LiveAgent
+Connect me to a live representative.,LiveAgent
+I want assistance from a live person.,LiveAgent
+Can I speak with a customer service agent?,LiveAgent
+Help me get in touch with support.,LiveAgent
+Please transfer me to a live representative.,LiveAgent
+I'd like to chat with a support agent.,LiveAgent
+Connect me with a human agent.,LiveAgent
+Talk to a customer service person.,LiveAgent
+Can you put me through to support?,LiveAgent
+I need to arrange a flight for my vacation.,NewBooking_SelectFlight
+Help me book a ticket to Chicago.,NewBooking_SelectFlight
+I'd like to find a flight to San Francisco.,NewBooking_SelectFlight
+Book a flight for me to Toronto.,NewBooking_SelectFlight
+Can you search for flights to Miami?,NewBooking_SelectFlight
+I want to schedule a flight to Boston.,NewBooking_SelectFlight
+Looking to book a plane ticket to Seattle.,NewBooking_SelectFlight
+Can I get a flight to Houston?,NewBooking_SelectFlight
+I'd like to reserve a seat on a flight to Atlanta.,NewBooking_SelectFlight
+Help me find a cheap flight to Orlando.,NewBooking_SelectFlight
+I need a car rental for my business trip.,NewBooking_SelectCarHire
+Can you help me find a car to hire?,NewBooking_SelectCarHire
+I'd like to rent a sedan for my stay.,NewBooking_SelectCarHire
+Book a SUV rental for my vacation.,NewBooking_SelectCarHire
+I want to hire a compact car.,NewBooking_SelectCarHire
+Looking to reserve a rental car.,NewBooking_SelectCarHire
+Can I get a car hire for next weekend?,NewBooking_SelectCarHire
+I'd like to arrange a car rental for two days.,NewBooking_SelectCarHire
+Help me find a luxury car to rent.,NewBooking_SelectCarHire
+Rent me a hybrid car for my trip.,NewBooking_SelectCarHire
+I need to reserve a suite at your hotel.,NewBooking_SelectHotel
+Can you help me find a hotel room?,NewBooking_SelectHotel
+I'd like to book a double room in your hotel.,NewBooking_SelectHotel
+Book a single room for my stay.,NewBooking_SelectHotel
+I want to reserve a deluxe room.,NewBooking_SelectHotel
+Looking to book a hotel near the airport.,NewBooking_SelectHotel
+Can I get a room with a sea view?,NewBooking_SelectHotel
+I'd like to arrange a hotel room for three nights.,NewBooking_SelectHotel
+Help me find a budget-friendly hotel.,NewBooking_SelectHotel
+Book a non-smoking room for me.,NewBooking_SelectHotel
+I need to update my flight time.,ExistingBooking_ModifyBooking
+Can you help me change my hotel room type?,ExistingBooking_ModifyBooking
+I'd like to modify my car rental pickup location.,ExistingBooking_ModifyBooking
+Change my flight from 10 AM to 2 PM.,ExistingBooking_ModifyBooking
+Update my hotel booking to include breakfast.,ExistingBooking_ModifyBooking
+Looking to change the drop-off location for my car hire.,ExistingBooking_ModifyBooking
+Can I reschedule my flight departure date?,ExistingBooking_ModifyBooking
+I'd like to adjust my hotel stay to four nights.,ExistingBooking_ModifyBooking
+Help me change my car rental to a larger vehicle.,ExistingBooking_ModifyBooking
+Modify my booking to include an additional flight leg.,ExistingBooking_ModifyBooking
+Please change my flight to next Monday.,ModifyBooking_ChangeFlightDate
+I need to move my flight to an earlier date.,ModifyBooking_ChangeFlightDate
+Can you reschedule my flight for tomorrow?,ModifyBooking_ChangeFlightDate
+I'd like to adjust my flight to leave on Friday.,ModifyBooking_ChangeFlightDate
+Help me change my departure date to next week.,ModifyBooking_ChangeFlightDate
+Update my flight to depart on Wednesday.,ModifyBooking_ChangeFlightDate
+Can I switch my flight date to the 15th?,ModifyBooking_ChangeFlightDate
+I want to move my flight to an evening slot.,ModifyBooking_ChangeFlightDate
+Change my flight to a later date.,ModifyBooking_ChangeFlightDate
+Reschedule my flight to the following Tuesday.,ModifyBooking_ChangeFlightDate
+Please update my hotel check-in to June 5th.,ModifyBooking_ChangeHotelDates
+I need to change my hotel stay to start on Friday.,ModifyBooking_ChangeHotelDates
+Can you adjust my hotel booking dates?,ModifyBooking_ChangeHotelDates
+I'd like to move my hotel check-out to July 10th.,ModifyBooking_ChangeHotelDates
+Help me change my hotel reservation dates.,ModifyBooking_ChangeHotelDates
+Update my hotel stay to include an extra night.,ModifyBooking_ChangeHotelDates
+Can I modify my hotel booking to arrive earlier?,ModifyBooking_ChangeHotelDates
+I want to adjust my hotel stay dates.,ModifyBooking_ChangeHotelDates
+Change my hotel reservation to start next Monday.,ModifyBooking_ChangeHotelDates
+Reschedule my hotel check-in date.,ModifyBooking_ChangeHotelDates
+Please extend my car hire until Friday.,ModifyBooking_ChangeCarHireDetails
+I need to change my car rental return date.,ModifyBooking_ChangeCarHireDetails
+Can you adjust my car hire period?,ModifyBooking_ChangeCarHireDetails
+I'd like to extend my car rental for two more days.,ModifyBooking_ChangeCarHireDetails
+Help me change the dates of my car hire.,ModifyBooking_ChangeCarHireDetails
+Update my car rental to include an extra day.,ModifyBooking_ChangeCarHireDetails
+Can I modify my car hire to return on Sunday?,ModifyBooking_ChangeCarHireDetails
+I want to extend my car rental period.,ModifyBooking_ChangeCarHireDetails
+Change my car hire dates to next week.,ModifyBooking_ChangeCarHireDetails
+Reschedule my car rental return date.,ModifyBooking_ChangeCarHireDetails
+I need to cancel my flight booking.,ExistingBooking_CancelBooking
+Can you help me cancel my hotel reservation?,ExistingBooking_CancelBooking
+I'd like to cancel my car rental.,ExistingBooking_CancelBooking
+"Cancel my entire booking, please.",ExistingBooking_CancelBooking
+I want to terminate my flight reservation.,ExistingBooking_CancelBooking
+Looking to cancel my hotel stay.,ExistingBooking_CancelBooking
+Can I cancel my car hire booking?,ExistingBooking_CancelBooking
+I'd like to annul my entire reservation.,ExistingBooking_CancelBooking
+Help me cancel my travel package.,ExistingBooking_CancelBooking
+Terminate my booking for all services.,ExistingBooking_CancelBooking
+Show me the details of my current booking.,ExistingBooking_ViewBookingDetails
+Can you display my reservation information?,ExistingBooking_ViewBookingDetails
+I'd like to see what's included in my booking.,ExistingBooking_ViewBookingDetails
+View all details of my reservation.,ExistingBooking_ViewBookingDetails
+I need to check my booking information.,ExistingBooking_ViewBookingDetails
+Looking to see my current reservation details.,ExistingBooking_ViewBookingDetails
+Can I view what's in my booking?,ExistingBooking_ViewBookingDetails
+I'd like to display my reservation details.,ExistingBooking_ViewBookingDetails
+Help me see the specifics of my booking.,ExistingBooking_ViewBookingDetails
+Show all information related to my current reservation.,ExistingBooking_ViewBookingDetails
+Where can I find the FAQ?,Help_Faq
+"I have questions, where do I go?",Help_Faq
+"Need help, where are the FAQs?",Help_Faq
+Tell me where the frequently asked questions are.,Help_Faq
+How can I access the FAQ section?,Help_Faq
+Where to look for common questions?,Help_Faq
+"I need answers, where are the FAQs located?",Help_Faq
+Direct me to the FAQ page.,Help_Faq
+Where are the help topics listed?,Help_Faq
+Show me where the FAQs are available.,Help_Faq
+I need to talk to support.,Help_LiveAgent
+Can you connect me to a live representative?,Help_LiveAgent
+I want to discuss my issue with a person.,Help_LiveAgent
+Help me reach a customer service agent.,Help_LiveAgent
+Please link me to a live support agent.,Help_LiveAgent
+I'd like to get help from a real person.,Help_LiveAgent
+Can I speak directly with a support agent?,Help_LiveAgent
+I need human assistance right now.,Help_LiveAgent
+Transfer me to a live support representative.,Help_LiveAgent
+Connect me with a human for assistance.,Help_LiveAgent
+I want to start the process again.,Help_Restart
+Can you restart my current session?,Help_Restart
+Restart the booking process for me.,Help_Restart
+I'd like to begin the booking from scratch.,Help_Restart
+Start over with a new booking.,Help_Restart
+Reset the current conversation.,Help_Restart
+I need to restart the entire process.,Help_Restart
+Let's begin the booking process anew.,Help_Restart
+Can you reset everything and start again?,Help_Restart
+I want to restart my booking session.,Help_Restart
+I need immediate assistance from a live agent.,LiveAgent
+Connect me to customer support right away.,LiveAgent
+I want to talk to a support representative.,LiveAgent
+Please link me to a live agent for help.,LiveAgent
+I'd like to speak with a customer service person.,LiveAgent
+Can you transfer me to a live agent?,LiveAgent
+I need to discuss my issue with a human agent.,LiveAgent
+Help me connect with a live support representative.,LiveAgent
+"Talk to a live customer service agent, please.",LiveAgent
+Can you get me in touch with a live support person?,LiveAgent
+I'd like to start over the entire process.,Restart
+Can you reset and begin the booking again?,Restart
+Restart the conversation from the beginning.,Restart
+"Begin the booking process again, please.",Restart
+I want to restart and make a new booking.,Restart
+Reset everything and start anew.,Restart
+Let's start the booking process from scratch.,Restart
+Can you restart the current session for me?,Restart
+I need to start the booking process over.,Restart
+Begin the process again with a new booking.,Restart
+How can I get support?,Help_Faq
+"I have a problem, can you help?",Help_LiveAgent
+I need to start a new reservation.,Restart
+Can you assist me with my booking?,Help_Faq
+I'd like to reset my current booking.,Restart
+Help me with my reservation details.,ExistingBooking_ViewBookingDetails
+I want to change something in my booking.,ExistingBooking_ModifyBooking
+"Cancel my reservation, please.",ExistingBooking_CancelBooking
+Show me my booking information.,ExistingBooking_ViewBookingDetails
+Talk to someone about my booking.,Help_LiveAgent
+"I want to book a package with flight, hotel, and car.",NewBooking_SelectPackageDeal
+Can you help me find a travel bundle?,NewBooking_SelectPackageDeal
+I'd like to purchase a complete travel package.,NewBooking_SelectPackageDeal
+"Book a flight, hotel, and car rental together.",NewBooking_SelectPackageDeal
+I need a package deal that includes flight and hotel.,NewBooking_SelectPackageDeal
+Looking to book an all-in-one travel package.,NewBooking_SelectPackageDeal
+Can I get a bundle with flight and car hire?,NewBooking_SelectPackageDeal
+I'd like to arrange a comprehensive travel package.,NewBooking_SelectPackageDeal
+Help me find a flight and hotel combined deal.,NewBooking_SelectPackageDeal
+Book a complete package with all travel services.,NewBooking_SelectPackageDeal
+I want to apply my loyalty points to this booking.,NewBooking_LoyaltyProgram
+Can you add my frequent flyer number to my reservation?,NewBooking_LoyaltyProgram
+I'd like to use my membership points for this booking.,NewBooking_LoyaltyProgram
+Add my loyalty ID to my current reservation.,NewBooking_LoyaltyProgram
+Include my frequent traveler number in my booking.,NewBooking_LoyaltyProgram
+Looking to apply my loyalty benefits to my reservation.,NewBooking_LoyaltyProgram
+Can I use my loyalty rewards for this booking?,NewBooking_LoyaltyProgram
+I'd like to enter my loyalty program details.,NewBooking_LoyaltyProgram
+Help me apply my loyalty points to my reservation.,NewBooking_LoyaltyProgram
+Use my membership number for this booking.,NewBooking_LoyaltyProgram
+I need a room with a balcony.,NewBooking_SpecialRequests
+Can you arrange a late check-out for me?,NewBooking_SpecialRequests
+I'd like to request a baby crib in my hotel room.,NewBooking_SpecialRequests
+Please ensure my flight has a meal included.,NewBooking_SpecialRequests
+Arrange for a ground transportation service at my hotel.,NewBooking_SpecialRequests
+Can you get me a seat next to the window?,NewBooking_SpecialRequests
+I need special accommodations for my car rental.,NewBooking_SpecialRequests
+Please add a sports equipment rack to my car hire.,NewBooking_SpecialRequests
+I'd like to request a quiet room in the hotel.,NewBooking_SpecialRequests
+Ensure my flight has wheelchair assistance.,NewBooking_SpecialRequests
+I want to include medical travel insurance.,NewBooking_AddInsurance
+Can you add trip cancellation insurance to my booking?,NewBooking_AddInsurance
+I'd like to purchase comprehensive travel insurance.,NewBooking_AddInsurance
+Add baggage insurance to my flight booking.,NewBooking_AddInsurance
+Include liability insurance in my car rental.,NewBooking_AddInsurance
+Looking to add personal accident insurance to my trip.,NewBooking_AddInsurance
+Can I get insurance coverage for my travel?,NewBooking_AddInsurance
+I'd like to include travel health insurance.,NewBooking_AddInsurance
+Help me add insurance to my reservation.,NewBooking_AddInsurance
+Add travel insurance to my complete package.,NewBooking_AddInsurance

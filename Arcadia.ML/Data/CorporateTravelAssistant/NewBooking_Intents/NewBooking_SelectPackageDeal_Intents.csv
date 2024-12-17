@@ -1,0 +1,11 @@
+"Text",Label
+"I want to book a flight and hotel package.",NewBooking_SelectPackageDeal
+"Can you help me with a flight and car hire bundle?",NewBooking_SelectPackageDeal
+"I'd like to purchase a travel package deal.",NewBooking_SelectPackageDeal
+"Book me a package that includes flight and hotel.",NewBooking_SelectPackageDeal
+"I need to reserve a package deal for my trip.",NewBooking_SelectPackageDeal
+"Looking to book a package with flight and car.",NewBooking_SelectPackageDeal
+"Can I book a travel package with hotel included?",NewBooking_SelectPackageDeal
+"I'd like to arrange a package deal for my vacation.",NewBooking_SelectPackageDeal
+"Help me find a flight and hotel package.",NewBooking_SelectPackageDeal
+"Book a flight and hotel bundle for me, please.",NewBooking_SelectPackageDeal

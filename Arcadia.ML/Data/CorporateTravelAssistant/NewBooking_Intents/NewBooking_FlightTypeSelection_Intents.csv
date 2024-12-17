@@ -1,0 +1,11 @@
+"Text",Label
+"I want a one-way flight to New York.",NewBooking_FlightTypeSelection
+"Can you find me a round-trip flight to London?",NewBooking_FlightTypeSelection
+"I'd like to book a multi-city flight itinerary.",NewBooking_FlightTypeSelection
+"Book a one-way flight for me.",NewBooking_FlightTypeSelection
+"I need a round-trip ticket to Tokyo.",NewBooking_FlightTypeSelection
+"Looking to arrange a multi-city flight.",NewBooking_FlightTypeSelection
+"Can I get a one-way ticket to Berlin?",NewBooking_FlightTypeSelection
+"I'd like a round-trip flight to Dubai.",NewBooking_FlightTypeSelection
+"Help me book a multi-city flight.",NewBooking_FlightTypeSelection
+"Book a round-trip flight for my trip.",NewBooking_FlightTypeSelection

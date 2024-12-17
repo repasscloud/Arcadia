@@ -1,0 +1,11 @@
+"Text",Label
+"I need to book a hotel in New York.",NewBooking_SelectHotel
+"Can you help me reserve a hotel room?",NewBooking_SelectHotel
+"I'd like to find a hotel for my stay.",NewBooking_SelectHotel
+"Book me a hotel in London.",NewBooking_SelectHotel
+"I want to reserve a hotel in Tokyo.",NewBooking_SelectHotel
+"Looking to book a hotel room.",NewBooking_SelectHotel
+"Can I book a hotel for my vacation?",NewBooking_SelectHotel
+"I'd like to arrange a hotel booking.",NewBooking_SelectHotel
+"Help me find a hotel to stay at.",NewBooking_SelectHotel
+"Book a hotel room for me, please.",NewBooking_SelectHotel

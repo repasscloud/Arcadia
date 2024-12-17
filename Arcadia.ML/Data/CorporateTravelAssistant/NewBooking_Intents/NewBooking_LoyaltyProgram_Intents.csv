@@ -1,0 +1,11 @@
+"Text",Label
+"I want to add my loyalty program details.",NewBooking_LoyaltyProgram
+"Can you include my frequent flyer number?",NewBooking_LoyaltyProgram
+"I'd like to use my loyalty points for this booking.",NewBooking_LoyaltyProgram
+"Add my loyalty program to my reservation.",NewBooking_LoyaltyProgram
+"Include my membership ID in my booking.",NewBooking_LoyaltyProgram
+"Looking to apply my loyalty points to my flight.",NewBooking_LoyaltyProgram
+"Can I use my loyalty benefits for this hotel?",NewBooking_LoyaltyProgram
+"I'd like to enter my loyalty program number.",NewBooking_LoyaltyProgram
+"Help me add my loyalty details to my booking.",NewBooking_LoyaltyProgram
+"Use my frequent traveler number for this reservation.",NewBooking_LoyaltyProgram
