@@ -6,7 +6,7 @@
     "ReadMultiLines": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "/home/danijeljw/Projects/Arcadia/Arcadia.ML/intent_data.csv",
+    "FilePath": "/Users/danijeljw/Developer/Arcadia/Arcadia.ML/intent_master_data.csv",
     "Delimiter": "\t",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -40,11 +40,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.608974358974359,
-        "RuntimeInSeconds": 9.873,
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.9659136021833926,
+        "RuntimeInSeconds": 0.552,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e6 * e10",
           "e0": {
             "InputColumnName": "Text",
             "OutputColumnName": "Text"
@@ -64,16 +64,9 @@
             "InputColumnName": "Label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e5": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
+          "e6": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.073049575,
             "LabelColumnName": "Label",
             "FeatureColumnName": "Features"
           }
@@ -82,11 +75,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.5833333333333333,
-        "RuntimeInSeconds": 1.717,
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.9659136021833926,
+        "RuntimeInSeconds": 0.607,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e6 * e10",
           "e0": {
             "InputColumnName": "Text",
             "OutputColumnName": "Text"
@@ -106,16 +99,9 @@
             "InputColumnName": "Label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e5": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 23,
-            "LearningRate": 0.7818843542970444,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 0.9999997766729865,
-            "MaximumBinCountPerFeature": 222,
-            "FeatureFraction": 0.9807293063323343,
-            "L1Regularization": 4.722550661786299E-10,
-            "L2Regularization": 0.9999997766729865,
+          "e6": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.053433016,
             "LabelColumnName": "Label",
             "FeatureColumnName": "Features"
           }
@@ -124,11 +110,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastForestOva",
-        "Score": 0.5384615384615384,
-        "RuntimeInSeconds": 1.442,
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.9659136021833926,
+        "RuntimeInSeconds": 0.587,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e6 * e10",
           "e0": {
             "InputColumnName": "Text",
             "OutputColumnName": "Text"
@@ -148,10 +134,9 @@
             "InputColumnName": "Label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e4": {
-            "NumberOfTrees": 6,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 0.9721176,
+          "e6": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.057898257,
             "LabelColumnName": "Label",
             "FeatureColumnName": "Features"
           }
@@ -160,11 +145,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.5256410256410257,
-        "RuntimeInSeconds": 1.903,
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.9659136021833926,
+        "RuntimeInSeconds": 0.601,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e6 * e10",
           "e0": {
             "InputColumnName": "Text",
             "OutputColumnName": "Text"
@@ -184,27 +169,22 @@
             "InputColumnName": "Label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e3": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.09999999999999998,
+          "e6": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.06128226,
             "LabelColumnName": "Label",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
+            "FeatureColumnName": "Features"
           }
         }
       },
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.5,
-        "RuntimeInSeconds": 1.296,
+        "TrainerName": "LbfgsLogisticRegressionOva",
+        "Score": 0.9659136021833926,
+        "RuntimeInSeconds": 0.569,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e6 * e10",
           "e0": {
             "InputColumnName": "Text",
             "OutputColumnName": "Text"
@@ -224,16 +204,11 @@
             "InputColumnName": "Label",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e3": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 18,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 208,
-            "FeatureFraction": 0.9954973904229115,
-            "LearningRate": 0.28546308342346033,
+          "e6": {
+            "L1Regularization": 0.03125,
+            "L2Regularization": 0.081496865,
             "LabelColumnName": "Label",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
+            "FeatureColumnName": "Features"
           }
         }
       }
@@ -253,7 +228,7 @@
     },
     "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7 + e8 + e9) * e10",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "/home/danijeljw/Projects/Arcadia/Arcadia.ML/IntentModelDev02/IntentModelDev02.mlnet"
+    "ModelFilePath": "/Users/danijeljw/Developer/Arcadia/Arcadia.ML/CTAIntentModel20241219/CTAIntentModel20241219.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,
@@ -261,7 +236,7 @@
     "Version": 2,
     "Subsampling": false,
     "Type": "ClassificationTrainingOption",
-    "TrainingTime": 60,
+    "TrainingTime": 600,
     "LabelColumn": "Label",
     "ValidationOption": {
       "Version": 0,

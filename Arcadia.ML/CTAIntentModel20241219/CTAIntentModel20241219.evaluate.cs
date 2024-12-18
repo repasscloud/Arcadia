@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CTAIntentModel_v2.ConsoleApp
+namespace CTAIntentModel20241219.ConsoleApp
 {
-    public partial class CTAIntentModel_v2
+    public partial class CTAIntentModel20241219
     {
         /// <summary>
         /// Permutation feature importance (PFI) is a technique to determine the importance 

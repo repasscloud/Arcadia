@@ -1,0 +1,49 @@
+services:
+  postgresql:
+    image: postgres:17.2-alpine3.20
+    container_name: arcadia_ctaintent_postgresql
+    networks:
+      - internal
+      - public
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    # expose:
+    #   - 5432
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "${POSTGRES_USER}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4:8.13.0
+    container_name: arcadia_ctaintent_pgadmin4
+    networks:
+      - internal
+      - public
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    depends_on:
+      - postgresql
+    ports:
+      - "8080:80"
+
+networks:
+  internal:
+    name: arcadia_ctaintent_internal_network
+    driver: bridge
+
+  public:
+    name: arcadia_ctaintent_public_network
+    driver: bridge
+
+volumes:
+  pg_data:
+    name: arcadia_ctaintent_pg_data

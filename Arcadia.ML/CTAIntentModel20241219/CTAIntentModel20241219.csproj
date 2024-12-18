@@ -5,10 +5,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="3.0.1" />
-    <PackageReference Include="Microsoft.ML.FastTree" Version="3.0.1" />
   </ItemGroup>
-  <ItemGroup Label="CTAIntentModel_v1">
-    <None Include="CTAIntentModel_v1.mlnet">
+  <ItemGroup Label="CTAIntentModel20241219">
+    <None Include="CTAIntentModel20241219.mlnet">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

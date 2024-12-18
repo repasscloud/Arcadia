@@ -1,0 +1,74 @@
+se include a child’s boo -> se include a child's boo
+
+NewBooking_
+ModifyBooking_
+ExistingBooking_
+Help_
+
+
+-- Create the IntentLabel table
+CREATE TABLE IntentLabel (
+    Id SERIAL PRIMARY KEY,
+    Intent TEXT UNIQUE NOT NULL,
+    Version INT NOT NULL
+);
+
+-- Create the ctaintents_20241219 table
+CREATE TABLE ctaintents_20241219 (
+    Id SERIAL PRIMARY KEY,
+    "Text" TEXT NOT NULL,
+    Label INT NOT NULL REFERENCES IntentLabel(Id)
+);
+
+-- Optional: If you want a unique constraint on the Text column
+-- to ensure each entry in ctaintents_20241219 has a unique Text value.
+CREATE UNIQUE INDEX ctaintents_20241219_text_ux ON ctaintents_20241219("Text");
+
+
+
+INSERT INTO IntentLabel (Intent, Version)
+VALUES
+    ('ExistingBooking_CancelBooking', 1),
+	('ExistingBooking_ModifyBooking', 1),
+	('ExistingBooking_ViewBookingData', 1),
+	('Help_Faq', 1),
+	('Help_LiveAgent', 1),
+	('Help_Restart', 1),
+	('ModifyBooking_ChangeCarHireData', 1),
+	('ModifyBooking_ChangeFlightDate', 1),
+	('ModifyBooking_ChangeHotelDates', 1),
+	('NewBooking_AddInsurance', 1),
+	('NewBooking_FlightTypeSelection', 1),
+	('NewBooking_LoyaltyProgram', 1),
+	('NewBooking_SelectCarHire', 1),
+	('NewBooking_SelectFlight', 1),
+	('NewBooking_SelectHotel', 1),
+	('NewBooking_SelectMultiCityFlight', 1),
+	('NewBooking_SelectPackageDeal', 1),
+	('NewBooking_SpecialRequests', 1);
+
+
+# PostgreSQL connection details
+$connectionString = "Host=localhost;Username=your_user;Password=your_password;Database=your_db"
+
+# Load Npgsql library (install with Install-Package Npgsql if not installed)
+Add-Type -Path "C:\path\to\Npgsql.dll"
+
+# Read the CSV file
+$csvData = Import-Csv -Path "C:\path\to\data.csv" -Delimiter "`t"
+
+# Insert data into the database
+$connection = New-Object Npgsql.NpgsqlConnection($connectionString)
+$connection.Open()
+
+foreach ($row in $csvData) {
+    $query = @"
+    INSERT INTO ctaintents_20241219 ("Text", Label)
+    VALUES ('$($row.Text.Replace("'", "''"))', (SELECT Id FROM IntentLabel WHERE Intent = '$($row.Label)'));
+"@
+    $command = $connection.CreateCommand()
+    $command.CommandText = $query
+    $command.ExecuteNonQuery()
+}
+
+$connection.Close()

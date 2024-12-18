@@ -5,12 +5,12 @@ using System;
 using System.Linq;
 using System.IO;
 using System.Collections.Generic;
-namespace CTAIntentModel_v2.ConsoleApp
+namespace CTAIntentModel20241219.ConsoleApp
 {
-    public partial class CTAIntentModel_v2
+    public partial class CTAIntentModel20241219
     {
         /// <summary>
-        /// model input class for CTAIntentModel_v2.
+        /// model input class for CTAIntentModel20241219.
         /// </summary>
         #region model input class
         public class ModelInput
@@ -28,7 +28,7 @@ namespace CTAIntentModel_v2.ConsoleApp
         #endregion
 
         /// <summary>
-        /// model output class for CTAIntentModel_v2.
+        /// model output class for CTAIntentModel20241219.
         /// </summary>
         #region model output class
         public class ModelOutput
@@ -52,7 +52,7 @@ namespace CTAIntentModel_v2.ConsoleApp
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("CTAIntentModel_v2.mlnet");
+        private static string MLNetModelPath = Path.GetFullPath("CTAIntentModel20241219.mlnet");
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

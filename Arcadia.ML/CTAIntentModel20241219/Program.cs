@@ -3,27 +3,27 @@
 
 using System;
 
-namespace CTAIntentModel_v2.ConsoleApp
+namespace CTAIntentModel20241219.ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
             // Create single instance of sample data from first line of dataset for model input
-            CTAIntentModel_v2.ModelInput sampleData = new CTAIntentModel_v2.ModelInput()
+            CTAIntentModel20241219.ModelInput sampleData = new CTAIntentModel20241219.ModelInput()
             {
-                Text = @"I want to book a flight to New York.",
+                Text = @"I have a special request for my flight.",
             };
 
 
             Console.WriteLine("Using model to make single prediction -- Comparing actual Label with predicted Label from sample data...\n\n");
 
 
-            Console.WriteLine($"Text: {@"I want to book a flight to New York."}");
-            Console.WriteLine($"Label: {@"NewBooking_SelectFlight"}");
+            Console.WriteLine($"Text: {@"I have a special request for my flight."}");
+            Console.WriteLine($"Label: {@"NewBooking_SpecialRequests"}");
 
 
-            var sortedScoresWithLabel = CTAIntentModel_v2.PredictAllLabels(sampleData);
+            var sortedScoresWithLabel = CTAIntentModel20241219.PredictAllLabels(sampleData);
             Console.WriteLine($"{"Class",-40}{"Score",-20}");
             Console.WriteLine($"{"-----",-40}{"-----",-20}");
 

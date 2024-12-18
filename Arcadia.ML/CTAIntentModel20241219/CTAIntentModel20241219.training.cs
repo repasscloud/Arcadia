@@ -8,14 +8,13 @@ using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
-using Microsoft.ML.Trainers.FastTree;
 
-namespace CTAIntentModel_v1.ConsoleApp
+namespace CTAIntentModel20241219.ConsoleApp
 {
-    public partial class CTAIntentModel_v1
+    public partial class CTAIntentModel20241219
     {
-        public const string RetrainFilePath =  @"/Users/danijeljw/Developer/Arcadia/Arcadia.ML/Data/CorporateTravelAssistant/NewBooking_Intents/NewBooking_Intents.csv";
-        public const char RetrainSeparatorChar = ',';
+        public const string RetrainFilePath =  @"/Users/danijeljw/Developer/Arcadia/Arcadia.ML/intent_master_data.csv";
+        public const char RetrainSeparatorChar = '	';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
 
@@ -93,7 +92,7 @@ namespace CTAIntentModel_v1.ConsoleApp
             var pipeline = mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"Text",outputColumnName:@"Text")      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"Text"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"Label",inputColumnName:@"Label",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastForest(new FastForestBinaryTrainer.Options(){NumberOfTrees=4,NumberOfLeaves=4,FeatureFraction=1F,LabelColumnName=@"Label",FeatureColumnName=@"Features"}),labelColumnName:@"Label"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator: mlContext.BinaryClassification.Trainers.LbfgsLogisticRegression(new LbfgsLogisticRegressionBinaryTrainer.Options(){L1Regularization=0.03125F,L2Regularization=0.073049575F,LabelColumnName=@"Label",FeatureColumnName=@"Features"}), labelColumnName:@"Label"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
