@@ -1,0 +1,22 @@
+name: ML.NET
+on:
+  push:
+    branches: [ "CorporateTravelCompanion-with-intents" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Install ML.NET CLI
+      run: dotnet tool install -g mlnet-linux-x64
+    - name: Create your app
+      run: mkdir myMLApp \
+           cd myMLApp \
+           mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
