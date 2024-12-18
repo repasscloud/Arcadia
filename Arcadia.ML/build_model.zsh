@@ -1,9 +1,16 @@
 #!/usr/bin/env zsh
 
+# mlnet classification \
+#     --dataset "intent_master_data.csv" \
+#     --label-col Label \
+#     --has-header true \
+#     --name IntentModelDev03 \
+#     --train-time 600
+
+
 mlnet classification \
-    --dataset "intent_data.csv" \
-    --label-col Label \
-    --has-header true \
-    --name IntentModelDev02 \
-    --train-time 60 \
-    --separator "\t"
+    --dataset "intent_master_data.csv" \
+    --label-col 2 \
+    --has-header false \
+    --name IntentModelDev03 \
+    --train-time 600

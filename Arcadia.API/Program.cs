@@ -61,6 +61,13 @@ namespace Arcadia.API
                 throw new InvalidOperationException("Database connection string is not configured in environment variables or appsettings.json.");
             }
 
+            builder.Configuration.AddJsonFile("Configurations/intents.json", optional: true, reloadOnChange: true);
+
+
+// Register logging
+builder.Services.AddLogging();
+
+
             // 4. Register the DbContext with PostgreSQL provider
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(connectionString)
@@ -92,6 +99,7 @@ namespace Arcadia.API
             // Register CTADetectIntent and CTADetectIntent2 as singletons
             builder.Services.AddSingleton<ICTADetectIntent, CTADetectIntent>();
             builder.Services.AddSingleton<ICTADetectIntent2, CTADetectIntent2>();
+            builder.Services.AddSingleton<ICTADetectIntent3, CTADetectIntent3>();   
 
             // 8. Configure JWT authentication
             var key = Encoding.UTF8.GetBytes(jwtSettings.Secret);

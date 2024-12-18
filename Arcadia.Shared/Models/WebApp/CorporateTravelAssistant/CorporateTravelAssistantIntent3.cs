@@ -1,7 +1,7 @@
 // CorporateTravelAssistantIntent2.cs
 namespace Arcadia.Shared.Models.WebApp.CorporateTravelAssistant
 {
-    public enum CorporateTravelAssistantIntent2
+    public enum CorporateTravelAssistantIntent3
     {
         BookFlight,
         BookCarHire,

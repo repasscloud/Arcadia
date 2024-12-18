@@ -1,0 +1,272 @@
+{
+  "Scenario": "Classification",
+  "DataSource": {
+    "Version": 3,
+    "EscapeCharacter": "\"",
+    "ReadMultiLines": false,
+    "AllowQuoting": false,
+    "Type": "TabularFile",
+    "FilePath": "/home/danijeljw/Projects/Arcadia/Arcadia.ML/intent_data.csv",
+    "Delimiter": "\t",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Text",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 5
+      },
+      {
+        "ColumnName": "Label",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 5
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.608974358974359,
+        "RuntimeInSeconds": 9.873,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "e0": {
+            "InputColumnName": "Text",
+            "OutputColumnName": "Text"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Text"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Label",
+            "InputColumnName": "Label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 254,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "Label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.5833333333333333,
+        "RuntimeInSeconds": 1.717,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
+          "e0": {
+            "InputColumnName": "Text",
+            "OutputColumnName": "Text"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Text"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Label",
+            "InputColumnName": "Label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 23,
+            "LearningRate": 0.7818843542970444,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 0.9999997766729865,
+            "MaximumBinCountPerFeature": 222,
+            "FeatureFraction": 0.9807293063323343,
+            "L1Regularization": 4.722550661786299E-10,
+            "L2Regularization": 0.9999997766729865,
+            "LabelColumnName": "Label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.5384615384615384,
+        "RuntimeInSeconds": 1.442,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
+          "e0": {
+            "InputColumnName": "Text",
+            "OutputColumnName": "Text"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Text"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Label",
+            "InputColumnName": "Label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e4": {
+            "NumberOfTrees": 6,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 0.9721176,
+            "LabelColumnName": "Label",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.5256410256410257,
+        "RuntimeInSeconds": 1.903,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "e0": {
+            "InputColumnName": "Text",
+            "OutputColumnName": "Text"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Text"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Label",
+            "InputColumnName": "Label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 254,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.09999999999999998,
+            "LabelColumnName": "Label",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.5,
+        "RuntimeInSeconds": 1.296,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
+          "e0": {
+            "InputColumnName": "Text",
+            "OutputColumnName": "Text"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Text"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Label",
+            "InputColumnName": "Label",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e3": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 18,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 208,
+            "FeatureFraction": 0.9954973904229115,
+            "LearningRate": 0.28546308342346033,
+            "LabelColumnName": "Label",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "FeaturizeText",
+      "e1": "Concatenate",
+      "e2": "MapValueToKey",
+      "e3": "FastTreeOva",
+      "e4": "FastForestOva",
+      "e5": "LightGbmMulti",
+      "e6": "LbfgsLogisticRegressionOva",
+      "e7": "LbfgsMaximumEntropyMulti",
+      "e8": "SdcaMaximumEntropyMulti",
+      "e9": "SdcaLogisticRegressionOva",
+      "e10": "MapKeyToValue"
+    },
+    "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7 + e8 + e9) * e10",
+    "MetricName": "MacroAccuracy",
+    "ModelFilePath": "/home/danijeljw/Projects/Arcadia/Arcadia.ML/IntentModelDev02/IntentModelDev02.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 5,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Type": "ClassificationTrainingOption",
+    "TrainingTime": 60,
+    "LabelColumn": "Label",
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "TrainValidateSplitValidationOption",
+      "SplitRatio": 0.1
+    }
+  }
+}
