@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir transformers torch nltk textattack pandas
 RUN python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
 
 # Copy the script into the container
-COPY main.py /app/main.py
+COPY ./main.py /app/main.py
 
 # Command to run the script
 CMD ["python", "main.py"]
