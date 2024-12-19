@@ -117,7 +117,7 @@
         "I want to get to Halifax by air.",
         "Find me an itinerary to Winnipeg.",
         "Arrange a flight to Ottawa, please.",
-        "I need to purchase a ticket to Quebec City.",
+        "I need to purchase a ticket to Quebec City."
     ],
     "NewBooking_SelectHotel": [
         "I need to book a hotel in New York.",
@@ -299,6 +299,6 @@
         "Can I find a hotel that's popular with corporate clients?",
         "I'd like a hotel room with flexible payment options.",
         "Help me find a hotel that allows early check-in.",
-        "Book a hotel that offers some complimentary services.",
+        "Book a hotel that offers some complimentary services."
     ]
 }
