@@ -23,6 +23,9 @@ for label, examples in labels_data.items():
     for example in examples:
         all_paraphrases.extend(generate_paraphrases(example, num_paraphrases=paraphrases_needed_per_example))
     
+    # Filter out empty paraphrases
+    all_paraphrases = [p for p in all_paraphrases if p.strip()]
+    
     # Apply synonym replacement and typos to paraphrases only
     augmented_examples = [synonym_replacement(ex) for ex in all_paraphrases]
     typo_examples = [introduce_typos(ex) for ex in all_paraphrases]

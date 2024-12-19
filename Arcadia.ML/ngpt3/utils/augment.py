@@ -4,6 +4,9 @@ from nltk.corpus import wordnet
 def synonym_replacement(sentence, num_replacements=2):
     """Replace words in the sentence with synonyms."""
     words = sentence.split()
+    if not words:  # Check if the list of words is empty
+        return sentence
+    
     new_sentence = words[:]
     for _ in range(num_replacements):
         word_idx = random.randint(0, len(words) - 1)
