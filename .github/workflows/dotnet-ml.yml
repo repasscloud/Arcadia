@@ -19,13 +19,30 @@ jobs:
     - name: Train your model
       run: mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
 
-  textattack:
-
+  generate_data:
     runs-on: ubuntu-latest
 
     steps:
 
-    - uses: actions/checkout@v4
-    
-    - name: Create docker image
-      run: docker build -t name -f Arcadia.ML/ngpt2/Dockerfile .
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Build the Docker image
+      - name: Build Docker image
+        run: docker build -t dataset-generator -f Arcadia.ML/ngpt3/Dockerfile .
+
+      # Step 3: Create an output directory for the dataset
+      - name: Create output directory
+        run: mkdir -p output
+
+      # Step 4: Run the Docker container with volume mount
+      - name: Run Docker container
+        run: docker run --rm -v ${{ github.workspace }}/output:/app/output dataset-generator
+
+      # Step 5: Upload the generated dataset as an artifact
+      - name: Upload dataset artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-dataset
+          path: output/dataset.txt
