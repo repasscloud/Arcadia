@@ -1,0 +1,85 @@
+import random
+from transformers import pipeline
+from nltk.corpus import wordnet
+import nltk
+import pandas as pd
+import os
+
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+# Load labels_data from the JSON file
+with open("/app/labels_data.json", "r") as f:
+    labels_data = json.load(f)
+
+
+# 1. Paraphrase Generation (using T5-small)
+paraphrase_pipeline = pipeline("text2text-generation", model="t5-small", device=-1)
+
+def generate_paraphrases(text, num_paraphrases=5):
+    # Generate multiple outputs using sampling (with temperature for diversity)
+    paraphrases = paraphrase_pipeline(
+        f"paraphrase: {text}",
+        max_length=50,
+        num_return_sequences=num_paraphrases,
+        do_sample=True,        # Enable sampling
+        top_k=50,              # Consider the top 50 tokens for sampling
+        top_p=0.95,            # Nucleus sampling (select tokens with cumulative probability 0.95)
+        temperature=0.7        # Control the randomness (lower = more deterministic, higher = more random)
+    )
+    return [p['generated_text'] for p in paraphrases]
+
+# 2. Synonym Replacement (using WordNet)
+def synonym_replacement(sentence, num_replacements=2):
+    words = sentence.split()
+    new_sentence = words[:]
+    for _ in range(num_replacements):
+        word_idx = random.randint(0, len(words) - 1)
+        synonyms = wordnet.synsets(words[word_idx])
+        if synonyms:
+            synonym = synonyms[0].lemmas()[0].name().replace('_', ' ')
+            new_sentence[word_idx] = synonym
+    return ' '.join(new_sentence)
+
+# 3. Introduce Spelling Errors
+def introduce_typos(sentence, num_typos=2):
+    words = sentence.split()
+    for _ in range(num_typos):
+        word_idx = random.randint(0, len(words) - 1)
+        if len(words[word_idx]) > 2:
+            char_idx = random.randint(0, len(words[word_idx]) - 1)
+            typo_word = list(words[word_idx])
+            typo_word[char_idx] = random.choice('abcdefghijklmnopqrstuvwxyz')
+            words[word_idx] = ''.join(typo_word)
+    return ' '.join(words)
+
+# Generate 1000 examples per label
+target_examples_per_label = 1000
+initial_examples_per_label = len(next(iter(labels_data.values())))
+paraphrases_needed_per_example = target_examples_per_label // initial_examples_per_label
+
+# Generate paraphrases for each label
+for label, examples in labels_data.items():
+    print(f"Generating paraphrases for label: {label}")
+    all_paraphrases = []
+    for example in examples:
+        all_paraphrases.extend(generate_paraphrases(example, num_paraphrases=paraphrases_needed_per_example))
+    
+    # Apply synonym replacement and typos to paraphrases only
+    augmented_examples = [synonym_replacement(ex) for ex in all_paraphrases]
+    typo_examples = [introduce_typos(ex) for ex in all_paraphrases]
+    
+    labels_data[label].extend(all_paraphrases + augmented_examples + typo_examples)
+    print(f"Completed generating data for label: {label}")
+
+# 4. Save the Dataset to TXT File
+def save_dataset(labels_data, filename="/app/output/dataset.txt"):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    with open(filename, "w") as f:
+        for label, examples in labels_data.items():
+            unique_examples = list(set(examples))
+            random.shuffle(unique_examples)
+            for example in unique_examples:
+                f.write(f"{label}\t{example}\n")
+
+save_dataset(labels_data)

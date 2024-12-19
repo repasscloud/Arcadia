@@ -21,8 +21,10 @@ RUN python -m venv /app/.venv \
 # Download NLTK data using the virtual environment
 RUN /app/.venv/bin/python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
 
-# Copy the script into the container
+# Copy the code and data into the container
 COPY ./main.py /app/main.py
+COPY ./utils /app/utils
+COPY ./labels_data.json /app/labels_data.json
 
 # Set the virtual environment's Python as the default
 ENV PATH="/app/.venv/bin:$PATH"
