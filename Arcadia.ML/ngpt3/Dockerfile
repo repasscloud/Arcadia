@@ -16,6 +16,7 @@ RUN pip install --upgrade pip
 
 # Create a virtual environment and install Python libraries
 RUN python -m venv /app/.venv \
+    && /app/.venv/bin/pip install --upgrade pip \
     && /app/.venv/bin/pip install --no-cache-dir transformers torch nltk textattack pandas
 
 # Download NLTK data using the virtual environment
