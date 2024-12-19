@@ -27,8 +27,18 @@ labels_data = {
 paraphrase_pipeline = pipeline("text2text-generation", model="t5-small", device=-1)
 
 def generate_paraphrases(text, num_paraphrases=5):
-    paraphrases = paraphrase_pipeline(f"paraphrase: {text}", max_length=50, num_return_sequences=num_paraphrases)
+    # Generate multiple outputs using sampling (with temperature for diversity)
+    paraphrases = paraphrase_pipeline(
+        f"paraphrase: {text}",
+        max_length=50,
+        num_return_sequences=num_paraphrases,
+        do_sample=True,        # Enable sampling
+        top_k=50,              # Consider the top 50 tokens for sampling
+        top_p=0.95,            # Nucleus sampling (select tokens with cumulative probability 0.95)
+        temperature=0.7        # Control the randomness (lower = more deterministic, higher = more random)
+    )
     return [p['generated_text'] for p in paraphrases]
+
 
 for label, examples in labels_data.items():
     all_paraphrases = []

@@ -15,7 +15,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python libraries
-RUN pip install --no-cache-dir transformers torch nltk textattack pandas
+RUN  pip install --upgrade pip \
+     && pip install --no-cache-dir transformers torch nltk textattack pandas
 
 # Download NLTK data
 RUN python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
