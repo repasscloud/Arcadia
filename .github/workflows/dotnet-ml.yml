@@ -18,3 +18,14 @@ jobs:
       run: dotnet tool install -g mlnet-linux-x64
     - name: Train your model
       run: mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --name SentimentModel  --train-time 60
+
+  textattack:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v4
+    
+    - name: Create docker image
+      run: docker build -t name -f Arcadia.ML/ngpt2/Dockerfile .
