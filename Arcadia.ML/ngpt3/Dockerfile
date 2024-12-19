@@ -5,24 +5,27 @@ FROM --platform=$BUILDPLATFORM python:3.9-slim AS base
 
 WORKDIR /app
 
-# This is the architecture you’re building for, which is passed in by the builder.
-ARG TARGETARCH
-
-# Install dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     libgomp1 \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python libraries
-RUN  pip install --upgrade pip \
-     && pip install --no-cache-dir transformers torch nltk textattack pandas
+# Upgrade pip
+RUN pip install --upgrade pip
 
-# Download NLTK data
-RUN python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
+# Create a virtual environment and install Python libraries
+RUN python -m venv /app/.venv \
+    && /app/.venv/bin/pip install --no-cache-dir transformers torch nltk textattack pandas
+
+# Download NLTK data using the virtual environment
+RUN /app/.venv/bin/python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
 
 # Copy the script into the container
 COPY ./main.py /app/main.py
+
+# Set the virtual environment's Python as the default
+ENV PATH="/app/.venv/bin:$PATH"
 
 # Command to run the script
 CMD ["python", "main.py"]
