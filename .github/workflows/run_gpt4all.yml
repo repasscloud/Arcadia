@@ -1,0 +1,24 @@
+name: Run GPT4All in Docker
+
+on:
+  push:
+    branches:
+      - main
+      - CorporateTravelCompanion-with-intents
+
+jobs:
+  run-gpt4all:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t gpt4all-cpu -f Arcadia.ML/ngpt4/Dockerfile Arcadia.ML/ngpt4/Dockerfile Arcadia.ML/ngpt4
+
+      - name: Download GPT4All model
+        run: wget -P ${{ github.workspace }}/Arcadia.ML/ngpt4 https://gpt4all.io/models/gguf/gpt4all-falcon-q4_0.gguf
+
+      - name: Run GPT4All script
+        run: docker run --rm -v ${{ github.workspace }}/Arcadia.ML/ngpt4:/app gpt4all-cpu run_gpt4all.py
