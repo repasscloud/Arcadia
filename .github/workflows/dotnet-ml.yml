@@ -1,7 +1,8 @@
 name: ML.NET
 on:
   push:
-    branches: [ "CorporateTravelCompanion-with-intents" ]
+    branches:
+      - main
 
 jobs:
   build:
