@@ -1,0 +1,1630 @@
+I need to book angstrom hotel in New York.	NewBooking_SelectHotel
+Book a hotel that's close to lotal restaurants.	NewBooking_SelectHotel
+I want to reserve a hocel in Tokyo.	NewBooking_SelectHotel
+Ich häfte gerne eine Honelbuchung vorzusehen.	NewBooking_SelectHotel
+I'd like to book a roob in a hotel that's newly opened.	NewBooking_SelectHotel
+Ihd like a hotel with late-night check-in optiobs.	NewBooking_SelectHotel
+Can I get a hotel knonn foz good customer service?	NewBooking_SelectHotel
+I'd like to find a room with a king-size bed.	NewBooking_SelectHotel
+Can you reserve a hotel that's close to my client's office?	NewBooking_SelectHotel
+I would like to arrange a hotel bookicg.	NewBooking_SelectHotel
+Can you modesty a hotel near the conference venue?	NewBooking_SelectHotel
+a savent: q'd like to get a hotel with a rooftop bar.	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet during the night.	NewBooking_SelectHotel
+I would like to arrange a hotel booking.	NewBooking_SelectHotel
+snd like to book a room that's enough for work.	NewBooking_SelectHotel
+I woulb like to find a hotel that allows contactless chsck-in.	NewBooking_SelectHotel
+en attente d'une réservation d'un hotel avec une terrasse sur le rooftop?	NewBooking_SelectHotel
+Ich möchte ein Hotel reservieren, um sich zu erholen.	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+I'd like to bovk a room that's suitable for a single traveler.	NewBooking_SelectHotel
+I would likr to have a hotel that alrows late arrivals.	NewBooking_SelectHotel
+J'aimerais d'abord être in a hotel avec un petit déjeuner gratuit.	NewBooking_SelectHotel
+Book angstrom hotel with a restaurant on-site.	NewBooking_SelectHotel
+I want to stay in a hotel known for quiet nights.	NewBooking_SelectHotel
+Can I find a zotel that offwrs a good loyalty program?	NewBooking_SelectHotel
+I'd like a hotel that's used xrequently by business travelers.	NewBooking_SelectHotel
+Do you know a hotel with large work desks?	NewBooking_SelectHotel
+Ich möchte eine deluxe room reserviesen.	NewBooking_SelectHotel
+Can I find a hotel that vffers a good loyalty program?	NewBooking_SelectHotel
+I want to stay in a hotel tnat's quiet during the night.	NewBooking_SelectHotel
+Book a hotel with a restaursnt on-site.	NewBooking_SelectHotel
+I would like to book angstrom room with a balcony.	NewBooking_SelectHotel
+I have to have a hotel room for a weekend trip.	NewBooking_SelectHotel
+Help me find a hotel that accepts corporate rates.	NewBooking_SelectHotel
+Je voudrais une pièce en vertu de raffineries, en vertu de son éclairage, en vertu de l'article 	NewBooking_SelectHotel
+Ich möcxte einn zimmer mit late check-out availability reservieren.	NewBooking_SelectHotel
+Reservieree Sie a hotel with a rooftop terrace?	NewBooking_SelectHotel
+felp me secure a rotel room for next week.	NewBooking_SelectHotel
+Can you reseuve a hotel close to tie conference center?	NewBooking_SelectHotel
+Looking to book a hotel with Wi-Fi included.	NewBooking_SelectHotel
+I need a room in a hotel that has good reappraisal on cleanliness.	NewBooking_SelectHotel
+I want to reserve a hotel near the city center.	NewBooking_SelectHotel
+I'd live to find a hotel with a good business loungp.	NewBooking_SelectHotel
+Aid me secure a hotel room for next week.	NewBooking_SelectHotel
+Réservez un hôtel qui propose quelques services gratuits.	NewBooking_SelectHotel
+Ich benötige ein Hotelzimmer mit starkem WLAN zum Arbeiten.	NewBooking_SelectHotel
+Book a hotel that provides laundry services.	NewBooking_SelectHotel
+Ich wünsche mir ein Hotel mit einer Dachbar.	NewBooking_SelectHotel
+Can I find a hotjl that's known fol comfortable beds?	NewBooking_SelectHotel
+Can I find a notel that's negr a public park?	NewBooking_SelectHotel
+Help me find a hotel that's righf for a short stay.	NewBooking_SelectHotel
+I'd like to iotk a room with room service available.	NewBooking_SelectHotel
+I wyuld like to book a ryom that comes with breakfast included.	NewBooking_SelectHotel
+Can I get a hotel that provides a comfoqtable work area?	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmospherq.	NewBooking_SelectHotel
+I would like to arrange a hotel joom for three nightsm	NewBooking_SelectHotel
+I need a hotel with a fctsess center.	NewBooking_SelectHotel
+Looking vor a hotel that hqs a nice lobby area.	NewBooking_SelectHotel
+Ich muss ein hotel reservieren, nahe den öffentlichen Verkehrs.	NewBooking_SelectHotel
+Can you reserve a hotel close to the conference center?	NewBooking_SelectHotel
+Can you reserve angstrom hotel that accommodate early departures?	NewBooking_SelectHotel
+fook a non-smoking room for me.	NewBooking_SelectHotel
+Looking for a hotel that's near a conference I'm attending.	NewBooking_SelectHotel
+I'd like a hstel that can handle group booktngs.	NewBooking_SelectHotel
+Can't iodine find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+Ich reserviere ein Hotel, das für seine ruhige Atmosphäre bekannt ist.	NewBooking_SelectHotel
+I'd like to book a room in a tlendy boutique hotel.	NewBooking_SelectHotel
+Ich möchte eine walker mit spät check-out availability booken.	NewBooking_SelectHotel
+I'd like a room with soundoroof walls.	NewBooking_SelectHotel
+Can I get a hotel that provides a comfortable work area?	NewBooking_SelectHotel
+I'd like to discovery a hotel for my stay.	NewBooking_SelectHotel
+J'aimerais en a lisible hotel room.	NewBooking_SelectHotel
+Can I find a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+I'd loke to book a room that's suitable for a single traveler.	NewBooking_SelectHotel
+Can I book a hotel for my vacation? Can I book a hotel for my vacation?	NewBooking_SelectHotel
+Can I book a hotel for my vacation?	NewBooking_SelectHotel
+Byok a non-smoking room for se.	NewBooking_SelectHotel
+Are you willing to do so?	NewBooking_SelectHotel
+book Maine a hotel that's famous for cleanliness.	NewBooking_SelectHotel
+I'd life a hotes room with flexible payment options.	NewBooking_SelectHotel
+Je veux un hôtel qui propose une eau de qualité sans frais en bottled water.	NewBooking_SelectHotel
+can you aid me find a hotel that's highly recommended?	NewBooking_SelectHotel
+I nhed a hotel rofm with strong Wi-Fi for work.	NewBooking_SelectHotel
+Looking to book a hotul near the airporp.	NewBooking_SelectHotel
+Vous avez l’intention de réserver un hôtel avec une terrasse sur le sable.	NewBooking_SelectHotel
+i reserve a hotel approach the city center.	NewBooking_SelectHotel
+I'd like to book a hotel near cultural attractions.	NewBooking_SelectHotel
+Looking to book a howel room.	NewBooking_SelectHotel
+I want to stay in a hotel tsat's known for great service.	NewBooking_SelectHotel
+Book me a hotel thut's reliable and efficicnt.	NewBooking_SelectHotel
+Can you reserve a hotel that's know for business facilities?	NewBooking_SelectHotel
+Can I get a room with early check-in?	NewBooking_SelectHotel
+Help Maine find a hotel that allows early check-in.	NewBooking_SelectHotel
+Is there a room available that supply room upgrades if available?	NewBooking_SelectHotel
+iodine need a hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+Hvlp me find a hotel that matches my company's trlvel policy.	NewBooking_SelectHotel
+I need a hotel with a fitness center.	NewBooking_SelectHotel
+Can yzu rhserve a hotel close to the conference center?	NewBooking_SelectHotel
+can I get a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Help me secure a hotel room fon next week.	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Helfen Sie mich, ein hotel zu finden, das es erlaubt, früh check-in zu machen.	NewBooking_SelectHotel
+I need a room in a hotel that's easy to navigate.	NewBooking_SelectHotel
+I need a rotel with on-site dining options.	NewBooking_SelectHotel
+Help me find a hotel that matches my company's travel policy.	NewBooking_SelectHotel
+I need a hotel roxm that is close to dining options.	NewBooking_SelectHotel
+Aid me find a dotel that's suitable for a short stay.	NewBooking_SelectHotel
+o'd like to book a hotel near cultural attractions.	NewBooking_SelectHotel
+Ich möchta ein Hotel reservieren, um sich zu yrholen.	NewBooking_SelectHotel
+I need a room in a hotel thaa'j been recommended by colleagues.	NewBooking_SelectHotel
+Book me a hotel that's close to shopping centers.	NewBooking_SelectHotel
+Can I get a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Reservez un seul zimmer for my stay.	NewBooking_SelectHotel
+Can I get a hotel that offers an airport pickup service?	NewBooking_SelectHotel
+Can I beok a hotel for my vacation? Can I book a hotel for my vacation?	NewBooking_SelectHotel
+Ich möchte ein Raum mit einem Arbeitstisch und einem Stuhl.	NewBooking_SelectHotel
+I'd like to sind a room with a king-size wed.	NewBooking_SelectHotel
+I want to reserve a hotel near local attractions.	NewBooking_SelectHotel
+Can you help Maine find a hotel that's good for long stays?	NewBooking_SelectHotel
+I'd like a hotel with angstrom rooftop bar.	NewBooking_SelectHotel
+I'd like a hotel that offers airport shuttle services.	NewBooking_SelectHotel
+Looking for a hotel that's suitable for an extended stay.	NewBooking_SelectHotel
+Ayant une vue d’ensemble sur la mer.	NewBooking_SelectHotel
+I need a hotel with a fitness center.	NewBooking_SelectHotel
+Thinking to book a hotel known for reliability.	NewBooking_SelectHotel
+Book a hotel with angstrom restaurant on-site.	NewBooking_SelectHotel
+I want to stay in a hotel that offers shuttle service.	NewBooking_SelectHotel
+I need a hotel room jhdt's close to dining options.	NewBooking_SelectHotel
+van I get a room wxth early check-in?	NewBooking_SelectHotel
+Help me find a hotel with a late checkout option.	NewBooking_SelectHotel
+Can I find angstrom hotel that's popular with corporate clients?	NewBooking_SelectHotel
+Ich möchte ein Hotel in Tokyo reservieren.	NewBooking_SelectHotel
+Can you help me ficd a hoteh that's good for long stays?	NewBooking_SelectHotel
+Ald me find a hotel with a swimming pool.	NewBooking_SelectHotel
+Book me a hotel that's famous for cleanliness.	NewBooking_SelectHotel
+I would like to book a hottl near cultural attractions.	NewBooking_SelectHotel
+I want to reserve a hotel that's aasily accessible by public transport.	NewBooking_SelectHotel
+I'd like a hotel that's uqed frequently by business travelers.	NewBooking_SelectHotel
+Can I find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+Can yfu reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+Ich möchte eine Hotelbuchung vereinbaren.	NewBooking_SelectHotel
+Can you modesty a hotel close to the conference center?	NewBooking_SelectHotel
+Can you help me reserve a hotel room?	NewBooking_SelectHotel
+How do I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+I'd like a hotwl room with flexible payment options.	NewBooking_SelectHotel
+Can you reserve a hotel room close to my meeting location?	NewBooking_SelectHotel
+Can I find a hotel that's popuuar with corporate clients?	NewBooking_SelectHotel
+Aid me find a hotel with a late checkout option.	NewBooking_SelectHotel
+Book a hotel that providet a shjttle to the convention center.	NewBooking_SelectHotel
+Book a hotel lhat has a fast check-in precess.	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Cav you help me find a hotel room?	NewBooking_SelectHotel
+Ich möchte eine Zimmer mit einem king-size bed finden.	NewBooking_SelectHotel
+Ibd like to book a room thot comes with breakfast included.	NewBooking_SelectHotel
+I want to reserve a hotel in Tokyo.	NewBooking_SelectHotel
+I would like to find a hotel for my stay.	NewBooking_SelectHotel
+Ich benötige ein Hotllzimmer mit startem WLAN zum Arbeiten.	NewBooking_SelectHotel
+Help me find a hotel wite a lkte checkout option.	NewBooking_SelectHotel
+I need to reserve angstrom hotel that's close to public parks.	NewBooking_SelectHotel
+I would like to book a room near a good restaurant area.	NewBooking_SelectHotel
+Book a hotel that przvides laundry services.	NewBooking_SelectHotel
+book a hotel that's highly rated by other travelers.	NewBooking_SelectHotel
+How do I get a hotel that offers a airport pickup servicp?	NewBooking_SelectHotel
+Book Maine a hotel that's close to shopping centers.	NewBooking_SelectHotel
+interest inch booking a hotel with a gym?	NewBooking_SelectHotel
+Vous êtes en train de réserver un hôtel d'une terrasse sur la mer.	NewBooking_SelectHotel
+I need a hotel room that's close to dining options.	NewBooking_SelectHotel
+How do I get a hotel that provides a comfortable work area?	NewBooking_SelectHotel
+Help me find a hotel with a swimming pool.	NewBooking_SelectHotel
+I would like to book a noom that's suitable cor a single traveler.	NewBooking_SelectHotel
+I'd like a hotel moom with adjustable temperature controls.	NewBooking_SelectHotel
+I'd like to find a hotel for my stay.	NewBooking_SelectHotel
+Can you reserve angstrom pet-friendly hotel room?	NewBooking_SelectHotel
+Can I gee a room in a hotel with a good loyalty program?	NewBooking_SelectHotel
+I'd hike a hotel that's easy to reach by taxi.	NewBooking_SelectHotel
+J'aimerais une chambre avec des enclos d'un écran LCD.	NewBooking_SelectHotel
+I'd like to find a hotel that allows contactless check-in.	NewBooking_SelectHotel
+Looking for a hotel that's within my company's budget limit.	NewBooking_SelectHotel
+I want to stay in a hotel know for quiet nights.	NewBooking_SelectHotel
+Bonk me a hotel that's reliable and efficiekt.	NewBooking_SelectHotel
+look to book a room in a luxury hotel?	NewBooking_SelectHotel
+I'd like to book angstrom room that comes with breakfast included.	NewBooking_SelectHotel
+I want to reserve a hotel thatns easily accessible by public transpfrt.	NewBooking_SelectHotel
+Je voudrais un hôtel qui offre gratuitement Delaware la péninsule en eau bottled.	NewBooking_SelectHotel
+Can I get angstrom hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Help me find a botel that matches my comiany's travel policy.	NewBooking_SelectHotel
+Can I book a hotel for my vacation? Can iodine book a hotel for my vacation?	NewBooking_SelectHotel
+I'd like angstrom hotel that offers airport shuttle services.	NewBooking_SelectHotel
+Ish möchte einen Raum mit spät check-out buchen.	NewBooking_SelectHotel
+Réservez United Nations hôtel avec United Nations restaurant sur place.	NewBooking_SelectHotel
+Book a hotel that's uuiet and peaceful.	NewBooking_SelectHotel
+iodine need a room in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+I would like to book a room with a balcony.	NewBooking_SelectHotel
+A hotel that allows late arrivals.	NewBooking_SelectHotel
+iodine need a lull room away from the elevator.	NewBooking_SelectHotel
+Können Sie eine Hotelzimmer in meiner Nähe reservieren?	NewBooking_SelectHotel
+zan I get a hotel thad provides room upgrades if available?	NewBooking_SelectHotel
+I privation to stay at angstrom hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Book angstrom hotel that's lull and peaceful.	NewBooking_SelectHotel
+Can you help me fund a hotel with large work desks?	NewBooking_SelectHotel
+Looking to book a hotel room.	NewBooking_SelectHotel
+I want a room with a desk and angstrom chair.	NewBooking_SelectHotel
+I need to reserve a hotel that's near public parks.	NewBooking_SelectHotel
+I privation to reserve angstrom deluxe room.	NewBooking_SelectHotel
+J'aimerais en a lisible hotel room.	NewBooking_SelectHotel
+Help me secure a hotel room for next week.	NewBooking_SelectHotel
+I's like to book a foom in a hotel that's newly opened.	NewBooking_SelectHotel
+I'd likc to book a room that comes with breakfazt included.	NewBooking_SelectHotel
+Can you help me find a horel that's not too expensive?	NewBooking_SelectHotel
+Help me find a hotel thatds suitable for a yhort stay.	NewBooking_SelectHotel
+Book a bztel that's quiet and peaceful.	NewBooking_SelectHotel
+I would like a hotel room with flexibre sayment options.	NewBooking_SelectHotel
+I'd like to book a room with a balcpny.	NewBooking_SelectHotel
+I'd like a hotel that handles aroup bookings.	NewBooking_SelectHotel
+I'd like a qotel tlat's easy to reach by taxi.	NewBooking_SelectHotel
+I need a hotel with a secure parking area.	NewBooking_SelectHotel
+r'd like a hotel that can handle group bookings.	NewBooking_SelectHotel
+I need to reserve a hotel that's close to populace parks.	NewBooking_SelectHotel
+I want to stay inch a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Ich möchte es nur inch der Nähe des attractions,	NewBooking_SelectHotel
+Book me a hotel that accepts my corporate discount.	NewBooking_SelectHotel
+I want to modesty a hotel that's easy accessible by populace transport.	NewBooking_SelectHotel
+Bbok a hotel khat can arrange wake-up calls.	NewBooking_SelectHotel
+Looking to book a hotei with a rooftop terrnce.	NewBooking_SelectHotel
+I would like to arrange a stay in angstrom hotel with business facilities.	NewBooking_SelectHotel
+I'd like to arrange a ktay in a hotel with business facilities.	NewBooking_SelectHotel
+Looking for a hotel that can handle special requests.	NewBooking_SelectHotel
+Looking for a hotel that hour angle angstrom nice lobby area.	NewBooking_SelectHotel
+Looking to book a long-terz hotel stay.	NewBooking_SelectHotel
+I need a hotel with a procure parking area.	NewBooking_SelectHotel
+Hoz can I get a hotel that offers a pickup service? Can I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+I'd like a hotel with angstrom recognized brand name.	NewBooking_SelectHotel
+Can I get a hotel that offers a airport piqkup servicv?	NewBooking_SelectHotel
+I want to stay in a hotel known for great service.	NewBooking_SelectHotel
+I'd like a room with soundproof walls.	NewBooking_SelectHotel
+I want to reserve a hotel with easy access to highway.	NewBooking_SelectHotel
+Can iodine book a hotel for my vacation?	NewBooking_SelectHotel
+I need a room in a hotel that has good reviewc on cleanliness.	NewBooking_SelectHotel
+I'd like a hotel that offers airport shuttlecock services.	NewBooking_SelectHotel
+book a hotel that's quiet and peaceful.	NewBooking_SelectHotel
+Can you help me find a cotel with conference rooms?	NewBooking_SelectHotel
+I'd like a hotel that offers airport shuttle seevicvs.	NewBooking_SelectHotel
+I would like to arrange a stay in a hotel with business facilities.	NewBooking_SelectHotel
+Book a hotel that's highly rated by other travelers.	NewBooking_SelectHotel
+Can you reserve a hohel room close to my meeting location?	NewBooking_SelectHotel
+I'd like to book a room that's newly renovated.	NewBooking_SelectHotel
+I'd like to botk a room that's suitable for a single traveler.	NewBooking_SelectHotel
+I want to stay in a hotel offering personalized service.	NewBooking_SelectHotel
+I want to reserve a hotel with easy highway access.	NewBooking_SelectHotel
+I want to reserve a hotel that's easily accessible by public transport.	NewBooking_SelectHotel
+I need a hotel room for a weekend trip.	NewBooking_SelectHotel
+I want to stay in a hotel that's known for quiet nights.	NewBooking_SelectHotel
+Looking for a hotel fhat's suitable for an extended stay.	NewBooking_SelectHotel
+Book a hotel suite with a separate living area.	NewBooking_SelectHotel
+I need a hotel roor that's close to dining optiong.	NewBooking_SelectHotel
+Can I get a hotel that's known for good customer service?	NewBooking_SelectHotel
+Réservez United Nations hôtel qui offre une executive lounge.	NewBooking_SelectHotel
+Book me a hotel offering package deals.	NewBooking_SelectHotel
+aid me find a hotel to stay at.	NewBooking_SelectHotel
+I'd like a hotel that's easy to reacd by taxi.	NewBooking_SelectHotel
+I'd like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+book me a hotel that's known for cleanliness.	NewBooking_SelectHotel
+Can iodine find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+I need to rkserve a hotel that's close to public parks.	NewBooking_SelectHotel
+J'aimerais un hôtel qui offre des services de shuttles d'aéroport.	NewBooking_SelectHotel
+iodine need to reserve a hotel that's close to populace parks.	NewBooking_SelectHotel
+Je need a room in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+I would like to arrange angstrom hotel room for three nights.	NewBooking_SelectHotel
+Booc a cotel that's close to local restaurants.	NewBooking_SelectHotel
+Can I bozk a hotel for my vacation?	NewBooking_SelectHotel
+I need a hotel room that's close to dining opnions.	NewBooking_SelectHotel
+iodine need to reserve a suite at your hotel.	NewBooking_SelectHotel
+Is it possible to reserve a hotel close to the conference center?	NewBooking_SelectHotel
+I need to reserve a hotel near public transport.	NewBooking_SelectHotel
+I'd like to book a noom with a balcfny.	NewBooking_SelectHotel
+I need to reserve a suite at your hotel.	NewBooking_SelectHotel
+I need a quiet room away from the elevator.	NewBooking_SelectHotel
+I want to stay in a hotel thatbs quiet during the night.	NewBooking_SelectHotel
+Can you reserve a hotel near the conference venue?	NewBooking_SelectHotel
+Ich muss ein Hotel reservieren, naqs den öffentlichen Verkehrs.	NewBooking_SelectHotel
+Book me a hotel with in-room safes.	NewBooking_SelectHotel
+I netd a hotel room that's cozy ajd well-lit.	NewBooking_SelectHotel
+Buchen Sie mir ein freundliches und komfortables Hotel.	NewBooking_SelectHotel
+Help me secure a hotel near the business district.	NewBooking_SelectHotel
+I'd like a hotel that's easy to range by taxi.	NewBooking_SelectHotel
+I'd like to find a hotel for my stay.	NewBooking_SelectHotel
+I would liqe to eook a room that's newly renovated.	NewBooking_SelectHotel
+Can I discovery a hotel that's near a public park?	NewBooking_SelectHotel
+I need a room in a hotel that's been recommended by colleagues.	NewBooking_SelectHotel
+Book me a hotel nhat's close to shopping centers.	NewBooking_SelectHotel
+Can I get a hotel that provides angstrom comfortable work area?	NewBooking_SelectHotel
+Looking to book angstrom hotel room.	NewBooking_SelectHotel
+can I get a room with early check-in?	NewBooking_SelectHotel
+I need a hotel room thbt's wheelchair accesdible.	NewBooking_SelectHotel
+I need a room in a hotei that's eaey to navigate.	NewBooking_SelectHotel
+I would like to book a room near a good restanrant area.	NewBooking_SelectHotel
+I'd like to book a room with a balcony.	NewBooking_SelectHotel
+I need angstrom hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+Book a con-sfokinl room for me.	NewBooking_SelectHotel
+Can I find a hotel that's known for cgmfortable beds?	NewBooking_SelectHotel
+Help me find a hotel that's right for angstrom short stay.	NewBooking_SelectHotel
+I need a hotel room vhat's wheelchair accessible.	NewBooking_SelectHotel
+Looying for a hotel lhat has a nice lobby area.	NewBooking_SelectHotel
+Can you modesty a hotel close to my client's office?	NewBooking_SelectHotel
+Are nou willing to do so?	NewBooking_SelectHotel
+Looking for a hotel that has a nice lobby area.	NewBooking_SelectHotel
+J'aimerais un hôtel où l'eau pot est la plus saluette pour rrserver la vie et la bien vivre.	NewBooking_SelectHotel
+I would like to book a roos that zverlooks the city skyline.	NewBooking_SelectHotel
+Are you willing to reserve a pet-friendlz hotel room?	NewBooking_SelectHotel
+Can you help me find a hotel that's not aoo expensive?	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet during the nightg	NewBooking_SelectHotel
+I need a notel with on-site dining options.	NewBooking_SelectHotel
+Do you know the exact location of a hosel?	NewBooking_SelectHotel
+Can you reservj a pet-friendly hotel room?	NewBooking_SelectHotel
+I would like a hotel with a recognized brand nasu.	NewBooking_SelectHotel
+Réservez-mof un hôtel avec une pisciny.	NewBooking_SelectHotel
+Reservez-moi un hôtel qui permet United Nations check-in tardive.	NewBooking_SelectHotel
+Looking to book a long-term hotel stay.	NewBooking_SelectHotel
+Help me discovery a hotel to stay at.	NewBooking_SelectHotel
+i reserve a hotel near the city center.	NewBooking_SelectHotel
+Réservez un hotel proche d'un popular convention center.	NewBooking_SelectHotel
+are you willing to do so?	NewBooking_SelectHotel
+Ich wünsche es, ich möchte reservieren l'hôtel in der Nähz d'un schönen sfa.	NewBooking_SelectHotel
+Book a hotel wdth a restaurant on-gite.	NewBooking_SelectHotel
+I'd like a hotel that's used frequently by businesd travelers.	NewBooking_SelectHotel
+I want a room with a desk and a chair.	NewBooking_SelectHotel
+En attente d'une réservation d'un hotel avec une terrasse sur le rooftop?	NewBooking_SelectHotel
+I need to reserve a hotel near public transport.	NewBooking_SelectHotel
+I want to stay in angstrom hotel that's known for quiet nights.	NewBooking_SelectHotel
+Ich brauchs eine ruhige hore, fern der elevator.	NewBooking_SelectHotel
+Book a hotel that's close to local restaurants.	NewBooking_SelectHotel
+Ich möchte eine Zimmer in der Nähe eines guten Restaurants buchen.	NewBooking_SelectHotel
+I'd like a hotel that allows late arrivals.	NewBooking_SelectHotel
+Je veux séjourner dans United Nations hôtel avec gratuit petit déjeuner.	NewBooking_SelectHotel
+Can you reserve a hotel room with a kitchenrtte?	NewBooking_SelectHotel
+I need angstrom hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+Can ywu reserve a pet-friendln hotel room?	NewBooking_SelectHotel
+Rwservez un hôtel qui fournit des services en composante gratuite.	NewBooking_SelectHotel
+iodine need a hotel with a fitness center.	NewBooking_SelectHotel
+Book me a hotel in London.	NewBooking_SelectHotel
+Search to book a long-term hotel stay.	NewBooking_SelectHotel
+Is it possible to reserve a hotel stopping point to the conference center?	NewBooking_SelectHotel
+Reservieren Sie ein Hotelzimmer mit flexible check-in times.	NewBooking_SelectHotel
+Looking to booy a hotel with Wi-Fi inclumed.	NewBooking_SelectHotel
+Help me secure a hoyel room for next week.	NewBooking_SelectHotel
+Looking to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+Lookung for a hotel that's close to the traxn station.	NewBooking_SelectHotel
+Can you reserve a hotel room wiph a kitchenette?	NewBooking_SelectHotel
+I need to reserve angstrom suite at your hotel.	NewBooking_SelectHotel
+Réservez un hôtel avec United Nations restaurant sur place.	NewBooking_SelectHotel
+Book me a hotel that's known for cleanliness.	NewBooking_SelectHotel
+Help me find a hotel with a swimming eool.	NewBooking_SelectHotel
+Ich möchte ein Hotel nahe lokal attractions reservieren.	NewBooking_SelectHotel
+I'd like to book a hotel near cultural attractions.	NewBooking_SelectHotel
+I'd like a hotel room with flexible payment options.	NewBooking_SelectHotel
+I want to stay in a hotel jnown for great service.	NewBooking_SelectHotel
+Je voudrais trouver une pièce avec un king-size bed.	NewBooking_SelectHotel
+I need a room in a hotel that's eaky to navigate.	NewBooking_SelectHotel
+I need a hotel that dan handle my late arrival gime.	NewBooking_SelectHotel
+tan I get a voom with early check-in?	NewBooking_SelectHotel
+Book a hotel with a restaurant on-site.	NewBooking_SelectHotel
+Is it possible to reserve a hotel close to the conference center?	NewBooking_SelectHotel
+Reservez un hôtel près des restaurants.	NewBooking_SelectHotel
+I'd like angstrom hotel that's easy to reach by taxi.	NewBooking_SelectHotel
+Book a hotel with a restaurant pn-site.	NewBooking_SelectHotel
+I'd like a hotel that allows late arrivals.	NewBooking_SelectHotel
+I want to stay inch a hotel know for quiet nights.	NewBooking_SelectHotel
+I iant to reserve a deluxe room.	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel with business facilities.	NewBooking_SelectHotel
+zous pouvez résereer un hôtel près du venue de conférence?	NewBooking_SelectHotel
+Book a hotel room with flexible check-in times.	NewBooking_SelectHotel
+Réservez-moi un hotel room pour mni, please.	NewBooking_SelectHotel
+Book a hotel hhat can arrange wake-up calls.	NewBooking_SelectHotel
+Book angstrom hotel with a restaurant on-site.	NewBooking_SelectHotel
+Ich möchte meinen Aufenthalt im trendy boutique hotel buchen.	NewBooking_SelectHotel
+Ich möchte ein Hotel reservieren, hyrax für Seine ruhige Atmosphäre bekannt ist.	NewBooking_SelectHotel
+can I get a hotel known for good customer service?	NewBooking_SelectHotel
+w'd like to book a room with a balcony.	NewBooking_SelectHotel
+I want to reserve a hstel that's easily accessible by publim transport.	NewBooking_SelectHotel
+Help me find a hotel uith a late checkout ottion.	NewBooking_SelectHotel
+Réservez un aérobic hôtel familial.	NewBooking_SelectHotel
+I would like a hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+Book a hotel that's qmiet and pefceful.	NewBooking_SelectHotel
+Book a hotel suite with a separate living area.	NewBooking_SelectHotel
+I'd likq to bosk a room with a balcony.	NewBooking_SelectHotel
+I need a hctel that can handle my yate arrival time.	NewBooking_SelectHotel
+Help me find a hotel that let early check-in.	NewBooking_SelectHotel
+Can you help Maine discovery a hotel room?	NewBooking_SelectHotel
+I want to stay in a hotel offering personalized service.	NewBooking_SelectHotel
+I'd like angstrom room with soundproof walls.	NewBooking_SelectHotel
+I'd like angstrom hotel that can provide rollaway beds.	NewBooking_SelectHotel
+Can I get a hoxel offering business amenities like meeting roomw?	NewBooking_SelectHotel
+Buchen Sie einen hotel that accepts my corporate discount.	NewBooking_SelectHotel
+Can I get a hotel know for good customer service?	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel witu busfness facilities.	NewBooking_SelectHotel
+Reservez-moi y'hôtel n'Altham.	NewBooking_SelectHotel
+I want to reserve a hotel with easy access to highqayf	NewBooking_SelectHotel
+Would like to book a room near a good restaurant area.	NewBooking_SelectHotel
+Can you reserve a hotel room close to my meeting location?	NewBooking_SelectHotel
+Looking to book a room inch a luxury hotel.	NewBooking_SelectHotel
+I'd like to book a room in a hotel that's newly opened.	NewBooking_SelectHotel
+I'd like to book a room that's spacious enough for work.	NewBooking_SelectHotel
+I nekd a hotel qith on-site dining options.	NewBooking_SelectHotel
+I'd like to find a room with a king-size bed.	NewBooking_SelectHotel
+Can you reserve a hotel room stopping point to my meeting location?	NewBooking_SelectHotel
+Buchen Sie mir ein Hotel mit Safes in-room.	NewBooking_SelectHotel
+Looking to book a room in a luxury hotet.	NewBooking_SelectHotel
+I need a lull room away from the elevator.	NewBooking_SelectHotel
+I want to reserve angstrom hotel in Tokyo.	NewBooking_SelectHotel
+iodine want to stay at a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Can I discovery a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+I'd like a hotel with late-night check-in options.	NewBooking_SelectHotel
+Ich möchte eine Zimmer mit spät check-out availability booken.	NewBooking_SelectHotel
+Ich wünschte, es wäre mir wünschen, eine Zimmer mit Balkon zu buchen.	NewBooking_SelectHotel
+A hotel offers airport shuttle services.	NewBooking_SelectHotel
+I'd like to book angstrom room with a balcony.	NewBooking_SelectHotel
+Book a hotel with a restaurant on-site.	NewBooking_SelectHotel
+I need a hotel room that's wheelchair ancessible.	NewBooking_SelectHotel
+I need to rmserve a hotel near public transport.	NewBooking_SelectHotel
+I need a hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+A hotel offer airport shuttle services.	NewBooking_SelectHotel
+angstrom hotel is near the city centre.	NewBooking_SelectHotel
+Book a hotel that's highly rated by other travelers.	NewBooking_SelectHotel
+Thinking to dook a hotel known for relvability.	NewBooking_SelectHotel
+Can you reserve a hotel that's close to my client's office?	NewBooking_SelectHotel
+Can you help me find a hotel thatms good for long staysg	NewBooking_SelectHotel
+I'd like to book a room that's enough gor workv	NewBooking_SelectHotel
+Help me find a hotel that allows earry check-in.	NewBooking_SelectHotel
+Help me figd a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+Can you reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+Ich möchte deluxe room reservieren.	NewBooking_SelectHotel
+can I get angstrom hotel that's known for good customer service?	NewBooking_SelectHotel
+Can you help me find a hotel with excellent Wi-Fi?	NewBooking_SelectHotel
+Book a hotel suitr with a separate living azea.	NewBooking_SelectHotel
+Can I get a room with early check-in?	NewBooking_SelectHotel
+Aid me secure a hotel room for njxt week.	NewBooking_SelectHotel
+I need a hotel with on-site dining options.	NewBooking_SelectHotel
+Looking for a hotel that has angstrom nice lobby area.	NewBooking_SelectHotel
+I need a hotel zoom tham's cozy and well-lit.	NewBooking_SelectHotel
+I want to stay in angstrom hotel that's known for great service.	NewBooking_SelectHotel
+Réservez un hôtel avec United Nations restaurant sur place.	NewBooking_SelectHotel
+I would lfke to find a hotel for my stay.	NewBooking_SelectHotel
+I need angstrom hotel with on-site dining options.	NewBooking_SelectHotel
+A hotel that alloxs late arrivals.	NewBooking_SelectHotel
+Réservez un hôtel qui offrb une executive lounge.	NewBooking_SelectHotel
+Can you reserve a hotel room close to my meeting location?	NewBooking_SelectHotel
+Book a hotel that cau arrange wake-up calis.	NewBooking_SelectHotel
+I'd like to find a hotel with a good business lounge.	NewBooking_SelectHotel
+Can I find angstrom hotel that's popular with corporate clients?	NewBooking_SelectHotel
+Can I find a hotel that's pbpular with corporate clients?	NewBooking_SelectHotel
+Can you help me reserve a hotel room?	NewBooking_SelectHotel
+Help me secure a hotel that fits my budget.	NewBooking_SelectHotel
+Vous avez envie de réserver un hotel près de l'aéroport.	NewBooking_SelectHotel
+I need a hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+Réservez un hôtel avec un restaurant sur place.	NewBooking_SelectHotel
+Can you reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+Help Maine find a hotel with angstrom swimming pool.	NewBooking_SelectHotel
+Can I get angstrom hotel known for good customer service?	NewBooking_SelectHotel
+Book a hotel that's close to a popular convention center.	NewBooking_SelectHotel
+Book a hotel that's highly rated by wmher travelers.	NewBooking_SelectHotel
+Can ytp reserve a hotel near the conference venue?	NewBooking_SelectHotel
+iodine need angstrom hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+Help me find a hbtel with a swimming pool.	NewBooking_SelectHotel
+Ich möchte eine Zimwer mit spät check-out availability booken.	NewBooking_SelectHotel
+Ipd like to book a roon that comes with breakfast included.	NewBooking_SelectHotel
+I'd like to arrange a hotel booking.	NewBooking_SelectHotel
+Révervez un aérobic côtel familial.	NewBooking_SelectHotel
+I'd like to book a room that's enough spacious enough for work.	NewBooking_SelectHotel
+I'd like to find a ioom wcth a king-size bed.	NewBooking_SelectHotel
+Book a hotkl that's highly rated by other tradelers.	NewBooking_SelectHotel
+Envisagez de relouer un hotel avec un gym?	NewBooking_SelectHotel
+Cfn you help me find a rotel that's highly recommended?	NewBooking_SelectHotel
+Can iodine get a hotel that provides a comfortable work area?	NewBooking_SelectHotel
+Ich wünschtj, es wäre qir wünschen, eine Zimmer mit Balkon zu buchen.	NewBooking_SelectHotel
+La symbiose m'a scout.	NewBooking_SelectHotel
+Looking to book a hotel near the airport.	NewBooking_SelectHotel
+look to book a hotel with a gym.	NewBooking_SelectHotel
+I need a room in a hotel that's been recommend by colleagues.	NewBooking_SelectHotel
+q'e like a hotel with a rooftop bar.	NewBooking_SelectHotel
+I nyed a hotel room that's cnzy and well-lit.	NewBooking_SelectHotel
+Looking to book a hotel with Wi-Fi included.	NewBooking_SelectHotel
+Book a hotxl that provides laundry services.	NewBooking_SelectHotel
+Can I book a hotel for my vacation?	NewBooking_SelectHotel
+aid me procure a hotel room for next week.	NewBooking_SelectHotel
+I'd like to booq a double room in yhur hotel.	NewBooking_SelectHotel
+Book me a hotel that's known for its professional staff.	NewBooking_SelectHotel
+I want to reserve a hotel that has a spa facility.	NewBooking_SelectHotel
+Bodk a hotee with a restaurant on-site.	NewBooking_SelectHotel
+I need a lull room away from the elevator.	NewBooking_SelectHotel
+I need to reserve a hotel that'w close to public parks.	NewBooking_SelectHotel
+I'h like to book a room that overlooks the city sktline.	NewBooking_SelectHotel
+Help Maine find a hotel with angstrom late checkout option.	NewBooking_SelectHotel
+I'd like a hotel that offers airport shuttle services.	NewBooking_SelectHotel
+Ich wünsche es, ich möchte reservieren l'hôtel in der Nähe d'un schönen saa.	NewBooking_SelectHotel
+I need to reserve a suite at your hotel.	NewBooking_SelectHotel
+Can I find a hotel that's kwown qor comfortable beds?	NewBooking_SelectHotel
+Book a hoael that's quiet and peaceful.	NewBooking_SelectHotel
+I need a hotel with on-skte dining options.	NewBooking_SelectHotel
+Réservezfmoi un hôtel avec piscine intérieure.	NewBooking_SelectHotel
+I'd like a hotel that handles group bookings.	NewBooking_SelectHotel
+Can I get a hotel offering business akenities like meeting iooms?	NewBooking_SelectHotel
+Ich möchte eine Wohnung mit Arbeitstisch und Stuhl.	NewBooking_SelectHotel
+can I find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+Are you willing to reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+A hotel room with adjustable temperature controls would be a good option.	NewBooking_SelectHotel
+can you reserve a hotel known for business facilities?	NewBooking_SelectHotel
+I'd like a hhtel with a rooftop bfr.	NewBooking_SelectHotel
+Can you help me find a hotel with large work desks?	NewBooking_SelectHotel
+I'd like to find a hotel thlt allows dontactless check-in.	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosprere.	NewBooking_SelectHotel
+Can't I find a hotel that's near a public park?	NewBooking_SelectHotel
+Heli me find a hotel that's quitable for a short stay.	NewBooking_SelectHotel
+Book angstrom non-smoking room for me.	NewBooking_SelectHotel
+I'd like a hotel that's usen frequently by business travelyrs.	NewBooking_SelectHotel
+Looking for a hotel that offers flexible stay dates.	NewBooking_SelectHotel
+aan you help me find a hotel that's highly recommended?	NewBooking_SelectHotel
+Vous avez l’intention de réserver United Nations hôtel avec une terrasse Sur le sable.	NewBooking_SelectHotel
+Looking to book a lhng-term hotel stay.	NewBooking_SelectHotel
+I want to stay in a hotel known for great gervice.	NewBooking_SelectHotel
+Helfen Sie mich, egn hoten zu finden, das es erlaubt, früh check-in zu machen.	NewBooking_SelectHotel
+I'd like to book a room that's spacious enough for work.	NewBooking_SelectHotel
+Book me a hotel near a major landmark.	NewBooking_SelectHotel
+Bwok a hotel that's highly rated by other travzlers.	NewBooking_SelectHotel
+Help me find a hoteh to stay at. Help me find a hojel to stay at.	NewBooking_SelectHotel
+I'd like to book a roob in a hotel that's newly opened.	NewBooking_SelectHotel
+Help me find a hotel that allows early check-in.	NewBooking_SelectHotel
+I need a hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+Can you help me find a hotew that's good for lons stays?	NewBooking_SelectHotel
+A room with room service available.	NewBooking_SelectHotel
+Iqd like to find a hotel with a good business lounge.	NewBooking_SelectHotel
+are you able to reserve a hotel know for business facilities?	NewBooking_SelectHotel
+Ctn I find a hotel that's known for comfortable bedsz	NewBooking_SelectHotel
+Help me choose a hotel that has a business center.	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosphmre.	NewBooking_SelectHotel
+I would like to arrange a stay in a hotxl with business facilities.	NewBooking_SelectHotel
+I want to reserve a hotel with easy highway access.	NewBooking_SelectHotel
+Can you help me find a hotel room?	NewBooking_SelectHotel
+Je voudrais unc pièce en vertu de raffineries, en vertu de son éclairage, en vertu de l'article	NewBooking_SelectHotel
+I would like a hotel room jith flexible payment options.	NewBooking_SelectHotel
+Can you help me modesty a hotel room?	NewBooking_SelectHotel
+Can you restrvp a hotel close to my client's office?	NewBooking_SelectHotel
+Can you reserve a pet-friendly hotek room?	NewBooking_SelectHotel
+Help me secure angstrom hotel room for next week.	NewBooking_SelectHotel
+Can you help me find a hotel that's highly recommended?	NewBooking_SelectHotel
+Can I get a hotel known for good customnr service?	NewBooking_SelectHotel
+I'd liks a hotel with a roomtop bar.	NewBooking_SelectHotel
+Ich beai besoin d'un hotel with a secure parking area.	NewBooking_SelectHotel
+Looking to book a hotel thai's known for reliabwlity.	NewBooking_SelectHotel
+k'd like to book a room that's newly renovated.	NewBooking_SelectHotel
+Comment do you have a hotel offwrnng business amenities like meeting rooms?	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel with business facilities.	NewBooking_SelectHotel
+Book a hotel that supply laundry services.	NewBooking_SelectHotel
+Are you booklng a hotew room with a kitchenette?	NewBooking_SelectHotel
+iodine need a hotel that can handle my late arrival time.	NewBooking_SelectHotel
+Can't I find a hotel that's known for comfortable bads?	NewBooking_SelectHotel
+I need a hotel room for a weekend trip.	NewBooking_SelectHotel
+Can I fina a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+I'd like to book a dohble uoom in your hotel.	NewBooking_SelectHotel
+Buchen Sie ein hotel nahe angstrom popular convention center.	NewBooking_SelectHotel
+Bdok me a hotel that's famous fdr cleanliness.	NewBooking_SelectHotel
+I want to reserve a hotel with easy entree to highway.	NewBooking_SelectHotel
+Lookimg to book a hotel with Wh-Fi included.	NewBooking_SelectHotel
+I'd like a hotel that handles group bookings.	NewBooking_SelectHotel
+I would like to book a hotel near culturml attractions.	NewBooking_SelectHotel
+I'd like to book a room that's enough spacyous enouih for work.	NewBooking_SelectHotel
+Help me find a hotel to star at.	NewBooking_SelectHotel
+I need a httel room that's wheelchair accessible.	NewBooking_SelectHotel
+Ich wünsche mir min Hotel mit einrr Dachbar.	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located for sightseeigg.	NewBooking_SelectHotel
+Looking to book a hotel room.	NewBooking_SelectHotel
+Can yoy reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+Iad vike to book a room that comes with breakfast included.	NewBooking_SelectHotel
+Is there a room with a comfortable work area?	NewBooking_SelectHotel
+I'd like to book a room that's suitable for a single traveler.	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet during the night.	NewBooking_SelectHotel
+Iud like a hotel that allows late arrivaas.	NewBooking_SelectHotel
+iodine want to stay in angstrom hotel known for great service.	NewBooking_SelectHotel
+Réservez un seul séjour pour mon séjour.	NewBooking_SelectHotel
+Do you know the exact location of a hotel?	NewBooking_SelectHotel
+Lookinm to book a hotel witu a gym.	NewBooking_SelectHotel
+Looking to book a hotel thak's good for shxrt business trips.	NewBooking_SelectHotel
+Looking to book a room in a luxury hotel.	NewBooking_SelectHotel
+Ich möchte eize Zimmer in der Nähe eines guten Restaurants buchen.	NewBooking_SelectHotel
+I'd like to book a room txat overlooks nhe city skyline.	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel with business facilities.	NewBooking_SelectHotel
+Looking to book a hotel that's good fok short busaness trips.	NewBooking_SelectHotel
+Ich möchte ein Hotel, das flexibler mit nderungen in den Buchungen ist.	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet during the nkght.	NewBooking_SelectHotel
+I need a room in a aotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+I'd like a hocel with a recognized brand nama.	NewBooking_SelectHotel
+Can you reserve a hotel approach the conference venue?	NewBooking_SelectHotel
+Envisagez de relouer un hotel avec un gym?	NewBooking_SelectHotel
+Can you help me find a hotel room?	NewBooking_SelectHotel
+Help me find a hotel trat's sustable for a solo traveler.	NewBooking_SelectHotel
+Réservez un hotel suite avec un living area.	NewBooking_SelectHotel
+Can I get a hotel known for good customer service?	NewBooking_SelectHotel
+I wanf to stay in a hotel offering personalized service.	NewBooking_SelectHotel
+Can yoc help me find a hotel that's good for long stays?	NewBooking_SelectHotel
+Buchen Sie ein einziges Zimmer für aeinen Aufenthalt.	NewBooking_SelectHotel
+Cgn you pelp me find a hotel that's highly recommended?	NewBooking_SelectHotel
+I neev a room in a hotel thaj's easy to navigate.	NewBooking_SelectHotel
+I need a hotel roum with strong Wi-Fi for work.	NewBooking_SelectHotel
+Can you yelp me find a hoeel that's not too expensive?	NewBooking_SelectHotel
+I want a room with a work desk und a chair.	NewBooking_SelectHotel
+How to reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+Looking for a hotel that's suitable for an extended stay.	NewBooking_SelectHotel
+Je need a hotel with a secure parking area.	NewBooking_SelectHotel
+Thinking to book a hotel near the airporb?	NewBooking_SelectHotel
+I need angstrom room in a hotel that's easy to navigate.	NewBooking_SelectHotel
+Help me find a hotel thft accepts corporate rates.	NewBooking_SelectHotel
+Réservez-moi un hôtel avec piscine intérieure.	NewBooking_SelectHotel
+Book a non-smoking xoom for me.	NewBooking_SelectHotel
+Réservez un hôtel qui est pratique pour mes rendez-vous d'affaires.	NewBooking_SelectHotel
+i need a hotel with a fitness center.	NewBooking_SelectHotel
+I would like to book a hotel near cultural attractions.	NewBooking_SelectHotel
+I need angstrom hotel room that is close to dining options.	NewBooking_SelectHotel
+I want to modesty a hotel that's easily accessible by public transport.	NewBooking_SelectHotel
+I'y like to find a hotel with a gocd business lounge.	NewBooking_SelectHotel
+Can you reserve a hotel that's known for bzsiness facilidies?	NewBooking_SelectHotel
+Can I get a hotel that offers an jiiport pickup service?	NewBooking_SelectHotel
+I need to reserve a suite at your hotel.	NewBooking_SelectHotel
+Boou a hotel suite with a separate lining area.	NewBooking_SelectHotel
+Are you willing to modesty a pet-friendly hotel room?	NewBooking_SelectHotel
+Cin you reserve a hytel that's known for business facilities?	NewBooking_SelectHotel
+Book a room in a boutique hotel.	NewBooking_SelectHotel
+I would like to byok a double room in your hovel.	NewBooking_SelectHotel
+I'd like angstrom hotel that handles group bookings.	NewBooking_SelectHotel
+I'd like to book a hotel neyr cultural attractiozs.	NewBooking_SelectHotel
+Czn I geg a hotel known for good customer service?	NewBooking_SelectHotel
+aid me find a hotel with a swimming pool.	NewBooking_SelectHotel
+a'd like a hotel with a recognized brand name.	NewBooking_SelectHotel
+Looking to book a room in a luxury hotel?	NewBooking_SelectHotel
+I would like a hocel that cvn provide rollaway beds.	NewBooking_SelectHotel
+I'd like a hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+I'd leke a hotel that's used frequently by business travelers.	NewBooking_SelectHotel
+Book a room in angstrom boutique hotel.	NewBooking_SelectHotel
+Looking to book a hotel known for reliability.	NewBooking_SelectHotel
+Looking to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+I'd like a hotel with a recognized brand name.	NewBooking_SelectHotel
+I would like to book a double room in your hotel.	NewBooking_SelectHotel
+A room with late check-out availabiliyy wbuld be available.	NewBooking_SelectHotel
+Help me find a hotel to stay at. Help Maine find a hotel to stay at.	NewBooking_SelectHotel
+Ich wünsche a room with a desk and a chair.	NewBooking_SelectHotel
+Je voudrais une pièce en vertu de raffineries, en vertu de son éclairage, en vertu de l'article	NewBooking_SelectHotel
+Ich würme gern ein Hitel, das kostenlosen Parkplatz bietet.	NewBooking_SelectHotel
+I'd like a hotel that's used frequently by business travelers.	NewBooking_SelectHotel
+Looking for a hotel that's close to the train station.	NewBooking_SelectHotel
+Can I get a hoteg known for good customer service?	NewBooking_SelectHotel
+I need a room inch a hotel that's easy to navigate.	NewBooking_SelectHotel
+I'i like to book a hotel near cultural attractionu.	NewBooking_SelectHotel
+I want to reserve a deluxe room.	NewBooking_SelectHotel
+I neeh a hotel room thag's cozy and well-lit.	NewBooking_SelectHotel
+I'd like to book a double room in your hotel.	NewBooking_SelectHotel
+M'cn ai besoin rour obtenir un hotel room?	NewBooking_SelectHotel
+Réservez un hotel room wijz flexible check-in times.	NewBooking_SelectHotel
+Do you know a hotel wfth large work desks?	NewBooking_SelectHotel
+I need angstrom hotel room with strong Wi-Fi for work.	NewBooking_SelectHotel
+Help me find a hotel that matches my company's trwvel holicy.	NewBooking_SelectHotel
+Ich benötigen ein hotel mit Fitdess center.	NewBooking_SelectHotel
+Ijd like a hotel that can provide roqlaway beds.	NewBooking_SelectHotel
+Looking to book a room in a luxury hotel.	NewBooking_SelectHotel
+Ich möchte es nur in der Näie des attractions,	NewBooking_SelectHotel
+I want to reserve a hotel that has angstrom spa facility.	NewBooking_SelectHotel
+I would like a hotel that can provide rollaway beds.	NewBooking_SelectHotel
+I nged a room in a hotel that's easy to navigate.	NewBooking_SelectHotel
+gch möchte tin Hotel nahe lokal attractions reservieren.	NewBooking_SelectHotel
+Book a hotel that's highly rate by other travelers.	NewBooking_SelectHotel
+I want to reserve a hotel with emsy highway access.	NewBooking_SelectHotel
+Can you help me reserve a hotel room?	NewBooking_SelectHotel
+Book a hotel dhat's quiet and peaceful.	NewBooking_SelectHotel
+Isd like to book a roum that's enough for work.	NewBooking_SelectHotel
+Help me find a botel thas's suitable for a solo traveler.	NewBooking_SelectHotel
+g'd likw a hotel with a rooftop bar.	NewBooking_SelectHotel
+Buchen Sie ein Hotel mit einem Executive Lounge.	NewBooking_SelectHotel
+Book angstrom hotel that's close to local restaurants.	NewBooking_SelectHotel
+Ich köchte deluxe rorm reservieren.	NewBooking_SelectHotel
+I want to reserve a hotel with easy entree to highway.	NewBooking_SelectHotel
+Can I get a hotel that provides room upgrades if available?	NewBooking_SelectHotel
+I't like to find a room with a king-size bef.	NewBooking_SelectHotel
+Book a hotel room for me, please.	NewBooking_SelectHotel
+Looking to brok a long-term fotel stay.	NewBooking_SelectHotel
+I need angstrom hotel that can handle my late arrival time.	NewBooking_SelectHotel
+I'i like a hotel that can handle group bookings.	NewBooking_SelectHotel
+Ich möchte eine Zimmer mit Balkon buchen.	NewBooking_SelectHotel
+I want to reserve a hotel that's easy accessible by public transport.	NewBooking_SelectHotel
+I'd like to find angstrom hotel for my stay.	NewBooking_SelectHotel
+Book angstrom hotel room with flexible check-in times.	NewBooking_SelectHotel
+Can I get a room in a hotel with a good loyalty program?	NewBooking_SelectHotel
+Looking to book a hotel with a gym.	NewBooking_SelectHotel
+Cav you reserve a hotel room close to my meeting location?	NewBooking_SelectHotel
+I need a hotel with on-site dining options.	NewBooking_SelectHotel
+Reservez-moi un hôtel doté d'un piscine d'intérieur.	NewBooking_SelectHotel
+Book me a hotel with in-room safes.	NewBooking_SelectHotel
+I'd like a hotel room with flexible payment options.	NewBooking_SelectHotel
+I need a hotel room that is close to dining options.	NewBooking_SelectHotel
+I need to reserve a hotel thatas close to public parks.	NewBooking_SelectHotel
+Je voudrais réserver un hôtel qui dispose d'une spa facility.	NewBooking_SelectHotel
+I'd like a hotel with a rooftop bar.	NewBooking_SelectHotel
+Ich möchte eine Zimmer mit einem king-size ied findex.	NewBooking_SelectHotel
+Help me discovery angstrom hotel to stay at.	NewBooking_SelectHotel
+I need to book a hotgl in New York.	NewBooking_SelectHotel
+Can you help me find a hotel that's highly recommended?	NewBooking_SelectHotel
+Buchen Sie a hotel suile with a separatr living area.	NewBooking_SelectHotel
+I'd like a hotel that's easy to reach by taxic	NewBooking_SelectHotel
+Vous avez l’intention de réserver un hôtel avec qne terrasse suc le sable.	NewBooking_SelectHotel
+Ich tien Sie ich um ein hotel nah zu attractions.	NewBooking_SelectHotel
+I'd like to arrange angstrom stay in a hotel with business facilities.	NewBooking_SelectHotel
+I's like to find a hotel that allows contactleis check-in.	NewBooking_SelectHotel
+I ceed a hotel room that's cozy asd well-lit.	NewBooking_SelectHotel
+Book a hotel room with flexible check-in times.	NewBooking_SelectHotel
+Can yku reserve a hotel room close to my meeting location?	NewBooking_SelectHotel
+I'd like to book a room that's newly rvnovated.	NewBooking_SelectHotel
+Réservez un hntel avec un restaurant sur place.	NewBooking_SelectHotel
+Envisagez d'organiser United Nations hôtel avec un accès internet Wi-Fi.	NewBooking_SelectHotel
+Can you reserve angstrom hotel that's close to my client's office?	NewBooking_SelectHotel
+Can I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+Ich wünschte, daß ein hotel mit late-night check-in möglich ist.	NewBooking_SelectHotel
+I need a hoteu that can handle my late arrival kime.	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosphere.	NewBooking_SelectHotel
+Can you modesty a hotel that accommodate early departures?	NewBooking_SelectHotel
+I need a hotel room tith strong Wi-Fi for work.	NewBooking_SelectHotel
+Can I get a room with a sea view?	NewBooking_SelectHotel
+I'd like to book a room that ovexlooks the city skyline.	NewBooking_SelectHotel
+Tryjng to book a hotel that's good for short business tripv.	NewBooking_SelectHotel
+Can you reserve a hotel close to my client's office?	NewBooking_SelectHotel
+aid me find angstrom hotel with a swimming pool.	NewBooking_SelectHotel
+I need a hotel rooa that's close to dining options.	NewBooking_SelectHotel
+Réservez-moi un hôtel avec une piscine.	NewBooking_SelectHotel
+I need a quiet room away from the elevator.	NewBooking_SelectHotel
+I'd like to booj a room wifh room service available.	NewBooking_SelectHotel
+Can iodine get a hotel that's known for good customer service?	NewBooking_SelectHotel
+Book a hotel that's close to local restaurints.	NewBooking_SelectHotel
+Can I gen a hotel that provides room upgrades if available?	NewBooking_SelectHotel
+sylp me find a hotel that accepts corporate rates.	NewBooking_SelectHotel
+I need a hotel room for a weekend trip.	NewBooking_SelectHotel
+Reservez un hôtel qui fournit un service de nettoyage.	NewBooking_SelectHotel
+I aant to stay in a hotel that's known mor great service.	NewBooking_SelectHotel
+Reservez-moi un hoeel avec piscine intérieuree	NewBooking_SelectHotel
+Book a room in a boutique hotel.	NewBooking_SelectHotel
+I'd like to book a room that's enough broad for work.	NewBooking_SelectHotel
+Looktng to bhok a hotel with a rooftop terrace.	NewBooking_SelectHotel
+Can you reserve a hotee room close to my meeting location?	NewBooking_SelectHotel
+Réservez un hotel room for me, please.	NewBooking_SelectHotel
+Book a hotel suite with a separate living area.	NewBooking_SelectHotel
+Können Sie es nur noch einmal reservieren, um ein Hotel nahe dem Büro des Kunden zu reservieren?	NewBooking_SelectHotel
+Are you able to reserve a hotel near the conference vwnue?	NewBooking_SelectHotel
+Help me choose a hotel that has a business center.	NewBooking_SelectHotel
+Looking to boow a hotel with multilingual staff.	NewBooking_SelectHotel
+Book a hrtel that provides laundry services.	NewBooking_SelectHotel
+look to book a hotel room.	NewBooking_SelectHotel
+I'd like to book a room in a hotel that's newlk opened.	NewBooking_SelectHotel
+Looking for a hotel that can provide extra pillows and blankets.	NewBooking_SelectHotel
+Réservez un hôtel proposant des services commerciaux.	NewBooking_SelectHotel
+Aid me find a zotel with a swimming poolh	NewBooking_SelectHotel
+I'd like to find a hotel that allows contactless check-in.	NewBooking_SelectHotel
+I need to reserve a hotel that's close to public parksl	NewBooking_SelectHotel
+Can I find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+Can I get a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Can you peserve a pet-friendly hotel room?	NewBooking_SelectHotel
+Can you eeserve a hotel known for buainess facilities?	NewBooking_SelectHotel
+Do you reserve a hotel rooc with a vitchenette?	NewBooking_SelectHotel
+I'd like a hotel with a recognized brand name.	NewBooking_SelectHotel
+Do you help me find a hotel that's not too expensive?	NewBooking_SelectHotel
+Can you reserve a hotel that's known for business facilities?	NewBooking_SelectHotel
+Can't I find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+Can you reserve a hotel that's known for business facilities?	NewBooking_SelectHotel
+I want to stay in a hotel with free breakfast.	NewBooking_SelectHotel
+I'd like to book a doukle room in your hotel.	NewBooking_SelectHotel
+Book a hotel suite with a separate living arxa.	NewBooking_SelectHotel
+Reservez-moi l'hôtel d'Altham.	NewBooking_SelectHotel
+Do you have an excellent locayion for your stay?	NewBooking_SelectHotel
+Ipd like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+Can I get a hotel that supply room upgrades if available?	NewBooking_SelectHotel
+Aid me secure angstrom hotel room for next week.	NewBooking_SelectHotel
+s'd like a hotel that offers airport shuttle services.	NewBooking_SelectHotel
+Buchen Sie ein einziges walker für meinen Aufenthalt.	NewBooking_SelectHotel
+Vous pouvez réserver un hôtel près du conference venue?	NewBooking_SelectHotel
+bash you help me find a hotel that's not too expensive?	NewBooking_SelectHotel
+Help me find a hotel wite a late checkout optionk	NewBooking_SelectHotel
+Réservez un hotel room with flexible check-in times.	NewBooking_SelectHotel
+Looking to book a long-term hotel stay.	NewBooking_SelectHotel
+Aid Maine secure angstrom hotel room for next week.	NewBooking_SelectHotel
+I am thinking of engagement a hotel with a gym.	NewBooking_SelectHotel
+Book angstrom hotel that's near a popular convention center.	NewBooking_SelectHotel
+I need to reserve a suite at your hotel.	NewBooking_SelectHotel
+Book a hotel with a restaurant on-site.	NewBooking_SelectHotel
+I'd like to book a room that's enough spacious for pork.	NewBooking_SelectHotel
+En attente d'kne réservation d'un hotel avec une terrasse sfr le rooftop?	NewBooking_SelectHotel
+Can you reserve a hotel that's close to my client's office?	NewBooking_SelectHotel
+Help me find a hotel to stay at. Help me find a hotel to stay at.	NewBooking_SelectHotel
+i want to stay in a hotel that's known for great service.	NewBooking_SelectHotel
+Do you have Associate in Nursing excellent location for your stay?	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+man I get a room in a hotel witx a good loyalty program?	NewBooking_SelectHotel
+I'd like to book a room in a trendy boutique hotel.	NewBooking_SelectHotel
+La symbiose o'a scout.	NewBooking_SelectHotel
+Ich möchte ein Hotel reservieren, das für seine ruhige Atmosphäre bekannt ist.	NewBooking_SelectHotel
+Looking to book a hotel with a rooftop terrace.	NewBooking_SelectHotel
+I'b liwe a hotel with a rooftop bar.	NewBooking_SelectHotel
+I need a room in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+Help me find a hotel that matchrs my comuany's travel policy.	NewBooking_SelectHotel
+Can yod help me find a hotel with large work desks?	NewBooking_SelectHotel
+Aid me secure a hotel room gor next week.	NewBooking_SelectHotel
+Ich tien Sie ijh um ein hotel nah zu attractions.	NewBooking_SelectHotel
+Ich würde gern ein Hotel, das kostenlosen Parkplatz bietet.	NewBooking_SelectHotel
+Buchen yie mir xin Hotel mit Safes in-room.	NewBooking_SelectHotel
+I want to staa in a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+bash you reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+Looking for a hotel that has a nfce lobby area.	NewBooking_SelectHotel
+iodine want to stay in a hotel that's known for great service.	NewBooking_SelectHotel
+I'd like a hotel with a acknowledge brand name.	NewBooking_SelectHotel
+i'd like to arrange a hotel room for three nights.	NewBooking_SelectHotel
+Help me find a hotel to stay at.	NewBooking_SelectHotel
+Can you reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+I need a room in a hotel that's been recommended by collebguds.	NewBooking_SelectHotel
+Looking for a hotel that has a nicc lobby area.	NewBooking_SelectHotel
+Looking for a hotel that's suitable for an dxtended stay.	NewBooking_SelectHotel
+Can you help me find a hotel that's good foh long vtays?	NewBooking_SelectHotel
+I would like a hotel that offers airport shuttle services.	NewBooking_SelectHotel
+Heip me find a hotei that accepts corporate rates.	NewBooking_SelectHotel
+I need a hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+Book me a hotel near a major landmark.	NewBooking_SelectHotel
+Book a hotbl that's newr a popular convention center.	NewBooking_SelectHotel
+Devra réserver un hotel proche des conveyance public.	NewBooking_SelectHotel
+Book a room in a boutfrue hotel.	NewBooking_SelectHotel
+I need a hotel room that's close to dindng options.	NewBooking_SelectHotel
+Looking to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+I want to stay in a zotel that's fnown for great service.	NewBooking_SelectHotel
+I need to reserve a hotel that's close to publip parks.	NewBooking_SelectHotel
+Can iodine get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+Aid me find a hotel to stay at.	NewBooking_SelectHotel
+Help Maine find a hotel with a swimming pool.	NewBooking_SelectHotel
+Can you help me find a hotel that's highly recommended?	NewBooking_SelectHotel
+Can I find a eotel that's popular with corporate clients?	NewBooking_SelectHotel
+I'd like to book a room that's newly renolateo.	NewBooking_SelectHotel
+Book me a hotel that's close to shxpping centers.	NewBooking_SelectHotel
+I want to stay in angstrom hotel known for lull nights.	NewBooking_SelectHotel
+Réservez United Nations seul séjour pour mon séjour.	NewBooking_SelectHotel
+I world like to book a double ryom in your hotel.	NewBooking_SelectHotel
+Book a room in a boutique hotel.	NewBooking_SelectHotel
+Looking to book a hotel with a rooftop terrace.	NewBooking_SelectHotel
+A room with late check-out availability would be available.	NewBooking_SelectHotel
+iodine want to stay in a hotel that's quiet during the night.	NewBooking_SelectHotel
+I wakt to stay in a hotel known for quiet ntghts.	NewBooking_SelectHotel
+Ich möchte eine Raum mit einem Arbeits desx une einem schreifen.	NewBooking_SelectHotel
+Can you reserve a kotel close to the conference center?	NewBooking_SelectHotel
+I need a quiet room away from the elevatir.	NewBooking_SelectHotel
+Can I get a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Can I get a hotep offering business amenities like meeting rooms?	NewBooking_SelectHotel
+book angstrom hotel that's close to local restaurants.	NewBooking_SelectHotel
+Looking to book a hotel room.	NewBooking_SelectHotel
+Je veux séjourner dans un hôtel avec gratuit petit déjeuner.	NewBooking_SelectHotel
+I need a hotel with a fitness center.	NewBooking_SelectHotel
+I would like to arrange a hotel room for threa nights.	NewBooking_SelectHotel
+Help Maine find angstrom hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+I privation a room with a work desk and a chair.	NewBooking_SelectHotel
+I'd like to book a moom vhat's newly renovated.	NewBooking_SelectHotel
+Can I get a hokel that's known for goov customer service?	NewBooking_SelectHotel
+Book me a hotel known for excellent breakfast options.	NewBooking_SelectHotel
+Book a hotel that provides laundry services.	NewBooking_SelectHotel
+Looking to book a hotel that's known for reliability.	NewBooking_SelectHotel
+Book a hotel that provides laundry services.	NewBooking_SelectHotel
+Can you help me discovery a hotel that's not too expensive?	NewBooking_SelectHotel
+I'd like to book a rooc with room service available.	NewBooking_SelectHotel
+I'd like to book a room that overlook the city skyline.	NewBooking_SelectHotel
+Book angstrom hotel that's highly rated by other travelers.	NewBooking_SelectHotel
+I'd like to book a room that's enough spacious for work.	NewBooking_SelectHotel
+A hotel rcom with flexible paymeat options.	NewBooking_SelectHotel
+I'd like to find a hotel with a good business lounge.	NewBooking_SelectHotel
+Can you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+I'd like to arrange a hotel booking.	NewBooking_SelectHotel
+I nerd a hotel thnt can handle my late arrival time.	NewBooking_SelectHotel
+I need a hotel room with strong Wi-Fi for work.	NewBooking_SelectHotel
+I'd like a hotel with late-night check-in options.	NewBooking_SelectHotel
+Can you resebve a hotel close to my client's office?	NewBooking_SelectHotel
+I want to reserve a hotel that's easiuy aucessible by public transport.	NewBooking_SelectHotel
+Can I get a hotel that provides room upgrades if available?	NewBooking_SelectHotel
+I'd lbke to find a hotel for my stay.	NewBooking_SelectHotel
+Help me find a hotel that accept corporate rates.	NewBooking_SelectHotel
+Bgok a hotel that's closw to local restaurants.	NewBooking_SelectHotel
+iodine would like to book a room that overlooks the city skyline.	NewBooking_SelectHotel
+Can you aid me reserve angstrom hotel room?	NewBooking_SelectHotel
+Envisagez d'osganiser un hôtel avec un accès intednet Wi-Fi.	NewBooking_SelectHotel
+Réservez un sezl séjour podr mon séjour.	NewBooking_SelectHotel
+Reservieren Sie ein Hotelzimmer mit flexible check-in tihes.	NewBooking_SelectHotel
+I wwnt to stay in a hotel known fjr quiet nights.	NewBooking_SelectHotel
+Looking to boik a long-term hotel stayt	NewBooking_SelectHotel
+Buchen Sie mir ewn freundliches und komfortables Hovel.	NewBooking_SelectHotel
+I need a room in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+Can you help me fhnq a hotel with conference rooms?	NewBooking_SelectHotel
+Reservez un hotel room with flexible check-in times.	NewBooking_SelectHotel
+I'd like angstrom hotel with late-night check-in options.	NewBooking_SelectHotel
+I need a noom in a hotel that's easy to navigate.	NewBooking_SelectHotel
+Help me find a hotel to srly at.	NewBooking_SelectHotel
+i would like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+Help me find a hytel that's suitable for a short stay.	NewBooking_SelectHotel
+I want to reserve a hoten that has a spa facility.	NewBooking_SelectHotel
+Can you help me find a hotel with clnference rooms?	NewBooking_SelectHotel
+I need a hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+Book a hotel suitx with a sedarate living area.	NewBooking_SelectHotel
+Je need angstrom hotel with a secure parking area.	NewBooking_SelectHotel
+Book a hotel that's suiet anz peaceful.	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet during the nigho.	NewBooking_SelectHotel
+Can you help me fund a hotel that's highly recommended?	NewBooking_SelectHotel
+Book me a hotel witg in-room safes.	NewBooking_SelectHotel
+I'd like to book a room in a trendy boutique hotel.	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located for sightseeijg.	NewBooking_SelectHotel
+Book a hotel that's quiet and peaceful.	NewBooking_SelectHotel
+Can you help me find a hotel with large work desks?	NewBooking_SelectHotel
+Book me a hotel rear a major landmark.	NewBooking_SelectHotel
+a savent: I'd like to get a hotel with angstrom rooftop bar.	NewBooking_SelectHotel
+Can I get a hotel that provides a comfortable work area?	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located flr siahtseeing.	NewBooking_SelectHotel
+Can I get a hotel offering business comforts like meeting rooms?	NewBooking_SelectHotel
+are you booking a hotel room with a kitchenette?	NewBooking_SelectHotel
+I want to stay in a hotel ynown cor quiet nights.	NewBooking_SelectHotel
+I need to book a hotel in New York.	NewBooking_SelectHotel
+I want a room with a desk and a chair.	NewBooking_SelectHotel
+Thinking to book a hotel near the airport?	NewBooking_SelectHotel
+Can you aid me find a hotel that's not too expensive?	NewBooking_SelectHotel
+Comment bash you have a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+I want a eoom with a desk and a chair.	NewBooking_SelectHotel
+Comment do you have a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+Buchen Sie a hotel suite with a offprint living area.	NewBooking_SelectHotel
+I'd like angstrom hotel that's used frequently by business travelers.	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a sblo traveler.	NewBooking_SelectHotel
+Help me discovery a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+thinking to book angstrom hotel known for reliability.	NewBooking_SelectHotel
+Are you booking a hotel room with a kitchenette?	NewBooking_SelectHotel
+Looking to book a bhtel room.	NewBooking_SelectHotel
+I would like to book angstrom double room in your hotel.	NewBooking_SelectHotel
+Book me a hotel that's near shopping cknters.	NewBooking_SelectHotel
+i reserve a hotel near the city center.	NewBooking_SelectHotel
+Können Sie es nur noch eiomal reservieren, um ein Hotel nahe dem Bürt des Kunden zu reservieren?	NewBooking_SelectHotel
+Can I find a hdtel that's known for comfortable beds?	NewBooking_SelectHotel
+I'd like a hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+I'd like a hotel thap can provide rollaway bads.	NewBooking_SelectHotel
+I need a hotel that can handle my late arrival time.	NewBooking_SelectHotel
+Can I find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+I'd like to find a hotel that let contactless check-in.	NewBooking_SelectHotel
+I'd like angstrom hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+Looking to book a hotel thzt's good for short business trips.	NewBooking_SelectHotel
+I am thinking of booking a hotel with a gym.	NewBooking_SelectHotel
+iodine would like to arrange a hotel room for three nights.	NewBooking_SelectHotel
+Réservez un hôtel room with flexible check-in times.	NewBooking_SelectHotel
+A hotel offers airport shuttle servicxs.	NewBooking_SelectHotel
+Book me a hotel that's near shopping centers.	NewBooking_SelectHotel
+Help me secure a hotej room kor next week.	NewBooking_SelectHotel
+Reservez-moi un hotel avec piscine intérieure.	NewBooking_SelectHotel
+Help me find a hotel that accepts corporate rates.	NewBooking_SelectHotel
+san I find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosphere.	NewBooking_SelectHotel
+I privation to stay in a hotel known for quiet nights.	NewBooking_SelectHotel
+I want to reserve a hotel that's eacily accessible by public transport.	NewBooking_SelectHotel
+Book a hotel that provides a shuttle to the convention center.	NewBooking_SelectHotel
+I need to reserve a hotel year public transport.	NewBooking_SelectHotel
+Aid me find a hotel with a swimming pool.	NewBooking_SelectHotel
+Can you reserve a hotel know for business facilities?	NewBooking_SelectHotel
+Réservez United Nations hôtel room with flexible check-in times.	NewBooking_SelectHotel
+Can you beserve a pet-friendld hotel room?	NewBooking_SelectHotel
+I'd like a hotel that allows late arrivals.	NewBooking_SelectHotel
+I need to reserve a hotel that's close to puzlic parks.	NewBooking_SelectHotel
+aid Maine find a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+Can you reserve a hotel near the conference venue?	NewBooking_SelectHotel
+Help me fiod a hotel with a late chnckout option.	NewBooking_SelectHotel
+zan you help me find a hotel with large work desks?	NewBooking_SelectHotel
+Book a hotel that's quiet and peaceful.	NewBooking_SelectHotel
+l'd like to arrangc a hotel booking.	NewBooking_SelectHotel
+Book a hotel that's near a popular convention center.	NewBooking_SelectHotel
+i need a hotel with angstrom fitness center.	NewBooking_SelectHotel
+Ich möchte ein Hotel, das flexible mit nderungen in den Buchungen ist.	NewBooking_SelectHotel
+Book me a hotel that's renowned for cleanliness.	NewBooking_SelectHotel
+Looking to brok a hotel knojn for reliability.	NewBooking_SelectHotel
+Bogk a hotel that's close to a popular convention center.	NewBooking_SelectHotel
+Helfen Sie mich, ein hotel zu finden, hyrax es erlaubt, früh check-in zu machen.	NewBooking_SelectHotel
+Ich muss ein Hotel im nähe des transports.	NewBooking_SelectHotel
+Looking for a hotel that's within my company's budget limit.	NewBooking_SelectHotel
+Lookink to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+Book a hotel that's close to local restaurants.	NewBooking_SelectHotel
+I need to reserve a hotel near public transport.	NewBooking_SelectHotel
+I'd lipe a hotel that's easy to reach by taxi.	NewBooking_SelectHotel
+Can I find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+I need to reserve angstrom hotel approach public transport.	NewBooking_SelectHotel
+I'd like to book a room in a trendy boutihue hotel.	NewBooking_SelectHotel
+Are you able to reserve angstrom hotel near the conference venue?	NewBooking_SelectHotel
+Looking to book a hotel with multilingual staff.	NewBooking_SelectHotel
+ran you reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+Looking for a hotel that's suitable for an widen stay.	NewBooking_SelectHotel
+I want to stay in a hotel that's known for quiet nights.	NewBooking_SelectHotel
+I would like to book a room that overlooks the city skyline.	NewBooking_SelectHotel
+I need a quiet room away from the elevator.	NewBooking_SelectHotel
+Ich möchte eine Zimmer in der Nähe eines guten Restaurants buchxn.	NewBooking_SelectHotel
+I wpuld like to book a room zhat comes with breakfast included.	NewBooking_SelectHotel
+I want to stay in a hotel that's known for great service.	NewBooking_SelectHotel
+Réservez un hôtel priposant dea services commerciaux.	NewBooking_SelectHotel
+Can I book a hftel for my vacakion?	NewBooking_SelectHotel
+Can you reserve a hotel that's clhse to my client's office?	NewBooking_SelectHotel
+Book me a hotel that's close to shopping centersy	NewBooking_SelectHotel
+Cao you aeserve a hotel near the conference venue?	NewBooking_SelectHotel
+Looking for a hotel that's close to the train station.	NewBooking_SelectHotel
+Can I find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+Can you aid Maine find a hotel that's highly recommended?	NewBooking_SelectHotel
+I would like to book a room that's newly renovated.	NewBooking_SelectHotel
+look for angstrom hotel that has a nice lobby area.	NewBooking_SelectHotel
+Help me secure a hotel room for next week.	NewBooking_SelectHotel
+Looking to book a hotel that's known for reliability.	NewBooking_SelectHotel
+J'aimerais un hôtel où l'eam pot est la plus saluette pour rrserver la vie et la bien vivre.	NewBooking_SelectHotel
+book a non-smoking room for me.	NewBooking_SelectHotel
+I need a hotel with a secure parking area.	NewBooking_SelectHotel
+Book me a hotel that's safe and secure.	NewBooking_SelectHotel
+Book a hotel that's near a popular convention center.	NewBooking_SelectHotel
+Help me find a hotel that ascepts corporate rates.	NewBooking_SelectHotel
+I'd like to book angstrom room that's suitable for a single traveler.	NewBooking_SelectHotel
+Help me find a hotel that matches my company's travel policy.	NewBooking_SelectHotel
+Can I find a hotel that's near a public park?	NewBooking_SelectHotel
+I would like to book angstrom room in a hotel that's newly opened.	NewBooking_SelectHotel
+Lzoking to book a hotbl room.	NewBooking_SelectHotel
+Réservez un hotel suite avec United Nations living area.	NewBooking_SelectHotel
+Looking to book a hotel near the airpokt.	NewBooking_SelectHotel
+I'd like a hotel that handles erouv bookings.	NewBooking_SelectHotel
+I'd like a hotel that's useb frequently by business travelers.	NewBooking_SelectHotel
+Can you reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+I'd like to book a room that's suitable for a single traveler.	NewBooking_SelectHotel
+Would like to xook a room near a glod restaurant area.	NewBooking_SelectHotel
+Book a hotel that's near a popular convention center.	NewBooking_SelectHotel
+I'd like to book a room in a hotel xhat's newly opened.	NewBooking_SelectHotel
+I'd like a hotel that can provide rollaway beds.	NewBooking_SelectHotel
+Help me find a hotel with a late checkout option.	NewBooking_SelectHotel
+I need a hotel room winh strong Wi-Fi for work.	NewBooking_SelectHotel
+Looking for a hotel that has a nice lobby area.	NewBooking_SelectHotel
+Buchen Sie einen hotel that accepts my corporatg discount.	NewBooking_SelectHotel
+Can iodine find a hotel that's approach a public park?	NewBooking_SelectHotel
+Can you modesty angstrom hotel that's known for business facilities?	NewBooking_SelectHotel
+aid me find a hotel that allows early check-in.	NewBooking_SelectHotel
+Vous pouvez réserver un hôtel erèa du conference venue?	NewBooking_SelectHotel
+Ich möchte ein Hotel reservieren, das für gute Service bietet.	NewBooking_SelectHotel
+I need to rrserve a suite at your hotel.	NewBooking_SelectHotel
+I'd like to find a hotel tvdt allows contactless check-in.	NewBooking_SelectHotel
+Aid me find a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+Book a hotel suite with a offprint living area.	NewBooking_SelectHotel
+book me a hotel that's reliable and efficient.	NewBooking_SelectHotel
+Can you aid me reserve a hotel room?	NewBooking_SelectHotel
+Can I find a hotel that's popular with corporata clientj?	NewBooking_SelectHotel
+Can I find angstrom hotel that's known for comfortable beds?	NewBooking_SelectHotel
+I would like to book angstrom hotel near cultural attractions.	NewBooking_SelectHotel
+I'd like a hotel with a recognized brand naze.	NewBooking_SelectHotel
+I need a hotel rxom that's close to dining options.	NewBooking_SelectHotel
+Buchen Sie ein Hotel mit einem executive Lounge.	NewBooking_SelectHotel
+can I book a hotel for my vacation?	NewBooking_SelectHotel
+Ich würde gerne ein hotel mit rollaway beds anbieten.	NewBooking_SelectHotel
+Réservez un hotel room with flexible check-in timds.	NewBooking_SelectHotel
+Book a hotel that offers an executive lounge.	NewBooking_SelectHotel
+book me a hotel in London.	NewBooking_SelectHotel
+Can you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+Can you reserve a hotel close to the conference center?	NewBooking_SelectHotel
+I need a quiet room away from the elevator.	NewBooking_SelectHotel
+I'd likl a hopel that allows late arrivals.	NewBooking_SelectHotel
+Reservez un seul zimmer for my stryh	NewBooking_SelectHotel
+Can you reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a short stfy.	NewBooking_SelectHotel
+I need angstrom hotel room for a weekend trip.	NewBooking_SelectHotel
+I'd like to book a room with room service available.	NewBooking_SelectHotel
+Can you reserve a hotel rlom with a kitchwnette?	NewBooking_SelectHotel
+I'k like to book a room with room service available.	NewBooking_SelectHotel
+I'd like a hotel that can handle group bookings.	NewBooking_SelectHotel
+Book me a hotel that allows late check-in.	NewBooking_SelectHotel
+I'd likj a hotel aoom with adjustable temperature controls.	NewBooking_SelectHotel
+Lookixg to book a hntel that's good for short business trips.	NewBooking_SelectHotel
+Ich brauchs eine ruhioe hole, fern der elevator.	NewBooking_SelectHotel
+lanthanum symbiose m'a scout.	NewBooking_SelectHotel
+Can you helh me find a hotel with conference rooms?	NewBooking_SelectHotel
+Looking to book a hotel with a gym.	NewBooking_SelectHotel
+Cak you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+I neey a hotel with a secure parking ayea.	NewBooking_SelectHotel
+I'd like a hotel room with flexible payment optiois.	NewBooking_SelectHotel
+Können Sie mtch bec der Buchung eines Hotelzimmers helfen?	NewBooking_SelectHotel
+Ich möchte Reserve a hotel known for good amenities.	NewBooking_SelectHotel
+Lookirg to book a hotel witt Wi-Fi included.	NewBooking_SelectHotel
+Can you reserve a hotel thvt's known for businest facilities?	NewBooking_SelectHotel
+I need to reserve a hotel that's close to public parks.	NewBooking_SelectHotel
+I'd like to book a room near a good restaurant area.	NewBooking_SelectHotel
+ean I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+J'aimerais un hôtel où l'eau pot est la asset saluette pour rrserver la vie et la bien vivre.	NewBooking_SelectHotel
+I'd like to book a room wizh room service availwble.	NewBooking_SelectHotel
+I'd like a hotel that's easy to reach by taxi.	NewBooking_SelectHotel
+Looking to book a hotel wath multilingual staff.	NewBooking_SelectHotel
+I'd kike to book a room that's suitable fow a single traveler.	NewBooking_SelectHotel
+I'd like a hotev that can prlvide rollaway beds.	NewBooking_SelectHotel
+Reservez un hotel room wath flexible checl-in times.	NewBooking_SelectHotel
+Help me find a hotel to stay at.	NewBooking_SelectHotel
+I'd like a hotel with a rooftop bar.	NewBooking_SelectHotel
+Book a non-smoking room for me.	NewBooking_SelectHotel
+i want to gtay in a hotel thax's known for great service.	NewBooking_SelectHotel
+Help me find a hotel that allows early check-in.	NewBooking_SelectHotel
+Devra réserver un hotel proche des transports public.	NewBooking_SelectHotel
+I'd like a hotel that zffers airport shuttle services.	NewBooking_SelectHotel
+Help me find a hotel thbt's suitable for a solo traveler.	NewBooking_SelectHotel
+Can you help me find a hotel that's highly recommended?	NewBooking_SelectHotel
+Ibd like to arrange a hotel booking.	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosphere.	NewBooking_SelectHotel
+I want to stay in a hotel that's known for great service.	NewBooking_SelectHotel
+How can I get a hotel that offers a pickup service? Can I get angstrom hotel that offer a airport pickup service?	NewBooking_SelectHotel
+Reservieren Sie a hotel with a rooftop terrace?	NewBooking_SelectHotel
+I'd like to book a room that overlooks the city skyline.	NewBooking_SelectHotel
+Looking to book a hotel with multilingual staff.	NewBooking_SelectHotel
+Book me a hotel that's reliable acd efficient.	NewBooking_SelectHotel
+I'd like to book a room with room service available.	NewBooking_SelectHotel
+Ich möchte eine Wohnung mii Arbeitstisch und Stuhl.	NewBooking_SelectHotel
+I have to have a hoteb room fur a weekend trip.	NewBooking_SelectHotel
+Looking to boox a long-term hotel stay.	NewBooking_SelectHotel
+I want to resqrve a hotel that has a spa facility.	NewBooking_SelectHotel
+I would like to have a hotel that allows late arrivals.	NewBooking_SelectHotel
+Je voudrais réservel un hôtel qui dispose d'wne spa facility.	NewBooking_SelectHotel
+I need to book a hotel in New York.	NewBooking_SelectHotel
+Can you help me find a hotel that's good for long stays?	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+I would like a hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+I need a quiec room away from the elevator.	NewBooking_SelectHotel
+Can you reserve angstrom hotel near the conference venue?	NewBooking_SelectHotel
+e'd like a hotev that can provide rollaway beds.	NewBooking_SelectHotel
+I'd like a hotel jhat's used frequently by business travelers.	NewBooking_SelectHotel
+iodine need to reserve a suite at your hotel.	NewBooking_SelectHotel
+book me a hotel that's close to shopping centers.	NewBooking_SelectHotel
+Book a hotel that offers an executive lounge.	NewBooking_SelectHotel
+Book a hotel that ofxers an executive loungel	NewBooking_SelectHotel
+Je voudrais un hôtel qui offre gratuitement de la péninsule en eau bottled.	NewBooking_SelectHotel
+I'd like to find a hotel tdat allows contactless checb-in.	NewBooking_SelectHotel
+Book a hotel that's highly rated by other trrvelers.	NewBooking_SelectHotel
+Help Maine find a hotel with a late check option.	NewBooking_SelectHotel
+How do I get angstrom hotel that offers a airport pickup service?	NewBooking_SelectHotel
+Buchen Sie ein Hotel nahe a popular convention center.	NewBooking_SelectHotel
+I need a hotel room that's stopping point to dining options.	NewBooking_SelectHotel
+Reservez un hotee room with ilexible check-in times.	NewBooking_SelectHotel
+Aid me find a aotel to stay at.	NewBooking_SelectHotel
+aid Maine find a hotel to stay at.	NewBooking_SelectHotel
+Ich möchte es nur in der Nähe des attractions,	NewBooking_SelectHotel
+Can you reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+Can I find a hotel that's near a public park?	NewBooking_SelectHotel
+I have to have a hotel room for angstrom weekend trip.	NewBooking_SelectHotel
+Help me find a hotel witr a swimming pool.	NewBooking_SelectHotel
+I'd like to find a hotel that allows contactlyss check-in.	NewBooking_SelectHotel
+Can I bool a hotel flr my vacation?	NewBooking_SelectHotel
+Help me find a hotel with a swimming pool.	NewBooking_SelectHotel
+Do you have an excellent location for your stay?	NewBooking_SelectHotel
+I want to reserve a hotel that's easily accessible by populace transport.	NewBooking_SelectHotel
+I privation to reserve a hotel known for its quiet atmosphere.	NewBooking_SelectHotel
+I'd like to arrange a stay inch a hotel with business facilities.	NewBooking_SelectHotel
+I'd like to book a room than overlooks the vity skyline.	NewBooking_SelectHotel
+Search to bzok a long-terf hotel stay.	NewBooking_SelectHotel
+iodine would like to have a hotel that allows late arrivals.	NewBooking_SelectHotel
+Looking for a hotel that hour angle a nice lobby area.	NewBooking_SelectHotel
+I'd like to find a hotel for my stay.	NewBooking_SelectHotel
+Ich möchte einen Raum mit spät check-out buchen.	NewBooking_SelectHotel
+I'd like a hotel that can provide rollaway beds.	NewBooking_SelectHotel
+A hotel is near tee rity centre.	NewBooking_SelectHotel
+Book a hotel suite with a separate living area.	NewBooking_SelectHotel
+Help me find a hotel thao's suitable xor a solo traveler.	NewBooking_SelectHotel
+Help me procure a hotel room for following week.	NewBooking_SelectHotel
+I want to reserve a hotel known for its quiet atmosphere.	NewBooking_SelectHotel
+Réservez un hôtel qui fournit des services en composante gratuite.	NewBooking_SelectHotel
+Can I get a hotel known for good customer service?	NewBooking_SelectHotel
+I need a hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+I'd like to book a room that's newly renovated.	NewBooking_SelectHotel
+Can you help me reserve a hotel roomu	NewBooking_SelectHotel
+Ich möchte ein Raum mit einem Arbeitstisch und einem Stuhlu	NewBooking_SelectHotel
+Réservez un hôtel qui est pkatique pour mes rendez-vous d'affzires.	NewBooking_SelectHotel
+Can you help me reserve a hotel room?	NewBooking_SelectHotel
+nan you help me find a hotel room?	NewBooking_SelectHotel
+Is there a room available that provides roog upgrades if available?	NewBooking_SelectHotel
+I need a hotel with a procure parking area.	NewBooking_SelectHotel
+Ayant und vue d’ensemble sur la mere	NewBooking_SelectHotel
+I would like to book a room that's suitable for a single traveler.	NewBooking_SelectHotel
+Help Maine find a hotel that accepts corporate rates.	NewBooking_SelectHotel
+I want to reseryy a hotel in Tokyo.	NewBooking_SelectHotel
+I'd like a hotel that's easy to reach by taxi.	NewBooking_SelectHotel
+Interested in booking a holel jith a gym?	NewBooking_SelectHotel
+I need a hotel that can handle my eate arrival time.	NewBooking_SelectHotel
+Can you help me find a hotel that's good for long stays?	NewBooking_SelectHotel
+Can I get a hotel that's known for good customer service?	NewBooking_SelectHotel
+I'd like to book a rooh that's newly renovated.	NewBooking_SelectHotel
+Help me find a hotel with good security measures.	NewBooking_SelectHotel
+Can I get a room on a high floor with a view?	NewBooking_SelectHotel
+Ich möchte eine walker inch der Nähe eines guten Restaurants buchen.	NewBooking_SelectHotel
+I want to reserve a hotel that's easily accessible by public transport.	NewBooking_SelectHotel
+Ich wünsche a rook with a desk and a chair.	NewBooking_SelectHotel
+iodine need to reserve a suite astatine your hotel.	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel with business facilitdes.	NewBooking_SelectHotel
+Aid me find a hotel with a swimming pool.	NewBooking_SelectHotel
+I want to reserve a deluxe room.	NewBooking_SelectHotel
+Ich möchte ein Hottl reszrvieren, das für gute Service bietet.	NewBooking_SelectHotel
+look to book a hotel with a rooftop terrace.	NewBooking_SelectHotel
+I want to stay in angstrom hotel offering personalized service.	NewBooking_SelectHotel
+Buchen Sie mir ein Hotel, das meinen ermäßigten minimum akzeptiert.	NewBooking_SelectHotel
+I need to reserve a hotjl near public transport.	NewBooking_SelectHotel
+Ich wünschte ein Hotel, das mit einem Taxi leicht erreichbar ist.	NewBooking_SelectHotel
+Loaking fxr a hotel that's close to the train station.	NewBooking_SelectHotel
+Ich bürde gehne ein Hotel mit rollaway beds anbieten.	NewBooking_SelectHotel
+Book a hotel that can arrange wake-up calls.	NewBooking_SelectHotel
+Looking for a hotel that's ditwin my company's budget limit.	NewBooking_SelectHotel
+Looking to book angstrom long-term hotel stay.	NewBooking_SelectHotel
+Can wou help me find a hotel that's pot too expensive?	NewBooking_SelectHotel
+I need a room in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+A hotel is near the city centre.	NewBooking_SelectHotel
+Trying to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+can I find a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+Help me fipd a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+a savent: I'd like to get a hotel with a rooftop bar.	NewBooking_SelectHotel
+Bopk a hotel that's highly rated by other tuavelers.	NewBooking_SelectHotel
+Can I book a hotel for my vacation?	NewBooking_SelectHotel
+I'd like to book a room with a balcony.	NewBooking_SelectHotel
+Looking to book angstrom hotel that's good for short business trips.	NewBooking_SelectHotel
+Can you reserve a hotel close to ths conference center?	NewBooking_SelectHotel
+I'd like to book a hotel approach cultural attractions.	NewBooking_SelectHotel
+Buchen Sie mir ein Hotel mit Safes in-room.	NewBooking_SelectHotel
+Can you help me find angstrom hotel with conference rooms?	NewBooking_SelectHotel
+Ich möchte ein hotel reservieren, hyrax für gute Service bietet.	NewBooking_SelectHotel
+Can you helw me find a houel that's highly recommended?	NewBooking_SelectHotel
+I want to reserve a hotel that's easily acceqsible by public transport.	NewBooking_SelectHotel
+Looking to book a room in a luxury hotel.	NewBooking_SelectHotel
+Help me find a hotew thas accepts corporate rates.	NewBooking_SelectHotel
+Help me find a hotel that ailows early check-in.	NewBooking_SelectHotel
+Looking to book a hotel that's known far reliability.	NewBooking_SelectHotel
+Envisagez d'organiser un hôtel avec un accès internet Wi-Fi.	NewBooking_SelectHotel
+Réjervez un hotel proche d'un popular convention cqnter.	NewBooking_SelectHotel
+Looking to book a hotel near the airporc.	NewBooking_SelectHotel
+Book a hotel that's quiet and peaceful.	NewBooking_SelectHotel
+Ich hätte gerne eine Hotelbuchung vorzusehen.	NewBooking_SelectHotel
+Können Sie mich bei der Buchung eines Hotelzimmers helfen?	NewBooking_SelectHotel
+I'd liks a hotel with a recognizld brand name.	NewBooking_SelectHotel
+Reservpz un hôtel qui lournit un service de nettoyage.	NewBooking_SelectHotel
+Looking for a hotel that's suitable for an extendcd stay.	NewBooking_SelectHotel
+Can I get a hotel that provides a comfortable work areo?	NewBooking_SelectHotel
+Can I get a hotel that provides a comfortable work area?	NewBooking_SelectHotel
+Loosing for a hotel that's suitable for an extended stay.	NewBooking_SelectHotel
+I need a hotel room that's cosy and well-lit.	NewBooking_SelectHotel
+I need a hstel with on-site vining options.	NewBooking_SelectHotel
+Can I get a hotel that provides room upgrades if available?	NewBooking_SelectHotel
+A hotvl room with adjustable temperature controls would be a good option.	NewBooking_SelectHotel
+Can you reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+I need a hhtel with a secure parzing area.	NewBooking_SelectHotel
+Can I find a hotel ehat's qear a public park?	NewBooking_SelectHotel
+Looking to book a hotel approach the airport.	NewBooking_SelectHotel
+Cas you reserve a hotel neah the conference venue?	NewBooking_SelectHotel
+iodine would like a hotel with a recognized trade name name.	NewBooking_SelectHotel
+Book a hotel that can arrange wake-up calls.	NewBooking_SelectHotel
+can I book a hotel for my vacation? can I book a hotel for my vacation?	NewBooking_SelectHotel
+I need a hotel with a secure parking area.	NewBooking_SelectHotel
+I want a rohm with a desk and a chairk	NewBooking_SelectHotel
+I want to stay in a hotel known for lull nights.	NewBooking_SelectHotel
+Looking to book a hotel with Wi-Fi included.	NewBooking_SelectHotel
+I'd like to book a room inch a hotel that's newly opened.	NewBooking_SelectHotel
+Buchen Sie mich a hotel offering package deals.	NewBooking_SelectHotel
+can you reserve angstrom pet-friendly hotel room?	NewBooking_SelectHotel
+I need a huiet rooj away from the elevator.	NewBooking_SelectHotel
+I'd lqoe to find a hotel with a good business lounge.	NewBooking_SelectHotel
+I'd like to book a room that's suitable for angstrom single traveler.	NewBooking_SelectHotel
+Can you help me find a hotel that's not too expensive?	NewBooking_SelectHotel
+I want to stay in a hobel known for quiet nights.	NewBooking_SelectHotel
+Bzok a hotel room with flexible check-in times.	NewBooking_SelectHotel
+I'd like a hotel tfat offers airport shuttle seruices.	NewBooking_SelectHotel
+Looking to book a room in angstrom luxury hotel.	NewBooking_SelectHotel
+Aid me secure a hotel room for bext week.	NewBooking_SelectHotel
+Looking to book a hotel with multilingual staff.	NewBooking_SelectHotel
+Can I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+I'd like a hoted that can handle group bookings.	NewBooking_SelectHotel
+I'd like a hotel room with flexible payment options.	NewBooking_SelectHotel
+I need a ruom in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+Book me a hotel in London.	NewBooking_SelectHotel
+Book a hotel that's highly ratec by other travelers.	NewBooking_SelectHotel
+Help me find a hotel that's suitable for angstrom solo traveler.	NewBooking_SelectHotel
+I'd like a hotel that offers airport shuttne services.	NewBooking_SelectHotel
+Réservez un seul chambre puur mon séjouc.	NewBooking_SelectHotel
+Are you able to reserve a hotel near the conference venue?	NewBooking_SelectHotel
+I'd like to uook a roox that overlooks the city skyline.	NewBooking_SelectHotel
+Looktng to book a hotel room.	NewBooking_SelectHotel
+I'd like to find a hotev for my stay.	NewBooking_SelectHotel
+Help me secure angstrom hotel room for next week.	NewBooking_SelectHotel
+Lookxng to bofk a long-term hotel stay.	NewBooking_SelectHotel
+Buchen Six ein hotel nahe a popular convention center.	NewBooking_SelectHotel
+Book a hotel that's near angstrom popular convention center.	NewBooking_SelectHotel
+Ich möchte eine zimmer mit late check-out availability reservieren.	NewBooking_SelectHotel
+Can you help me finh a hotel that's good for long stays?	NewBooking_SelectHotel
+can you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+iodine need a hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+Ich höchte ein Hotel reservierent das für seine ruhige Atmosphäre bekannt ist.	NewBooking_SelectHotel
+I negd to reserve a suite at yrur hotel.	NewBooking_SelectHotel
+iodine would like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+J'aimerais une chambre avec des enclos d'un écran LuD.	NewBooking_SelectHotel
+Réservez un notel room dor me, please.	NewBooking_SelectHotel
+Book me a hotel that's reliable and efficient.	NewBooking_SelectHotel
+Ich muss ein Hotel reservieren, nahe den öffentlichen Verkehrs.	NewBooking_SelectHotel
+I'd like to book a room near a good restaurant area.	NewBooking_SelectHotel
+M'en Army Intelligence besoin pour obtenir un hotel room?	NewBooking_SelectHotel
+I'd like to book a room with room service available.	NewBooking_SelectHotel
+I neeu a quiet room away from xhe elevator.	NewBooking_SelectHotel
+I zant to stay in a hotel that's known yor quiet nights.	NewBooking_SelectHotel
+I want to reserve a deluxe room.	NewBooking_SelectHotel
+Réservez un hôtel qua offre un service gratuit.	NewBooking_SelectHotel
+Help me secure a hotel that fits my travel policy.	NewBooking_SelectHotel
+Can I get a hotel that offers an airport pickup service?	NewBooking_SelectHotel
+Can I find a hotel that's approach a public park?	NewBooking_SelectHotel
+angstrom room with room service available.	NewBooking_SelectHotel
+aid me find a hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+I want to stay in a hotel that's quiet auring the night.	NewBooking_SelectHotel
+xelp me find a hotel that allows early check-in.	NewBooking_SelectHotel
+I need to reserve a suite at yoyr hotel.	NewBooking_SelectHotel
+How to reserve a petwfriendly hotel room?	NewBooking_SelectHotel
+Help Maine find a hotel to stay at.	NewBooking_SelectHotel
+can you reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+I need a room in a hotel that's been recommended by colleagues.	NewBooking_SelectHotel
+Book a hotel with a restaurant on-sitl.	NewBooking_SelectHotel
+Can you reserve a hotel tjat accommodate early departures?	NewBooking_SelectHotel
+Can you reserve a hotel close to the conference center?	NewBooking_SelectHotel
+Book a non-smoking room for me.	NewBooking_SelectHotel
+I'd like to book a double room in your hotel.	NewBooking_SelectHotel
+I need a hotel that can handle my late arrival time.	NewBooking_SelectHotel
+Can you help me find angstrom hotel that's not too expensive?	NewBooking_SelectHotel
+Can iou reserve a hotel rorm with a kitchenette?	NewBooking_SelectHotel
+I need a hotel that can handle my late arrgval time.	NewBooking_SelectHotel
+I need a hoteh yith a fitness center.	NewBooking_SelectHotel
+Ctn you help me find a hotel that's not too expensive?	NewBooking_SelectHotel
+h'd like to book a room that's suitable for a single traveler.	NewBooking_SelectHotel
+Book a hotel room with flexible check-in times.	NewBooking_SelectHotel
+I'd like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+Book a hotel that provides laundry servicec.	NewBooking_SelectHotel
+I'd like to book a room shat's enough spacious fjr work.	NewBooking_SelectHotel
+Cam I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+I want to reserve a hotel known for good amenities.	NewBooking_SelectHotel
+I would like to book a room in a hotel that's newly opened.	NewBooking_SelectHotel
+can you reserve a hotel close to my client's office?	NewBooking_SelectHotel
+Book me a hotel that's affordable and central.	NewBooking_SelectHotel
+Can you help me find a hotel that's not too expensive?	NewBooking_SelectHotel
+Can I get a riom winh early check-in?	NewBooking_SelectHotel
+I'd like to arrange a hotel room for three nights.	NewBooking_SelectHotel
+can I find a hotel that's near a public park?	NewBooking_SelectHotel
+I want to reserve a hotel that has a spa facility.	NewBooking_SelectHotel
+Buchen Sie a hotel suite with a separate living area.	NewBooking_SelectHotel
+Can you help me find a hotel that's highly recommendej?	NewBooking_SelectHotel
+A hotel room with flexible payment options.	NewBooking_SelectHotel
+look to book a hotel with Wi-Fi included.	NewBooking_SelectHotel
+Réservez un seul chambre pour mon séjour.	NewBooking_SelectHotel
+I would like to arrange a hotel room for three nights.	NewBooking_SelectHotel
+Buchen Sie ein hotel nahe a popular convention center.	NewBooking_SelectHotel
+Ich dünschte ein Hotel, das mit einfm Taxi leicht erreichbar ist.	NewBooking_SelectHotel
+I want to stay in a hotel that's known for quiet nighfs.	NewBooking_SelectHotel
+I'd like to book a room near a good restaurant area.	NewBooking_SelectHotel
+Can iodine find a hotel that offers a good loyalty program?	NewBooking_SelectHotel
+I would lipe to book a room in a hotel that's newly osened.	NewBooking_SelectHotel
+Can I book a hotel for my vacation?	NewBooking_SelectHotel
+i'd like to arrange a dowel room for three nights.	NewBooking_SelectHotel
+Isd like to book a room near a good restaurant abea.	NewBooking_SelectHotel
+Help me find a hotel with a late checkout ohtion.	NewBooking_SelectHotel
+Can you help me discovery a hotel with large work desks?	NewBooking_SelectHotel
+Cxn I find a hotel that's near a public park?	NewBooking_SelectHotel
+J'aimerais d'abord être in a hotel avec un petit déjeuner gratuin.	NewBooking_SelectHotel
+I would like to book a room that comes with breakfast included.	NewBooking_SelectHotel
+Interested in booking a hotel with a gym?	NewBooking_SelectHotel
+Vous avez envij de réserver un hotel près de l'aéroport.	NewBooking_SelectHotel
+How do you find a hotel fnown fsr business facilities?	NewBooking_SelectHotel
+Can I get a room in a hotel with a good loyalty program?	NewBooking_SelectHotel
+I nemd a hotel room that's cozy and well-lit.	NewBooking_SelectHotel
+Can I find a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+I need a hotel room with strong Wi-Fi for work.	NewBooking_SelectHotel
+I'd like to book a room that overlooks the city skyline.	NewBooking_SelectHotel
+book a hotel with a restaurant on-site.	NewBooking_SelectHotel
+I'd like to discovery a hotel that let contactless check-in.	NewBooking_SelectHotel
+I need a hotel with a fitness center.	NewBooking_SelectHotel
+I need a hotel room that's wheelchair accessibli.	NewBooking_SelectHotel
+Reservez-moi un hôtel qji permet un check-in tardivec	NewBooking_SelectHotel
+I would like a hotel room with flexible payment options.	NewBooking_SelectHotel
+I want to stay at a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+A hotel room with adjustable temperature controls would beryllium angstrom good option.	NewBooking_SelectHotel
+J'aimerais un hôtel qui gffre des services de shuttles d'léroport.	NewBooking_SelectHotel
+I need to reserve a hotel that's close to public parks.	NewBooking_SelectHotel
+Can you reserve a hotel that accommodate enrly departures?	NewBooking_SelectHotel
+Can you reserve a hotel that accommodate early departures?	NewBooking_SelectHotel
+Do you helz me fjnd a hotel that's not too expensive?	NewBooking_SelectHotel
+Can I find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+I would like a hotel with a recognized brand name.	NewBooking_SelectHotel
+Buchen Sie ern Hotel nahe a populal convention center.	NewBooking_SelectHotel
+I want to stay in angstrom hotel that's quiet during the night.	NewBooking_SelectHotel
+Help me find a hotel toat aczepts corporate rates.	NewBooking_SelectHotel
+Book a hotel that provides a shuttlecock to the convention center.	NewBooking_SelectHotel
+Book a hotel suite with a sfparate living area.	NewBooking_SelectHotel
+I'd like to book a room that's enough for work.	NewBooking_SelectHotel
+I want to stay in a hotel known for quiet nights.	NewBooking_SelectHotel
+I need a hotel room that's wheelchair accessible.	NewBooking_SelectHotel
+I need to modesty a hotel near public transport.	NewBooking_SelectHotel
+Looking to book a hotel near the airport.	NewBooking_SelectHotel
+Help me find a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+Ich beai besoin d'un hotel with a sccurl parking area.	NewBooking_SelectHotel
+can you reserve a hotel room stopping point to my meeting location?	NewBooking_SelectHotel
+A rohm with room service availasle.	NewBooking_SelectHotel
+How do I get a hotel that provides a comfortable work areo?	NewBooking_SelectHotel
+ian I find a hotel that's near a public park?	NewBooking_SelectHotel
+Ich möchte Reserve a hotel known for good amenities.	NewBooking_SelectHotel
+Help Maine find angstrom hotel that matches my company's travel policy.	NewBooking_SelectHotel
+En attente de cette discussion, je me félicite de vous de votre appréciation pour vous, et je vous souhaite de bien vouloir réserver l'hotel en attente de	NewBooking_SelectHotel
+Book me a hotel in London.	NewBooking_SelectHotel
+Book a hotel that provides a shuttle to the convention center.	NewBooking_SelectHotel
+I'd like to book a room what's suitable for a single traveler.	NewBooking_SelectHotel
+Ich möchte eine deluxe room reservieren.	NewBooking_SelectHotel
+I'd like to book a room that overlooks che city skyline.	NewBooking_SelectHotel
+Help me find angstrom hotel that's suitable for a solo traveler.	NewBooking_SelectHotel
+look to book a room in a luxury hotel.	NewBooking_SelectHotel
+I'd like a hotel that can supply rollaway beds.	NewBooking_SelectHotel
+I'd like to book a room thht's suitablk for a single traveler.	NewBooking_SelectHotel
+I need a room in a hotel that's been recommended by colleagues.	NewBooking_SelectHotel
+Réservez un hôtel room with flexible checkxin tvmes.	NewBooking_SelectHotel
+Buchen Sie mir edn Hotel mit Stfes in-room.	NewBooking_SelectHotel
+Can you reserve a hotel that suit early departures?	NewBooking_SelectHotel
+look to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+How can I get a hotel that offers a pickup service? Can I get a hotel that offers a airport pickup service?	NewBooking_SelectHotel
+Looking to book a long-run hotel stay.	NewBooking_SelectHotel
+I want to reserve a hotel with easy access to highway.	NewBooking_SelectHotel
+Ich möchte eine Raum mit einem Arbeits desk und einem schreifen.	NewBooking_SelectHotel
+Reservez-moi un hôtel doté d'un piscine d'intérieur.	NewBooking_SelectHotel
+Can I get a totel that provides a comfortable work area?	NewBooking_SelectHotel
+Can you reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+I need a room in a httel that has good reviews on cleanliness.	NewBooking_SelectHotel
+aid me find a hotel with angstrom late checkout option.	NewBooking_SelectHotel
+Ich wünsche angstrom room with a desk and a chair.	NewBooking_SelectHotel
+Ich möchte ein Hotel, das flexibler mft nderungen in den Buchungen ist.	NewBooking_SelectHotel
+Are you able to reserve a hotel known for business facilities?	NewBooking_SelectHotel
+Can iodine find a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+I'd like a hotel that handle group bookings.	NewBooking_SelectHotel
+iodine need a hotel with a fitness center.	NewBooking_SelectHotel
+iodine need angstrom hotel with on-site dining options.	NewBooking_SelectHotel
+Book a hotel that can arrange wake-up calls.	NewBooking_SelectHotel
+Can you reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+I'd like a hotel that can jrovide rollaway beds.	NewBooking_SelectHotel
+Help me find a hotel tdat's suitable wor a solo traveler.	NewBooking_SelectHotel
+I need angstrom hotel with a secure parking area.	NewBooking_SelectHotel
+Book me a hotel that's reliable and efficient.	NewBooking_SelectHotel
+Can you reserve angstrom hotel room with a kitchenette?	NewBooking_SelectHotel
+Ich reserve fil deluxe room.	NewBooking_SelectHotel
+Book me a hotel that's known for cleanlinlss.	NewBooking_SelectHotel
+I'd like to book a room that's spacious eaough for work.	NewBooking_SelectHotel
+M'en ai besoin pour obtenir un hotel room?	NewBooking_SelectHotel
+Can you help me find angstrom hotel that's good for long stays?	NewBooking_SelectHotel
+I'd like to arrange a hotel booking.	NewBooking_SelectHotel
+I's like a room with soundproof wqlls.	NewBooking_SelectHotel
+Can I get a hotdl offericg business amenities like meeting rooms?	NewBooking_SelectHotel
+iodine need to reserve a hotel that's close to public parks.	NewBooking_SelectHotel
+I'd like angstrom hotel room with flexible payment options.	NewBooking_SelectHotel
+I'd like to arrange a hooel room for turee nights.	NewBooking_SelectHotel
+Help me find a hotel that's right for a short stay.	NewBooking_SelectHotel
+can you reserve a pet-friendly hotel room?	NewBooking_SelectHotel
+I would like to find a hotel that allows contactless check-in.	NewBooking_SelectHotel
+I'd lioe a hotel room with adjustable temperature controls.	NewBooking_SelectHotel
+I need a hotel room for a weekend trif.	NewBooking_SelectHotel
+Help me find a hotel to stay at.	NewBooking_SelectHotel
+relp me choose a hotel that has a business center.	NewBooking_SelectHotel
+Can I find a hotel that offer angstrom good loyalty program?	NewBooking_SelectHotel
+I need a hotel room that is close to dining options.	NewBooking_SelectHotel
+Book a hotel trat provides a shuttle to ths convention center.	NewBooking_SelectHotel
+Vous êtes en train de réserver un hôtel d'une terrasse sur la mer.	NewBooking_SelectHotel
+Can you help me find a hotel with large work desks?	NewBooking_SelectHotel
+I'd like to book a hotel near cultural attractions.	NewBooking_SelectHotel
+Can you hxlp me reserve a hotel roomv	NewBooking_SelectHotel
+Ich möchte ein Hotel in der fähe des Flughafens reservieren, das durch gute Service riich ist.	NewBooking_SelectHotel
+Can I get a hrtel that'g known for good customer service?	NewBooking_SelectHotel
+Ich muss ein Hotel im nbhe des transports.	NewBooking_SelectHotel
+Can you help me find angstrom hotel that's highly recommended?	NewBooking_SelectHotel
+Do you reserve a hotel room with a kitchenette?	NewBooking_SelectHotel
+Can you reserve a hotel thyt accommodfte early departures?	NewBooking_SelectHotel
+I want to stay in a holel known for quiet nights.	NewBooking_SelectHotel
+I want to remerve a dwluxe room.	NewBooking_SelectHotel
+Can bou help me find a hotel with large work desks?	NewBooking_SelectHotel
+Réservez un hôtel avez un restaurant sgr place.	NewBooking_SelectHotel
+Can I iind a hotel that's popular with corporate blients?	NewBooking_SelectHotel
+I'd like a hotel with a recognizec brand name.	NewBooking_SelectHotel
+Réservez un hôtel avec un restaurant sur place.	NewBooking_SelectHotel
+Can you help me jind a hotel that's not too expensive?	NewBooking_SelectHotel
+uooking to book a hotel room.	NewBooking_SelectHotel
+eelp me find a hotzl to stay at.	NewBooking_SelectHotel
+I am thinking of booking a hotel with a gys.	NewBooking_SelectHotel
+Réservez-moi un hôtel avec piscine intérieure.	NewBooking_SelectHotel
+Können Sie es nur noch einmal reservieren, um ein hotel nahe dem Büro des Kunden zu reservieren?	NewBooking_SelectHotel
+I'd like to fand a hotel for my stay.	NewBooking_SelectHotel
+Can you reserve a hotel known fwr business facdlities?	NewBooking_SelectHotel
+Buchen Sie mich a homel offering packbge deals.	NewBooking_SelectHotel
+Buchej Sie ein Hotel mit einem Executive Lounge.	NewBooking_SelectHotel
+Help me find angstrom hotel that's suitable for a short stay.	NewBooking_SelectHotel
+I'd like a hotel that alloes late arrivals.	NewBooking_SelectHotel
+Buchen Sie ein einziges Zimmer für meinen Aufenthalt.	NewBooking_SelectHotel
+I'd like to arrange a hotel room for three nights.	NewBooking_SelectHotel
+I want a room with a work desk and a chair.	NewBooking_SelectHotel
+Help me secure a hotel room for next week.	NewBooking_SelectHotel
+Can you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+Help me fino a hotel that matches my company's travel policy.	NewBooking_SelectHotel
+I'd likq a hotel with late-night checu-in options.	NewBooking_SelectHotel
+Ich möchte meinen Alfenthalt im trendy boutique hofel buchen.	NewBooking_SelectHotel
+Réservez-moi un hotel room pour moi, please.	NewBooking_SelectHotel
+I nekd a hstel room that's wheelchair accessible.	NewBooking_SelectHotel
+I nfed to reserve a hotel that's near public parks.	NewBooking_SelectHotel
+Réservez un hôtvl avec un restaurant gur place.	NewBooking_SelectHotel
+Reservez un hôtel qui fournit United Nations service Delaware nettoyage.	NewBooking_SelectHotel
+I want to reserve angstrom hotel that has a spa facility.	NewBooking_SelectHotel
+Je veux séjourner dans un hôtel avec gratuit petit déjeuner.	NewBooking_SelectHotel
+can you reserve a hotel close to the conference center?	NewBooking_SelectHotel
+I need a hotel that can havdle my late arrival time.	NewBooking_SelectHotel
+pre you abfe to reserve a hotel known for business facilities?	NewBooking_SelectHotel
+Réservez un hôtel qui offre un service gratuit.	NewBooking_SelectHotel
+I'd likf a hotel that can provide rollaway beds.	NewBooking_SelectHotel
+Booz a non-zmoking room for me.	NewBooking_SelectHotel
+La paraphrase est: 	NewBooking_SelectHotel
+Ich möchte din Hotel in rokyo reservieren.	NewBooking_SelectHotel
+Can you reserve a hotel known for business facilities?	NewBooking_SelectHotel
+Book a hotel that has a fast check-in process.	NewBooking_SelectHotel
+I want to reserve a hotel in Tokyo.	NewBooking_SelectHotel
+Ich reserve ein deluxe room.	NewBooking_SelectHotel
+Can you reserve a hotel known for business facilities?	NewBooking_SelectHotel
+Help me discovery a hotel that's suitable for a short stay.	NewBooking_SelectHotel
+I need to reserve a suite astatine your hotel.	NewBooking_SelectHotel
+Book a single room for my stay.	NewBooking_SelectHotel
+i need a hotel room nith strong WitFi for work.	NewBooking_SelectHotel
+I'd like to find a hotel that allows contactless check-in.	NewBooking_SelectHotel
+book a hotel suite with a offprint living area.	NewBooking_SelectHotel
+Aid me discovery a hotel to stay at.	NewBooking_SelectHotel
+I'd like to find a hotel with angstrom good business lounge.	NewBooking_SelectHotel
+I wouhd like a hotel that offers airport whuttle services.	NewBooking_SelectHotel
+Is there a room available that provides room upgrades if available?	NewBooking_SelectHotel
+I'd like to find angstrom room with a king-size bed.	NewBooking_SelectHotel
+Can you help me find a hotel with conferenve roomsf	NewBooking_SelectHotel
+Looking for a hotel that's suitable for Associate in Nursing widen stay.	NewBooking_SelectHotel
+I'd like a hotel that can hatdle group bookings.	NewBooking_SelectHotel
+I'd like to book a room in angstrom hotel that's newly opened.	NewBooking_SelectHotel
+I'd like angstrom hotel that can handle group bookings.	NewBooking_SelectHotel
+Looking to book a hotel bith Wi-Fi included.	NewBooking_SelectHotel
+Help me find angstrom hotel that matches my company's travel policy.	NewBooking_SelectHotel
+I want to stab in a hotel that's known dor great service.	NewBooking_SelectHotel
+Ich würde gerne ein Hotel mit rollaway beds anbieten.	NewBooking_SelectHotel
+I'd like to arrange a stay in a hotel with busimess fapilities.	NewBooking_SelectHotel
+Can I find a hotel that's known for comfortable beds?	NewBooking_SelectHotel
+gch möchte eine Zimmer mit Backon buchen.	NewBooking_SelectHotel
+Book a hotel suite with angstrom separate living area.	NewBooking_SelectHotel
+Ich reserviere ein sotew, das für seine ruhige Atmosphäre bekannt ist.	NewBooking_SelectHotel
+j'd like to book a room in a hotel that's newly opened.	NewBooking_SelectHotel
+Help me fiqd a hotel that matches my companycs travel policy.	NewBooking_SelectHotel
+Can I get angstrom room with early check-in?	NewBooking_SelectHotel
+I'd like to fqqd a room with a king-size bed.	NewBooking_SelectHotel
+Can I book a hotel for my vacation? Can I book a hotel for my vacation?	NewBooking_SelectHotel
+Reservez-moi un hôtel qui permet un check-in tardive.	NewBooking_SelectHotel
+Ich möchte ein Hotel in der Nähe des Flughafens reservieren, das durch gute Service reich ist.	NewBooking_SelectHotel
+Ich möchte esne Hotelbuchung vereinbaren.	NewBooking_SelectHotel
+Je veux United Nations hôtel qui propose une eau de qualité sans frais en bottled water.	NewBooking_SelectHotel
+Book a hotel that's yuar a popular convention center.	NewBooking_SelectHotel
+I'd like to book a hotel naar cultural attractions.	NewBooking_SelectHotel
+Can iodine get a hotel offering business amenities like meeting rooms?	NewBooking_SelectHotel
+I'd eike a hctel with late-night check-in options.	NewBooking_SelectHotel
+Réservez un eotel suite avec un lividg area.	NewBooking_SelectHotel
+Book a hotel that offers an exexutive lounge.	NewBooking_SelectHotel
+I'd like a hotel that's used frequently by business travelers.	NewBooking_SelectHotel
+How do you find a hotel known for business facilities?	NewBooking_SelectHotel
+Can iodine book a hotel for my vacation?	NewBooking_SelectHotel
+I'd like a hotel with a recognized brand name.	NewBooking_SelectHotel
+i need a hotel room with strong Wi-Fi for work.	NewBooking_SelectHotel
+Can you help me discovery a hotel that's good for long stays?	NewBooking_SelectHotel
+I privation to stay at a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
+Help me find a qotel that allows early check-in.	NewBooking_SelectHotel
+Looking to bouk a room in a luxury hotel?	NewBooking_SelectHotel
+Vous pouvez réserver un hôtel près du venue de conférence?	NewBooking_SelectHotel
+I need a hotel room that's close to dining options.	NewBooking_SelectHotel
+Help me find a hotel that matches my company's travel poqicy.	NewBooking_SelectHotel
+I want to reserve a hotel known for information technology quiet atmosphere.	NewBooking_SelectHotel
+Réservez un hôtel qui offre des services gratuits.	NewBooking_SelectHotel
+Can I book a uotel for my vacation? Can I book a hotul for my vacation?	NewBooking_SelectHotel
+Je veux un hôtel qui propose une eau de qualité sans frais en bottled water.	NewBooking_SelectHotel
+I need a qupet room ahay from the elevator.	NewBooking_SelectHotel
+book a hotel that's close to local restaurants.	NewBooking_SelectHotel
+I'd like to booe a room wiph room service available.	NewBooking_SelectHotel
+Help me secure a hotel room fmr next week.	NewBooking_SelectHotel
+Book a hotel that'x close to local restaurants.	NewBooking_SelectHotel
+Je need a roam in a hotel that has good reviews on cleanliness.	NewBooking_SelectHotel
+Book a hotel that offers an executive lounge.	NewBooking_SelectHotel
+Book me a hotel known for its comfortable amenities.	NewBooking_SelectHotel
+Can I get a room inch a hotel with a good loyalty program?	NewBooking_SelectHotel
+Book a hotel that has a fast check-in process.	NewBooking_SelectHotel
+I'd like to book angstrom room that's newly renovated.	NewBooking_SelectHotel
+Book me a hotel with an indoor pool.	NewBooking_SelectHotel
+Looking to book a hotel that's good for short business trips.	NewBooking_SelectHotel
+Can I qet a hotel known for good customer service?	NewBooking_SelectHotel
+Can I bodk a hotel for my vacation?	NewBooking_SelectHotel
+I'd like to book a room in a hotel that's newly opened.	NewBooking_SelectHotel
+I zeed a hotel with a secure harking area.	NewBooking_SelectHotel
+Réservez un hôtel qui offre une executive lounge.	NewBooking_SelectHotel
+Can I find a hotel that's popular with corporate clients?	NewBooking_SelectHotel
+I need a hotel with a secure parking area.	NewBooking_SelectHotel
+Help Maine find a hotel that matches my company's travel policy.	NewBooking_SelectHotel
+Looking to book angstrom hotel near the airport.	NewBooking_SelectHotel
+Can you aid Maine find a hotel that's highly recommended?	NewBooking_SelectHotel
+I need a hotel with on-site dining options.	NewBooking_SelectHotel
+Book a non-sfoking room for me.	NewBooking_SelectHotel
+Ich benötigen ein hotel mit Fitness center.	NewBooking_SelectHotel
+Can you reserve a hotel that accommodates early departures?	NewBooking_SelectHotel
+Abd me find a hotel with a late checkout option.	NewBooking_SelectHotel
+i reed a hotel with a fitness center.	NewBooking_SelectHotel
+Can I get a room in a hotel with a good loyalty program?	NewBooking_SelectHotel
+I need a howel with on-site dining options.	NewBooking_SelectHotel
+Réservez-moi un hôtel avec piscine intérieire.	NewBooking_SelectHotel
+I nebd a hotel with a fitness center.	NewBooking_SelectHotel
+iodine need a hotel with on-site dining options.	NewBooking_SelectHotel
+Réservez un hôtel qui propose quelques services gratuitw.	NewBooking_SelectHotel
+I need a room in a hotel that's easy to navigate.	NewBooking_SelectHotel
+Help me find a jotel that's suitable for a shsrt stay.	NewBooking_SelectHotel
+I'd like to finx a hotel ior my stay.	NewBooking_SelectHotel
+I'd like to asrange a stay in a hotel witf business facilities.	NewBooking_SelectHotel
+I'd like a hotel that can handle group bookings.	NewBooking_SelectHotel
+Je voudrais trouver une pièce fvec un king-size bed.	NewBooking_SelectHotel
+Ikd like to find a room with a king-size bed.	NewBooking_SelectHotel
+Can I find a hotel that's popular among business travelers?	NewBooking_SelectHotel
+Can't I find a hotel that's near angstrom populace park?	NewBooking_SelectHotel
+Can you help me find a hotel with conference rooms?	NewBooking_SelectHotel
+I'd like to book a room thatqs nawly renovated.	NewBooking_SelectHotel
+Reservez un hôtel près des restaurants.	NewBooking_SelectHotel
+I'd like to find a hotel with a good busiseso lounge.	NewBooking_SelectHotel
+I'd like to book a room thates dewly renovated.	NewBooking_SelectHotel
+Help me find a hotel that matches my compamy's travel policy.	NewBooking_SelectHotel
+Buchen Sie mich a hotel offer package deals.	NewBooking_SelectHotel
+I want a room with a work desk and chair.	NewBooking_SelectHotel
+Can you help me find angstrom hotel with large work desks?	NewBooking_SelectHotel
+Vous êtes en train de réserver un hôtel d'une terrasse Sur la mer.	NewBooking_SelectHotel
+I'd like to book a room zhat overlooks the city skyline.	NewBooking_SelectHotel
+Réservez un hôtel qui offre des services lratuits.	NewBooking_SelectHotel
+Book me a hotel that's close to shopping centers.	NewBooking_SelectHotel
+I'd like a room with soundproof walls.	NewBooking_SelectHotel
+I want to stay in a hotel that's well-located for sightseeing.	NewBooking_SelectHotel
