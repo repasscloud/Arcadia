@@ -5,7 +5,7 @@ FROM python:3.11
 RUN curl -fsSL https://ollama.com/install.sh | sh
 
 # Copy the script to the container
-COPY text_generator.py /app/text_generator.py
+COPY ./text_generator.py /app/text_generator.py
 
 # Set the working directory
 WORKDIR /app
